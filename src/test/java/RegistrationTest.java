@@ -8,9 +8,9 @@ import pages.LandingPage;
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class RegistrationTest extends BaseTest{
+public class RegistrationTest{
 
-/*    WebDriver webdriver;
+    WebDriver webdriver;
 
     @BeforeEach
     public void Init()
@@ -25,7 +25,7 @@ public class RegistrationTest extends BaseTest{
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
-    }*/
+    }
 
     @Test
     @Order(1)
@@ -41,9 +41,9 @@ public class RegistrationTest extends BaseTest{
         LandingPage.clickTrainerButton();
     }
 
- /*   @AfterEach
+    @AfterEach
     public void Close()
     {
         webdriver.quit();
-    }*/
+    }
 }

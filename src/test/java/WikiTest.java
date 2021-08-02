@@ -1,12 +1,31 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Allure;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.ByteArrayInputStream;
+import java.util.concurrent.TimeUnit;
 
-public class WikiTest extends BaseTest {
+public class WikiTest{
 
+    WebDriver webdriver;
 
+    @BeforeEach
+    public void Init()
+    {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
+        webdriver = new ChromeDriver(options);
+
+        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        webdriver.manage().window().maximize();
+
+    }
 
     @Test
     @DisplayName("Test for clicking English button on menu page")
@@ -25,6 +44,12 @@ public class WikiTest extends BaseTest {
     public void TestFalse()
     {
         Assertions.assertTrue(false);
+    }
+
+    @AfterEach
+    public void Close()
+    {
+        webdriver.quit();
     }
 
 
