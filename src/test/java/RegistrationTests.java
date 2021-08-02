@@ -33,7 +33,7 @@ public class RegistrationTests {
 
     @Test
     @Order(1)
-    public void testDemo(){
+    public void testNoEmailRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -46,7 +46,7 @@ public class RegistrationTests {
 
     @Test
     @Order(2)
-    public void testDemo2(){
+    public void testNoPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -59,7 +59,7 @@ public class RegistrationTests {
 
     @Test
     @Order(3)
-    public void testDemo3(){
+    public void testNotValidPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -72,7 +72,7 @@ public class RegistrationTests {
 
     @Test
     @Order(4)
-    public void testDemo4(){
+    public void testNotMatchPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -85,7 +85,7 @@ public class RegistrationTests {
 
     @Test
     @Order(5)
-    public void testDemo5(){
+    public void testNoClickTermsCondtsRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -98,7 +98,7 @@ public class RegistrationTests {
 
     @Test
     @Order(6)
-    public void testDemo6(){
+    public void testNoClickPrivacyPolicyRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
