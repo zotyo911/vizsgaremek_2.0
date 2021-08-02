@@ -34,7 +34,7 @@ public class RegistrationTests {
     @Test
     @Order(1)
     @DisplayName("RI-01 Regisztráció email cím megadása nélkül")
-    public void testNoEmailRegistration(){
+    public void testDemo1(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -48,7 +48,7 @@ public class RegistrationTests {
     @Test
     @Order(2)
     @DisplayName("RI-02 Regisztráció jelszó megadása nélkül")
-    public void testNoPasswordRegistration(){
+    public void testDemo2(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -62,7 +62,7 @@ public class RegistrationTests {
     @Test
     @Order(3)
     @DisplayName("RI-03 Regisztráció érvénytelen jelszó megadásával")
-    public void testNotValidPasswordRegistration(){
+    public void testDemo3(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -76,7 +76,7 @@ public class RegistrationTests {
     @Test
     @Order(4)
     @DisplayName("RI-04 Regisztráció nem egyező jelszavak megadásával")
-    public void testNotMatchPasswordRegistration(){
+    public void testDemo4(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -90,7 +90,7 @@ public class RegistrationTests {
     @Test
     @Order(5)
     @DisplayName("RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül")
-    public void testNoClickTermsCondtsRegistration(){
+    public void testDemo5(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
@@ -104,7 +104,7 @@ public class RegistrationTests {
     @Test
     @Order(6)
     @DisplayName("RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül")
-    public void testNoClickPrivacyPolicyRegistration(){
+    public void testDemo6(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
