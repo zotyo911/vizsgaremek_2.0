@@ -8,9 +8,10 @@ import pages.LandingPage;
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class RegistrationTest{
+public class RegistrationTests {
 
     WebDriver webdriver;
+    LandingPage landingPage;
 
     @BeforeEach
     public void Init()
@@ -28,22 +29,25 @@ public class RegistrationTest{
     }
 
     @Test
-    @Order(1)
+    @Order(2)
     public void testDemo(){
-        LandingPage.clickHamburgerButton();
-        LandingPage.clickLoginButton();
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL();
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
     }
 
     @Test
-    @Order(2)
+    @Order(1)
     public void testDemo1(){
-        LandingPage.clickHamburgerButton();
-        LandingPage.clickTrainerButton();
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL();
+        landingPage.clickHamburgerButton();
+        landingPage.clickTrainerButton();
     }
 
     @AfterEach
-    public void Close()
-    {
+    public void Close() {
         webdriver.quit();
     }
 }
