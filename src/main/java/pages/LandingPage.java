@@ -32,8 +32,9 @@ public class LandingPage {
         webdriver.findElement(loginButton).click();
     }
 
-    public void clickRegistrationButton(){
+    public RegistrationPage clickRegistrationButton(){
         webdriver.findElement(registrationButton).click();
+        return new RegistrationPage(webdriver);
     }
 
     public void clickCalendarButton(){
@@ -43,4 +44,5 @@ public class LandingPage {
     public void clickTrainerButton(){
         webdriver.findElement(trainerButton);
     }
+
 }
