@@ -1,3 +1,5 @@
+package test;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.qameta.allure.Allure;
 import org.junit.jupiter.api.*;
@@ -8,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.ByteArrayInputStream;
 import java.util.concurrent.TimeUnit;
 
-public class WikiTest extends BaseTest{
+public class WikiTest extends BaseTest {
 
 
 
