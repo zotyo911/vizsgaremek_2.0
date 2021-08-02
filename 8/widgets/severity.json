@@ -1,0 +1,41 @@
+[ {
+  "uid" : "633d66f91a1642ab",
+  "name" : "testDemo1()",
+  "time" : {
+    "start" : 1627918591326,
+    "stop" : 1627918591843,
+    "duration" : 517
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6fc9c890734a2b76",
+  "name" : "TestFalse()",
+  "time" : {
+    "start" : 1627918593294,
+    "stop" : 1627918593615,
+    "duration" : 321
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "75ff0aa06c7a0c7e",
+  "name" : "testDemo()",
+  "time" : {
+    "start" : 1627918586281,
+    "stop" : 1627918591174,
+    "duration" : 4893
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a9f003db2aded47",
+  "name" : "Test for clicking English button on menu page",
+  "time" : {
+    "start" : 1627918591851,
+    "stop" : 1627918593289,
+    "duration" : 1438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
