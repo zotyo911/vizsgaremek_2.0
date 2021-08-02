@@ -8,24 +8,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.ByteArrayInputStream;
 import java.util.concurrent.TimeUnit;
 
-public class WikiTest {
+public class WikiTest extends BaseTest{
 
-    WebDriver webdriver;
 
-    @BeforeEach
-    public void Init()
-    {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
-        webdriver = new ChromeDriver(options);
-
-        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        webdriver.manage().window().maximize();
-
-    }
 
     @Test
     @DisplayName("Test for clicking English button on menu page")
@@ -46,10 +31,6 @@ public class WikiTest {
         Assertions.assertTrue(false);
     }
 
-    @AfterEach
-    public void Close()
-    {
-        webdriver.quit();
-    }
+
 
 }
