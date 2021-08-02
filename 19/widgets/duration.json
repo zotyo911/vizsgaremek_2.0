@@ -1,0 +1,81 @@
+[ {
+  "uid" : "7f3a1207dc56b18",
+  "name" : "testNotMatchPasswordRegistration()",
+  "time" : {
+    "start" : 1627929693347,
+    "stop" : 1627929696754,
+    "duration" : 3407
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d7e61d913931b48",
+  "name" : "testNoClickPrivacyPolicyRegistration()",
+  "time" : {
+    "start" : 1627929699906,
+    "stop" : 1627929702967,
+    "duration" : 3061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "551daf92b0bfb202",
+  "name" : "TestFalse()",
+  "time" : {
+    "start" : 1627929704753,
+    "stop" : 1627929705112,
+    "duration" : 359
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b63d7a8891fc5bd",
+  "name" : "Test for clicking English button on menu page",
+  "time" : {
+    "start" : 1627929702983,
+    "stop" : 1627929704749,
+    "duration" : 1766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac2121807be6355d",
+  "name" : "testNoPasswordRegistration()",
+  "time" : {
+    "start" : 1627929687174,
+    "stop" : 1627929690422,
+    "duration" : 3248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28abf3ccd00a20a9",
+  "name" : "testNoClickTermsCondtsRegistration()",
+  "time" : {
+    "start" : 1627929696757,
+    "stop" : 1627929699903,
+    "duration" : 3146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9f1c4790bc5db64",
+  "name" : "testNotValidPasswordRegistration()",
+  "time" : {
+    "start" : 1627929690427,
+    "stop" : 1627929693344,
+    "duration" : 2917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a299a8aa4f217f8e",
+  "name" : "testNoEmailRegistration()",
+  "time" : {
+    "start" : 1627929680964,
+    "stop" : 1627929687092,
+    "duration" : 6128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
