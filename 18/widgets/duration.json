@@ -1,0 +1,81 @@
+[ {
+  "uid" : "4aeb0d983c0483ea",
+  "name" : "testDemo6()",
+  "time" : {
+    "start" : 1627929312864,
+    "stop" : 1627929315603,
+    "duration" : 2739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9279db52a448ffbb",
+  "name" : "testDemo2()",
+  "time" : {
+    "start" : 1627929301989,
+    "stop" : 1627929304779,
+    "duration" : 2790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b64957657a001d03",
+  "name" : "testDemo5()",
+  "time" : {
+    "start" : 1627929310150,
+    "stop" : 1627929312861,
+    "duration" : 2711
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62d1f3c551bf5478",
+  "name" : "testDemo()",
+  "time" : {
+    "start" : 1627929296395,
+    "stop" : 1627929301906,
+    "duration" : 5511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acd25e8860af0c65",
+  "name" : "testDemo4()",
+  "time" : {
+    "start" : 1627929307486,
+    "stop" : 1627929310148,
+    "duration" : 2662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "775fd3f9b6c73669",
+  "name" : "TestFalse()",
+  "time" : {
+    "start" : 1627929317035,
+    "stop" : 1627929317369,
+    "duration" : 334
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9abe187d862d9322",
+  "name" : "testDemo3()",
+  "time" : {
+    "start" : 1627929304782,
+    "stop" : 1627929307483,
+    "duration" : 2701
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e444c92bbf6bf1",
+  "name" : "Test for clicking English button on menu page",
+  "time" : {
+    "start" : 1627929315610,
+    "stop" : 1627929317032,
+    "duration" : 1422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

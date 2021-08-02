@@ -1,0 +1,117 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "RegistrationTests",
+    "children" : [ {
+      "name" : "testDemo()",
+      "uid" : "62d1f3c551bf5478",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929296395,
+        "stop" : 1627929301906,
+        "duration" : 5511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDemo2()",
+      "uid" : "9279db52a448ffbb",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929301989,
+        "stop" : 1627929304779,
+        "duration" : 2790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDemo3()",
+      "uid" : "9abe187d862d9322",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929304782,
+        "stop" : 1627929307483,
+        "duration" : 2701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDemo4()",
+      "uid" : "acd25e8860af0c65",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929307486,
+        "stop" : 1627929310148,
+        "duration" : 2662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDemo5()",
+      "uid" : "b64957657a001d03",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929310150,
+        "stop" : 1627929312861,
+        "duration" : 2711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDemo6()",
+      "uid" : "4aeb0d983c0483ea",
+      "parentUid" : "bfbf0814db7d6b4dabf9085572a9919b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929312864,
+        "stop" : 1627929315603,
+        "duration" : 2739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bfbf0814db7d6b4dabf9085572a9919b"
+  }, {
+    "name" : "WikiTest",
+    "children" : [ {
+      "name" : "Test for clicking English button on menu page",
+      "uid" : "4e444c92bbf6bf1",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627929315610,
+        "stop" : 1627929317032,
+        "duration" : 1422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestFalse()",
+      "uid" : "775fd3f9b6c73669",
+      "parentUid" : "6e63eb394ea6d91bc5c07392e610d54d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627929317035,
+        "stop" : 1627929317369,
+        "duration" : 334
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e63eb394ea6d91bc5c07392e610d54d"
+  } ],
+  "name" : "suites"
+}
