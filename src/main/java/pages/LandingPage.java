@@ -1,4 +1,4 @@
-package pages;
+/*package pages;
 
 import org.openqa.selenium.By;
 import util.Util;
@@ -32,3 +32,4 @@ public class LandingPage {
     }
 
 }
+*/
