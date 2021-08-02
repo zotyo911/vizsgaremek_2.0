@@ -1,17 +1,16 @@
-package test;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import pages.LandingPage;
 
 import java.util.concurrent.TimeUnit;
 
-public class BaseTest {
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+public class RegistrationTest extends BaseTest{
 
-    WebDriver webdriver;
+/*    WebDriver webdriver;
 
     @BeforeEach
     public void Init()
@@ -26,11 +25,25 @@ public class BaseTest {
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
+    }*/
+
+    @Test
+    @Order(1)
+    public void testDemo(){
+        LandingPage.clickHamburgerButton();
+        LandingPage.clickLoginButton();
     }
 
-    @AfterEach
+    @Test
+    @Order(2)
+    public void testDemo1(){
+        LandingPage.clickHamburgerButton();
+        LandingPage.clickTrainerButton();
+    }
+
+ /*   @AfterEach
     public void Close()
     {
         webdriver.quit();
-    }
+    }*/
 }
