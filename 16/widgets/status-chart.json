@@ -1,81 +1,81 @@
 [ {
-  "uid" : "c3abfb373beca3f0",
-  "name" : "TestFalse()",
-  "time" : {
-    "start" : 1627928416114,
-    "stop" : 1627928416440,
-    "duration" : 326
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c099ec6f9428775a",
-  "name" : "Test for clicking English button on menu page",
-  "time" : {
-    "start" : 1627928414562,
-    "stop" : 1627928416111,
-    "duration" : 1549
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d474fa4e187d3f65",
-  "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
-  "time" : {
-    "start" : 1627928411679,
-    "stop" : 1627928414554,
-    "duration" : 2875
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e1412ad32f48a506",
-  "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
-  "time" : {
-    "start" : 1627928406280,
-    "stop" : 1627928409079,
-    "duration" : 2799
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4eb96a5ac1155bab",
-  "name" : "RI-01 Regisztráció email cím megadása nélkül",
-  "time" : {
-    "start" : 1627928395800,
-    "stop" : 1627928400658,
-    "duration" : 4858
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94401cfe93de38a7",
+  "uid" : "88b30d4d8aa793cd",
   "name" : "RI-02 Regisztráció jelszó megadása nélkül",
   "time" : {
-    "start" : 1627928400747,
-    "stop" : 1627928403361,
-    "duration" : 2614
+    "start" : 1627928679340,
+    "stop" : 1627928681967,
+    "duration" : 2627
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b3cf9720b630b620",
+  "uid" : "28baedc98cab3b6f",
+  "name" : "Test for clicking English button on menu page",
+  "time" : {
+    "start" : 1627928692452,
+    "stop" : 1627928694462,
+    "duration" : 2010
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db01ec752a6c07ca",
   "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
   "time" : {
-    "start" : 1627928409083,
-    "stop" : 1627928411677,
-    "duration" : 2594
+    "start" : 1627928687151,
+    "stop" : 1627928689851,
+    "duration" : 2700
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8d633d7d00982bb3",
-  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "uid" : "6a52ae9e1ca37112",
+  "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
   "time" : {
-    "start" : 1627928403365,
-    "stop" : 1627928406277,
-    "duration" : 2912
+    "start" : 1627928684556,
+    "stop" : 1627928687148,
+    "duration" : 2592
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab6a75c2b68763bc",
+  "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1627928689853,
+    "stop" : 1627928692441,
+    "duration" : 2588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4694a05153359b8f",
+  "name" : "RI-01 Regisztráció email cím megadása nélkül",
+  "time" : {
+    "start" : 1627928662725,
+    "stop" : 1627928679268,
+    "duration" : 16543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adf095ca517596e6",
+  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "time" : {
+    "start" : 1627928681971,
+    "stop" : 1627928684552,
+    "duration" : 2581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28719122291b3e1d",
+  "name" : "TestFalse()",
+  "time" : {
+    "start" : 1627928694465,
+    "stop" : 1627928694795,
+    "duration" : 330
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]
