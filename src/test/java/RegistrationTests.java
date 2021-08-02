@@ -33,6 +33,7 @@ public class RegistrationTests {
 
     @Test
     @Order(1)
+    @DisplayName("RI-01 Regisztráció email cím megadása nélkül")
     public void testNoEmailRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
@@ -46,6 +47,7 @@ public class RegistrationTests {
 
     @Test
     @Order(2)
+    @DisplayName("RI-02 Regisztráció jelszó megadása nélkül")
     public void testNoPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
@@ -59,6 +61,7 @@ public class RegistrationTests {
 
     @Test
     @Order(3)
+    @DisplayName("RI-03 Regisztráció érvénytelen jelszó megadásával")
     public void testNotValidPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
@@ -72,6 +75,7 @@ public class RegistrationTests {
 
     @Test
     @Order(4)
+    @DisplayName("RI-04 Regisztráció nem egyező jelszavak megadásával")
     public void testNotMatchPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
@@ -85,6 +89,7 @@ public class RegistrationTests {
 
     @Test
     @Order(5)
+    @DisplayName("RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül")
     public void testNoClickTermsCondtsRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
@@ -98,6 +103,7 @@ public class RegistrationTests {
 
     @Test
     @Order(6)
+    @DisplayName("RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül")
     public void testNoClickPrivacyPolicyRegistration(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
