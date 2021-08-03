@@ -10,6 +10,7 @@ import pages.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class LogoutTest {
 
     WebDriver webdriver;
@@ -32,14 +33,31 @@ public class LogoutTest {
     }
 
     @Test
-    @DisplayName("LO-01 Kijlentkezés")
-    public void TestLogout() {
+    @Order(1)
+    @DisplayName("LO-01 Trainer kijlentkezés")
+    public void TestTrainerLogout() {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL();
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.login();
+        loginPage.trainerLogin();
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.logout();
+
+        Assertions.assertEquals("BELÉPÉS", webdriver.findElement(By.cssSelector("mat-toolbar-row > div > div > span")).getText());
+    }
+
+    @Test
+    @Order(2)
+    @DisplayName("LO-02 User kijlentkezés")
+    public void TestUserLogout() {
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL();
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.userLogin();
         calendarPage = new CalendarPage(webdriver);
         calendarPage.logout();
 
