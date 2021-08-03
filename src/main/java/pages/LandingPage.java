@@ -30,6 +30,7 @@ public class LandingPage {
 
     public void clickLoginButton(){
         webdriver.findElement(LOGIN_BUTTON).click();
+        new LoginPage(webdriver);
     }
 
     public void clickRegistrationButton(){

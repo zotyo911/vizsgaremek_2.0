@@ -4,13 +4,17 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import pages.LandingPage;
+import pages.LoginPage;
 
 import java.io.ByteArrayInputStream;
 import java.util.concurrent.TimeUnit;
 
-public class WikiTest{
+public class LoginTest {
 
     WebDriver webdriver;
+    LandingPage landingPage;
+    LoginPage loginPage;
 
     @BeforeEach
     public void Init()
@@ -28,23 +32,16 @@ public class WikiTest{
     }
 
     @Test
-    @DisplayName("Test for clicking English button on menu page")
-    public void TestEnglishButton()
-    {
-        webdriver.get("https://www.wikipedia.org/");
-        WebElement englishButton = webdriver.findElement(By.id("js-link-box-en"));
-        englishButton.click();
-        String expectedTitle = "Welcome to Wikipedia,";
-        WebElement titleDiv = webdriver.findElement(By.xpath("/html/body/div[3]/div[3]/div[5]/div[1]/div[1]/div/div[1]"));
-        Allure.addAttachment("screenshot", new ByteArrayInputStream(((TakesScreenshot)webdriver).getScreenshotAs(OutputType.BYTES)));
-        Assertions.assertEquals(expectedTitle, titleDiv.getText());
+    public void TestDemo1(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL();
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        
     }
 
-    @Test
-    public void TestFalse()
-    {
-        Assertions.assertTrue(false);
-    }
+
 
     @AfterEach
     public void Close()
