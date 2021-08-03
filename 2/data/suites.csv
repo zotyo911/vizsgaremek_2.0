@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Mon Aug 02 13:28:09 GMT 2021","Mon Aug 02 13:28:09 GMT 2021","196","","TestRegistration","","TestRegistration","testDemo","testDemo()",""
-"broken","Mon Aug 02 13:28:08 GMT 2021","Mon Aug 02 13:28:09 GMT 2021","985","","TestRegistration","","TestRegistration","testDemo1","testDemo1()",""

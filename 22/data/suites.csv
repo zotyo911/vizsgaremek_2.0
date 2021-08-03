@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 03 09:09:03 GMT 2021","Tue Aug 03 09:09:06 GMT 2021","3169","","RegistrationTests","","RegistrationTests","testNoPasswordRegistration","RI-02 Regisztráció jelszó megadása nélkül",""
+"passed","Tue Aug 03 09:09:12 GMT 2021","Tue Aug 03 09:09:15 GMT 2021","3015","","RegistrationTests","","RegistrationTests","testNoClickTermsCondtsRegistration","RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",""
+"passed","Tue Aug 03 09:09:06 GMT 2021","Tue Aug 03 09:09:09 GMT 2021","2869","","RegistrationTests","","RegistrationTests","testNotValidPasswordRegistration","RI-03 Regisztráció érvénytelen jelszó megadásával",""
+"passed","Tue Aug 03 09:08:57 GMT 2021","Tue Aug 03 09:09:03 GMT 2021","5945","","RegistrationTests","","RegistrationTests","testNoEmailRegistration","RI-01 Regisztráció email cím megadása nélkül",""
+"passed","Tue Aug 03 09:09:18 GMT 2021","Tue Aug 03 09:09:20 GMT 2021","2085","","LoginTest","","LoginTest","TestDemo1","TestDemo1()",""
+"passed","Tue Aug 03 09:09:15 GMT 2021","Tue Aug 03 09:09:18 GMT 2021","2809","","RegistrationTests","","RegistrationTests","testNoClickPrivacyPolicyRegistration","RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",""
+"passed","Tue Aug 03 09:09:09 GMT 2021","Tue Aug 03 09:09:12 GMT 2021","2749","","RegistrationTests","","RegistrationTests","testNotMatchPasswordRegistration","RI-04 Regisztráció nem egyező jelszavak megadásával",""
