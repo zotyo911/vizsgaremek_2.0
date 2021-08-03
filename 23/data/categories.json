@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <Hello, Edző> but was: <BELÉPÉS>",
+      "children" : [ {
+        "name" : "LI-04 Bejelentkezés",
+        "uid" : "cb117faec7176439",
+        "parentUid" : "945b3e586d4a67ff5ea2b95dc538f47c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627993139682,
+          "stop" : 1627993144503,
+          "duration" : 4821
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "945b3e586d4a67ff5ea2b95dc538f47c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
