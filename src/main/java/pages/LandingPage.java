@@ -13,11 +13,11 @@ public class LandingPage {
 
 
     private final String URL = "https://igym-igym-dev.azurewebsites.net/";
-    private final By hamburgerButton = By.cssSelector("span > mat-icon");
-    private final By loginButton = By.cssSelector("a:nth-child(1) > div > span > div.text.ng-tns-c144-0");
-    private final By registrationButton = By.cssSelector("a:nth-child(2) > div > span > div.text.ng-tns-c144-0");
-    private final By calendarButton = By.cssSelector("a:nth-child(3) > div > span > div.text.ng-tns-c144-0");
-    private final By trainerButton = By.cssSelector("a:nth-child(4) > div > span > div.text.ng-tns-c144-0");
+    private final By HAMBURGER_BUTTON = By.cssSelector("span > mat-icon");
+    private final By LOGIN_BUTTON = By.cssSelector("a:nth-child(1) > div > span > div.text.ng-tns-c144-0");
+    private final By REGISTRATION_BUTTON = By.cssSelector("a:nth-child(2) > div > span > div.text.ng-tns-c144-0");
+    private final By CALENDAR_BUTTON = By.cssSelector("a:nth-child(3) > div > span > div.text.ng-tns-c144-0");
+    private final By TRAINER_BUTTON = By.cssSelector("a:nth-child(4) > div > span > div.text.ng-tns-c144-0");
 
 
     public void navigateToURL(){
@@ -25,24 +25,24 @@ public class LandingPage {
     }
 
     public void clickHamburgerButton(){
-        webdriver.findElement(hamburgerButton).click();
+        webdriver.findElement(HAMBURGER_BUTTON).click();
     }
 
     public void clickLoginButton(){
-        webdriver.findElement(loginButton).click();
+        webdriver.findElement(LOGIN_BUTTON).click();
     }
 
     public void clickRegistrationButton(){
-        webdriver.findElement(registrationButton).click();
+        webdriver.findElement(REGISTRATION_BUTTON).click();
         new RegistrationPage(webdriver);
     }
 
     public void clickCalendarButton(){
-        webdriver.findElement(calendarButton).click();
+        webdriver.findElement(CALENDAR_BUTTON).click();
     }
 
     public void clickTrainerButton(){
-        webdriver.findElement(trainerButton);
+        webdriver.findElement(TRAINER_BUTTON);
     }
 
 }
