@@ -41,7 +41,7 @@ public class LogoutTest {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin();
+        loginPage.trainerLogin(Constants.TRAINER_EMAIL, Constants.TRAINER_PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.logout();
 
@@ -57,7 +57,7 @@ public class LogoutTest {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin();
+        loginPage.userLogin(Constants.USER_EMAIL, Constants.USER_PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.logout();
 
