@@ -37,7 +37,7 @@ public class LogoutTest {
     @DisplayName("LO-01 Trainer kijlentkezés")
     public void TestTrainerLogout() {
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
@@ -53,7 +53,7 @@ public class LogoutTest {
     @DisplayName("LO-02 User kijlentkezés")
     public void TestUserLogout() {
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);

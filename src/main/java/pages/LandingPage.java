@@ -20,8 +20,8 @@ public class LandingPage {
     private final By TRAINER_BUTTON = By.cssSelector("a:nth-child(4) > div > span > div.text.ng-tns-c144-0");
 
 
-    public void navigateToURL(){
-        webdriver.get(URL);
+    public void navigateToURL(String url){
+        webdriver.get(url);
     }
 
     public void clickHamburgerButton(){

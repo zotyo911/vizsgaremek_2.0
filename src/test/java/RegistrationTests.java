@@ -36,11 +36,11 @@ public class RegistrationTests {
     @DisplayName("RI-01 Regisztráció email cím megadása nélkül")
     public void testNoEmailRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.noEmailRegistration();
+        registrationPage.noEmailRegistration(Constants.PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
@@ -50,11 +50,11 @@ public class RegistrationTests {
     @DisplayName("RI-02 Regisztráció jelszó megadása nélkül")
     public void testNoPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.noPasswordRegistration();
+        registrationPage.noPasswordRegistration(Constants.EMAIL);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
@@ -64,11 +64,11 @@ public class RegistrationTests {
     @DisplayName("RI-03 Regisztráció érvénytelen jelszó megadásával")
     public void testNotValidPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.notValidPasswordRegistration();
+        registrationPage.notValidPasswordRegistration(Constants.EMAIL, Constants.NOT_VALID_PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
@@ -78,11 +78,11 @@ public class RegistrationTests {
     @DisplayName("RI-04 Regisztráció nem egyező jelszavak megadásával")
     public void testNotMatchPasswordRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.notMatchPasswordRegistration();
+        registrationPage.notMatchPasswordRegistration(Constants.EMAIL, Constants.PASSWORD, Constants.NOT_MATCH_PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
@@ -92,11 +92,11 @@ public class RegistrationTests {
     @DisplayName("RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül")
     public void testNoClickTermsCondtsRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.noClickTermsCondtsRegistration();
+        registrationPage.noClickTermsCondtsRegistration(Constants.EMAIL, Constants.PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
@@ -106,11 +106,11 @@ public class RegistrationTests {
     @DisplayName("RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül")
     public void testNoClickPrivacyPolicyRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL();
+        landingPage.navigateToURL(Constants.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.noClickPrivacyPolicyRegistration();
+        registrationPage.noClickPrivacyPolicyRegistration(Constants.EMAIL, Constants.PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
