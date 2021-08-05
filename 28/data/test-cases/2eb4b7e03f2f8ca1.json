@@ -1,0 +1,87 @@
+{
+  "uid" : "2eb4b7e03f2f8ca1",
+  "name" : "PD-01 Felhasználó (user) adatainak feltöltése",
+  "fullName" : "PersonalDetailsTests.testUploadPersonaDetails",
+  "historyId" : "1e55b5d97a6e8cc471079977add15d5b",
+  "time" : {
+    "start" : 1628172284220,
+    "stop" : 1628172294486,
+    "duration" : 10266
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628172284220,
+      "stop" : 1628172284474,
+      "duration" : 254
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628172294416,
+      "stop" : 1628172294486,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-504"
+  }, {
+    "name" : "thread",
+    "value" : "2953@fv-az39-504.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUploadPersonaDetails"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2eb4b7e03f2f8ca1.json",
+  "parameterValues" : [ ]
+}
