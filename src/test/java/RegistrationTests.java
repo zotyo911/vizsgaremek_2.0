@@ -113,6 +113,20 @@ public class RegistrationTests {
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
 
+  /*  @Test
+    @Order(7)
+    @DisplayName("RI-07 Regisztráció minden érvényes adat megadásával")
+    public void testRegistration(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickRegistrationButton();
+        registrationPage = new RegistrationPage(webdriver);
+        registrationPage.registration(Constants.EMAIL, Constants.PASSWORD);
+
+        Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("//*//*simple-snack-bar/span")).getText());
+    }*/
+
     @AfterEach
     public void Close() {
         webdriver.quit();

@@ -84,7 +84,7 @@ public class LoginTest {
         loginPage = new LoginPage(webdriver);
         loginPage.trainerLogin(Constants.TRAINER_EMAIL, Constants.TRAINER_PASSWORD);
 
-        Assertions.assertEquals("Hello, Edző", webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
+        Assertions.assertEquals("Hello, " + Constants.TRAINER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
     }
 
     @Test
@@ -141,7 +141,7 @@ public class LoginTest {
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constants.USER_EMAIL, Constants.USER_PASSWORD);
 
-        Assertions.assertEquals("Hello, Teszt", webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
+        Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
     }
 
 

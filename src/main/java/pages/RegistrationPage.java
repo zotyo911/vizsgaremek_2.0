@@ -70,5 +70,19 @@ public class RegistrationPage {
         webDriver.findElement(REGISTER_BUTTON).click();
     }
 
+    public void registration(String email, String password){
+        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
+        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webDriver.findElement(REGISTER_BUTTON).click();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }

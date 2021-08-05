@@ -4,11 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CalendarPage {
-    WebDriver webDriver;
+    WebDriver webdriver;
 
     public CalendarPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
+        this.webdriver = webDriver;
     }
+
+    private final By PROFILE_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
 
     private final By LOGOUT_ICON = By.xpath("//*/mat-icon[2]");
     private final By TRAINING_TYPE = By.xpath("//*[contains(@class,'details')]");
@@ -16,9 +18,13 @@ public class CalendarPage {
     private final By TRAINING_DATE = By.xpath("//*[contains(@class,'time')]");
     private final By TRAINING_PRICE = By.xpath("//*[contains(@class,'price')]");
 
-
     public void logout() {
-        webDriver.findElement(LOGOUT_ICON).click();
+        webdriver.findElement(LOGOUT_ICON).click();
+    }
+
+    public void profileButtonClick(){
+        webdriver.findElement(PROFILE_BUTTON).click();
+        new PersonalDetails(webdriver);
     }
 
 }
