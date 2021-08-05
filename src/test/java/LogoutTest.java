@@ -34,23 +34,7 @@ public class LogoutTest {
 
     @Test
     @Order(1)
-    @DisplayName("LO-01 Trainer kijlentkezés")
-    public void TestTrainerLogout() {
-        landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
-        landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
-        loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin(Constants.TRAINER_EMAIL, Constants.TRAINER_PASSWORD);
-        calendarPage = new CalendarPage(webdriver);
-        calendarPage.logout();
-
-        Assertions.assertEquals("BELÉPÉS", webdriver.findElement(By.cssSelector("mat-toolbar-row > div > div > span")).getText());
-    }
-
-    @Test
-    @Order(2)
-    @DisplayName("LO-02 User kijlentkezés")
+    @DisplayName("LO-01 User kijlentkezés")
     public void TestUserLogout() {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);

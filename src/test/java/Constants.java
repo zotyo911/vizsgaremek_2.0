@@ -13,11 +13,6 @@ public class Constants {
     public static final String USER_WRONG_PASSWORD = NOT_MATCH_PASSWORD;
     public static final String USER_PASSWORD = PASSWORD;
 
-    //trainer login data's
-    public static final String TRAINER_EMAIL = "tesztedzo@igym.hu";
-    public static final String TRAINER_PASSWORD = "123456";
-    public static final String TRAINER_WRONG_PASSWORD = "123455";
-
     //user detail's modification
     public static final String USER_FIRSTNAME = "Eszter";
     public static final String USER_SURNAME = "Teszt";
@@ -31,6 +26,4 @@ public class Constants {
     public static final String USER_NEW_PASSWORD = "De123456789";
     public static final String USER_CONFIRM_PASSWORD = USER_NEW_PASSWORD;
 
-    //trainer data's
-    public static final String TRAINER_FIRSTNAME = "Edző";
 }

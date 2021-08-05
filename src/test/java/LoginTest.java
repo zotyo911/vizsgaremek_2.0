@@ -32,64 +32,7 @@ public class LoginTest {
 
     @Test
     @Order(1)
-    @DisplayName("LI-01 Bejelentkezés edzőként email cím megadása nélkül")
-    public void TestTrainerLoginNoEmail(){
-        landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
-        landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
-        loginPage = new LoginPage(webdriver);
-        loginPage.trainerLoginNoEmail(Constants.TRAINER_PASSWORD);
-
-        Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
-    }
-
-    @Test
-    @Order(2)
-    @DisplayName("LI-02 Bejelentkezés edzőként jelszó megadása nélkül")
-    public void TestLoginNoPassword(){
-        landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
-        landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
-        loginPage = new LoginPage(webdriver);
-        loginPage.trainerLoginNoPassword(Constants.TRAINER_EMAIL);
-
-        Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
-    }
-
-    @Test
-    @Order(3)
-    @DisplayName("LI-03 Bejelentkezés edzőként rossz jelszó megadásával")
-    public void TestLoginWrongPassword(){
-        landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
-        landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
-        loginPage = new LoginPage(webdriver);
-        loginPage.trainerLoginWrongPassword(Constants.TRAINER_EMAIL, Constants.TRAINER_WRONG_PASSWORD);
-
-
-        Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
-    }
-
-    @Test
-    @Order(4)
-    @DisplayName("LI-04 Bejelentkezés edzőként érvényes adatokkal")
-    public void TestLogin(){
-        landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
-        landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
-        loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin(Constants.TRAINER_EMAIL, Constants.TRAINER_PASSWORD);
-
-        Assertions.assertEquals("Hello, " + Constants.TRAINER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
-    }
-
-    @Test
-    @Order(5)
-    @DisplayName("LI-05 Bejelentkezés felhasználóként email cím megadása nélkül")
+    @DisplayName("LI-01 Bejelentkezés felhasználóként email cím megadása nélkül")
     public void TestUserLoginNoEmail(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -102,8 +45,8 @@ public class LoginTest {
     }
 
     @Test
-    @Order(6)
-    @DisplayName("LI-06 Bejelentkezés felhasználóként jelszó megadása nélkül")
+    @Order(2)
+    @DisplayName("LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül")
     public void TestUserLoginNoPassword(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -116,8 +59,8 @@ public class LoginTest {
     }
 
     @Test
-    @Order(7)
-    @DisplayName("LI-07 Bejelentkezés felhasználóként rossz jelszó megadásával")
+    @Order(3)
+    @DisplayName("LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával")
     public void TestUserLoginWrongPassword(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -131,8 +74,8 @@ public class LoginTest {
     }
 
     @Test
-    @Order(8)
-    @DisplayName("LI-08 Bejelentkezés felhasználóként érvényes adatokkal")
+    @Order(4)
+    @DisplayName("LI-04 Bejelentkezés felhasználóként érvényes adatokkal")
     public void TestUserLogin(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -143,9 +86,6 @@ public class LoginTest {
 
         Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
     }
-
-
-
 
     @AfterEach
     public void Close() {

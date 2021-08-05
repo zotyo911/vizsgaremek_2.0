@@ -36,7 +36,7 @@ public class PersonalDetailsTests {
 
     @Test
     @Order(1)
-    @DisplayName("PD-01 Felhasználó (user) adatainak feltöltése")
+    @DisplayName("PD-01 Regisztrált felhasználó (user) adatainak megadása")
     public void testUploadPersonaDetails(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
