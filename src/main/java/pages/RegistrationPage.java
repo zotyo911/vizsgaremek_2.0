@@ -5,10 +5,10 @@ import org.openqa.selenium.WebDriver;
 
 public class RegistrationPage {
 
-    WebDriver webDriver;
+    WebDriver webdriver;
 
     public RegistrationPage(WebDriver webDriver) {
-        this.webDriver = webDriver;
+        this.webdriver = webDriver;
     }
 
     private final By EMAIL_INPUT = By.id("email");
@@ -19,66 +19,66 @@ public class RegistrationPage {
     private final By REGISTER_BUTTON = By.xpath("//*/div/button[1]");
 
     public void noEmailRegistration(String password){
-        webDriver.findElement(EMAIL_INPUT).sendKeys("");
-        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
-        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys("");
+        webdriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webdriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
     }
 
     public void noPasswordRegistration(String email){
-        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
-        webDriver.findElement(PASSWORD_INPUT).sendKeys("");
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys("");
-        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
-        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webdriver.findElement(PASSWORD_INPUT).sendKeys("");
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys("");
+        webdriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webdriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
     }
 
     public void notValidPasswordRegistration(String email, String notValidPassword){
-        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
-        webDriver.findElement(PASSWORD_INPUT).sendKeys(notValidPassword);
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(notValidPassword);
-        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
-        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webdriver.findElement(PASSWORD_INPUT).sendKeys(notValidPassword);
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(notValidPassword);
+        webdriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webdriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
     }
 
     public void notMatchPasswordRegistration(String email, String password, String notMatchPassword){
-        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
-        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(notMatchPassword);
-        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
-        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webdriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(notMatchPassword);
+        webdriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webdriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
     }
 
     public void noClickTermsCondtsRegistration(String email, String password){
-        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
-        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webdriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
     }
 
     public void noClickPrivacyPolicyRegistration(String email, String password){
-        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
-        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webdriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
     }
 
     public void registration(String email, String password){
-        webDriver.findElement(EMAIL_INPUT).sendKeys(email);
-        webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
-        webDriver.findElement(TERMS_CONDTS_CLICKBOX).click();
-        webDriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
-        webDriver.findElement(REGISTER_BUTTON).click();
+        webdriver.findElement(EMAIL_INPUT).sendKeys(email);
+        webdriver.findElement(PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(CONFIRM_PASSWORD_INPUT).sendKeys(password);
+        webdriver.findElement(TERMS_CONDTS_CLICKBOX).click();
+        webdriver.findElement(PRIVACY_POLICY_CLICKBOX).click();
+        webdriver.findElement(REGISTER_BUTTON).click();
         try {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

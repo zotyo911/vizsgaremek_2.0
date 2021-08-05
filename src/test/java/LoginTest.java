@@ -96,7 +96,7 @@ public class LoginTest {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLoginNoEmail(Constants.USER_PASSWORD);
+        loginPage.userLoginNoEmail(Constants.PASSWORD);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
     }
@@ -110,7 +110,7 @@ public class LoginTest {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLoginNoPassword(Constants.USER_EMAIL);
+        loginPage.userLoginNoPassword(Constants.EMAIL);
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
     }
@@ -124,7 +124,7 @@ public class LoginTest {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLoginWrongPassword(Constants.USER_EMAIL, Constants.USER_WRONG_PASSWORD);
+        loginPage.userLoginWrongPassword(Constants.EMAIL, Constants.USER_WRONG_PASSWORD);
 
 
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
@@ -139,7 +139,7 @@ public class LoginTest {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.USER_EMAIL, Constants.USER_PASSWORD);
+        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
 
         Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
     }

@@ -3,16 +3,15 @@ public class Constants {
 
     public static final String URL = "https://igym-igym-dev.azurewebsites.net/";
 
-    //user registration data's
+    //user registration email data's
     public static final String EMAIL = "teszteszter80@freemail.hu";  //csak a vizsgaremek leadásakor teszem aktívvá a valid login metódust
+
+    //user login data's
     public static final String PASSWORD = "Ca123456789";
     public static final String NOT_VALID_PASSWORD = "Ca123";
     public static final String NOT_MATCH_PASSWORD = "Ca123456788";
-
-    //user login data's
-    public static final String USER_EMAIL = EMAIL;   //a regisztrált user email címe
-    public static final String USER_PASSWORD = PASSWORD;   //a regisztrált user jelszava
-    public static final String USER_WRONG_PASSWORD = NOT_MATCH_PASSWORD;   //a regisztrált user hibás jelszava
+    public static final String USER_WRONG_PASSWORD = NOT_MATCH_PASSWORD;
+    public static final String USER_PASSWORD = PASSWORD;
 
     //trainer login data's
     public static final String TRAINER_EMAIL = "tesztedzo@igym.hu";

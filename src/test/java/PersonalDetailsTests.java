@@ -43,7 +43,7 @@ public class PersonalDetailsTests {
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.USER_EMAIL, Constants.USER_PASSWORD);
+        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
@@ -51,6 +51,38 @@ public class PersonalDetailsTests {
 
         Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.xpath("//*/mat-toolbar-row[1]/div/div/span")).getText());
 
+    }
+
+    @Test
+    @Order(2)
+    @DisplayName("PD-02 Felhasználó jelszavának módosítása")
+    public void testChangePassword(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.changePassword(Constants.PASSWORD, Constants.USER_NEW_PASSWORD, Constants.USER_NEW_PASSWORD);
+    }
+
+    @Test
+    @Order(3)
+    @DisplayName("PD-03 Felhasználó jelszavának visszaállítása az eredetire")
+    public void testChangeBackToOriginalPassword(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.trainerLogin(Constants.EMAIL, Constants.USER_NEW_PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.changePassword(Constants.USER_NEW_PASSWORD, Constants.USER_PASSWORD, Constants.USER_PASSWORD);
     }
 
 
