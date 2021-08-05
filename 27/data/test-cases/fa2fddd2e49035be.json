@@ -1,0 +1,134 @@
+{
+  "uid" : "fa2fddd2e49035be",
+  "name" : "LI-03 Bejelentkezés edzőként rossz jelszó megadásával",
+  "fullName" : "LoginTest.TestLoginWrongPassword",
+  "historyId" : "47c6eb6c8f7c06cc1cc88fb16f1e0e7d",
+  "time" : {
+    "start" : 1628158071331,
+    "stop" : 1628158074118,
+    "duration" : 2787
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628158071332,
+      "stop" : 1628158071606,
+      "duration" : 274
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628158074047,
+      "stop" : 1628158074118,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-274"
+  }, {
+    "name" : "thread",
+    "value" : "2901@fv-az83-274.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLoginWrongPassword"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "5aab2ca6d66222ca",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/26//#testresult/5aab2ca6d66222ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628086054176,
+          "stop" : 1628086056880,
+          "duration" : 2704
+        }
+      }, {
+        "uid" : "e453a29b344c0e09",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/25//#testresult/e453a29b344c0e09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628073329974,
+          "stop" : 1628073333381,
+          "duration" : 3407
+        }
+      }, {
+        "uid" : "eeff6a51bf8cc9d",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/24//#testresult/eeff6a51bf8cc9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627999075062,
+          "stop" : 1627999078029,
+          "duration" : 2967
+        }
+      }, {
+        "uid" : "531727e5c74e954e",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/23//#testresult/531727e5c74e954e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627993136827,
+          "stop" : 1627993139680,
+          "duration" : 2853
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fa2fddd2e49035be.json",
+  "parameterValues" : [ ]
+}
