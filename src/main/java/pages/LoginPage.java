@@ -13,7 +13,7 @@ public class LoginPage {
 
     private final By EMAIL_INPUT = By.id("emailOrUserName");
     private final By PASSWORD_INPUT = By.id("password");
-    private final By LOGIN_BUTTON = By.cssSelector("button.button-accent");
+    private final By LOGIN_BUTTON = By.xpath("//*/div/button[1]");
 
     public void trainerLoginNoEmail(String password){
         webDriver.findElement(EMAIL_INPUT).sendKeys("");
@@ -38,7 +38,7 @@ public class LoginPage {
         webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
         webDriver.findElement(LOGIN_BUTTON).click();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -68,7 +68,7 @@ public class LoginPage {
         webDriver.findElement(PASSWORD_INPUT).sendKeys(password);
         webDriver.findElement(LOGIN_BUTTON).click();
         try {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -11,13 +11,11 @@ public class LandingPage {
         this.webdriver = webdriver;
     }
 
-
-    private final String URL = "https://igym-igym-dev.azurewebsites.net/";
-    private final By HAMBURGER_BUTTON = By.cssSelector("span > mat-icon");
-    private final By LOGIN_BUTTON = By.cssSelector("a:nth-child(1) > div > span > div.text.ng-tns-c144-0");
-    private final By REGISTRATION_BUTTON = By.cssSelector("a:nth-child(2) > div > span > div.text.ng-tns-c144-0");
-    private final By CALENDAR_BUTTON = By.cssSelector("a:nth-child(3) > div > span > div.text.ng-tns-c144-0");
-    private final By TRAINER_BUTTON = By.cssSelector("a:nth-child(4) > div > span > div.text.ng-tns-c144-0");
+    private final By HAMBURGER_BUTTON = By.xpath("//*/mat-icon");
+    private final By LOGIN_PAGE_BUTTON = By.xpath("//*/mat-nav-list/a[1]/div/span/div[1]");
+    private final By REGISTRATION_PAGE_BUTTON = By.xpath("//*/mat-nav-list/a[2]/div/span/div[1]");
+    private final By CALENDAR_BUTTON = By.xpath("//*/mat-nav-list/a[3]/div/span/div[1]");
+    private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
 
 
     public void navigateToURL(String url){
@@ -29,12 +27,12 @@ public class LandingPage {
     }
 
     public void clickLoginButton(){
-        webdriver.findElement(LOGIN_BUTTON).click();
+        webdriver.findElement(LOGIN_PAGE_BUTTON).click();
         new LoginPage(webdriver);
     }
 
     public void clickRegistrationButton(){
-        webdriver.findElement(REGISTRATION_BUTTON).click();
+        webdriver.findElement(REGISTRATION_PAGE_BUTTON).click();
         new RegistrationPage(webdriver);
     }
 

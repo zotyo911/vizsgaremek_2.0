@@ -16,7 +16,7 @@ public class RegistrationPage {
     private final By CONFIRM_PASSWORD_INPUT = By.id("confirmPassword");
     private final By TERMS_CONDTS_CLICKBOX = By.xpath("//*[@id=\"mat-checkbox-1\"]/label/div");
     private final By PRIVACY_POLICY_CLICKBOX = By.xpath("//*[@id=\"mat-checkbox-2\"]/label/div");
-    private final By REGISTER_BUTTON = By.cssSelector("button.button-accent.bigbuttR");
+    private final By REGISTER_BUTTON = By.xpath("//*/div/button[1]");
 
     public void noEmailRegistration(String password){
         webDriver.findElement(EMAIL_INPUT).sendKeys("");
