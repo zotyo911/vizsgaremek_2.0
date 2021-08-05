@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Aug 02 15:50:25 GMT 2021","Mon Aug 02 15:50:33 GMT 2021","8399","","WikiTest","","WikiTest","TestEnglishButton","Test for clicking English button on menu page",""
-"broken","Mon Aug 02 15:50:32 GMT 2021","Mon Aug 02 15:50:33 GMT 2021","761","","RegistrationTest","","RegistrationTest","testDemo1","testDemo1()",""
-"failed","Mon Aug 02 15:50:33 GMT 2021","Mon Aug 02 15:50:34 GMT 2021","569","","WikiTest","","WikiTest","TestFalse","TestFalse()",""
-"broken","Mon Aug 02 15:50:25 GMT 2021","Mon Aug 02 15:50:32 GMT 2021","7497","","RegistrationTest","","RegistrationTest","testDemo","testDemo()",""
