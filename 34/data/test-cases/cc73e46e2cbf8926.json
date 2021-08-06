@@ -1,0 +1,87 @@
+{
+  "uid" : "cc73e46e2cbf8926",
+  "name" : "PD-08 Felhasználó számlázási adatainak (kivéve név) törlése",
+  "fullName" : "PersonalDetailsTests.testDeleteUserBillingDetails",
+  "historyId" : "b5bcabc91d67c7679a6ece629f16575c",
+  "time" : {
+    "start" : 1628265810608,
+    "stop" : 1628265816974,
+    "duration" : 6366
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628265810608,
+      "stop" : 1628265810850,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628265816904,
+      "stop" : 1628265816974,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "2956@fv-az74-744.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testDeleteUserBillingDetails"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc73e46e2cbf8926.json",
+  "parameterValues" : [ ]
+}

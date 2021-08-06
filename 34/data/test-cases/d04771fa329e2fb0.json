@@ -1,0 +1,87 @@
+{
+  "uid" : "d04771fa329e2fb0",
+  "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+  "fullName" : "LoginTests.TestUserLoginWrongPassword",
+  "historyId" : "57b7f89c52cf4158c2dbf6c9711df9fb",
+  "time" : {
+    "start" : 1628265741621,
+    "stop" : 1628265745145,
+    "duration" : 3524
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628265741621,
+      "stop" : 1628265741887,
+      "duration" : 266
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628265745073,
+      "stop" : 1628265745145,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "2956@fv-az74-744.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUserLoginWrongPassword"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d04771fa329e2fb0.json",
+  "parameterValues" : [ ]
+}

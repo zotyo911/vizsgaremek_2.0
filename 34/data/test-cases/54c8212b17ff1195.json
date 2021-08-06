@@ -1,0 +1,87 @@
+{
+  "uid" : "54c8212b17ff1195",
+  "name" : "TestOpenGDPR()",
+  "fullName" : "LoginTests.TestOpenGDPR",
+  "historyId" : "2400eef4c413ccc3348985c923124cea",
+  "time" : {
+    "start" : 1628265751434,
+    "stop" : 1628265754061,
+    "duration" : 2627
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628265751434,
+      "stop" : 1628265751673,
+      "duration" : 239
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628265753993,
+      "stop" : 1628265754061,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "2956@fv-az74-744.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestOpenGDPR"
+  }, {
+    "name" : "suite",
+    "value" : "LoginTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "54c8212b17ff1195.json",
+  "parameterValues" : [ ]
+}
