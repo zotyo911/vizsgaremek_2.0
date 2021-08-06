@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class PersonalDetails {
@@ -43,15 +44,15 @@ public class PersonalDetails {
         webdriver.findElement(USER_NICKNAME_INPUT).clear();
         webdriver.findElement(USER_FIRSTNAME_INPUT).sendKeys(firstname);
         webdriver.findElement(USER_SURNAME_INPUT).sendKeys(surname);
-        webdriver.findElement(USER_NICKNAME_INPUT).sendKeys(nickname);
-        webdriver.findElement(SAVE_USER_PERSONAL_DETAILS_BUTTON).click();
+        webdriver.findElement(USER_NICKNAME_INPUT).sendKeys(nickname, Keys.ENTER);
+    //    webdriver.findElement(SAVE_USER_PERSONAL_DETAILS_BUTTON).click();
     }
 
     public void changePassword(String password, String newpassword, String confirmpassword) {
         webdriver.findElement(USER_PASSWORD_INPUT).sendKeys(password);
         webdriver.findElement(USER_NEW_PASSWORD_INPUT).sendKeys(newpassword);
-        webdriver.findElement(USER_CONFIRM_PASSWORD_INPUT).sendKeys(confirmpassword);
-        webdriver.findElement(SAVE_NEW_PASSWORD_BUTTON).click();
+        webdriver.findElement(USER_CONFIRM_PASSWORD_INPUT).sendKeys(confirmpassword, Keys.ENTER);
+    //    webdriver.findElement(SAVE_NEW_PASSWORD_BUTTON).click();
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -69,7 +70,7 @@ public class PersonalDetails {
         webdriver.findElement(USER_COUNTRY_INPUT).sendKeys(country);
         webdriver.findElement(USER_POSTAL_CODE_INPUT).sendKeys(postalcode);
         webdriver.findElement(USER_CITY_INPUT).sendKeys(city);
-        webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address);
+        webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address, Keys.ENTER);
 
     }
 
