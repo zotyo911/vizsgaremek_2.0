@@ -1,0 +1,94 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <button _ngcontent-gtb-c375=\"\" type=\"submit\" class=\"button-accent\">...</button> is not clickable at point (394, 570). Other element would receive the click: <div _ngcontent-gtb-c187=\"\">...</div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-504', ip: '10.1.0.194', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.UPrulE}, goog:chromeOptions: {debuggerAddress: localhost:43371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c5a5eaa54bdd538d17494af01182bb06",
+      "children" : [ {
+        "name" : "PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva",
+        "uid" : "56e600fb16101473",
+        "parentUid" : "d4691878d0b155155c87d87eee087f2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628257766951,
+          "stop" : 1628257774250,
+          "duration" : 7299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4691878d0b155155c87d87eee087f2f"
+    }, {
+      "name" : "element click intercepted: Element <button _ngcontent-rrf-c375=\"\" type=\"submit\" class=\"button-accent\" disabled=\"\">...</button> is not clickable at point (394, 570). Other element would receive the click: <div _ngcontent-rrf-c187=\"\">...</div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-504', ip: '10.1.0.194', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.hY8ROO}, goog:chromeOptions: {debuggerAddress: localhost:37241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 73f85939eff8a7c89a505a4cd69b8db0",
+      "children" : [ {
+        "name" : "PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül",
+        "uid" : "14ff53e51da30ac2",
+        "parentUid" : "bde3486532ca9f2991ff7e3603206868",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628257774260,
+          "stop" : 1628257781545,
+          "duration" : 7285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bde3486532ca9f2991ff7e3603206868"
+    }, {
+      "name" : "element click intercepted: Element <button _ngcontent-kvg-c375=\"\" type=\"submit\" class=\"button-accent\">...</button> is not clickable at point (394, 570). Other element would receive the click: <div _ngcontent-kvg-c187=\"\">...</div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-504', ip: '10.1.0.194', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.KvLHyh}, goog:chromeOptions: {debuggerAddress: localhost:34301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b6a03cb8e669b895684bb3f9e9b10850",
+      "children" : [ {
+        "name" : "PD-04 Felhasználó jelszavának módosítása, helyes adatokkal",
+        "uid" : "e444664eac70f854",
+        "parentUid" : "937b9c9e9983bf05843c975a845fb75c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628257781549,
+          "stop" : 1628257788789,
+          "duration" : 7240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "937b9c9e9983bf05843c975a845fb75c"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"mat-input-9\"]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-504', ip: '10.1.0.194', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.ELt37K}, goog:chromeOptions: {debuggerAddress: localhost:33455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f2a4b013b7cb22c644006acb89af40b0\n*** Element info: {Using=xpath, value=//*[@id=\"mat-input-9\"]}",
+      "children" : [ {
+        "name" : "PD-05 Felhasználó számlázási adatainak megadása",
+        "uid" : "5b5e028dccf04597",
+        "parentUid" : "c2a7585244211dd0185c9ec840f244c6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628257788792,
+          "stop" : 1628257814498,
+          "duration" : 25706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2a7585244211dd0185c9ec840f244c6"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#oldPassword\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-504', ip: '10.1.0.194', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.IfVJL7}, goog:chromeOptions: {debuggerAddress: localhost:34565}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4ad3d5acef58bac26f758b3182bef96a\n*** Element info: {Using=id, value=oldPassword}",
+      "children" : [ {
+        "name" : "PD-06 Felhasználó jelszavának visszaállítása az eredetire",
+        "uid" : "317a413d57a390a1",
+        "parentUid" : "4827ddb8f9d6b9f8941f3a5f3011e9ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628257814502,
+          "stop" : 1628257840263,
+          "duration" : 25761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4827ddb8f9d6b9f8941f3a5f3011e9ac"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

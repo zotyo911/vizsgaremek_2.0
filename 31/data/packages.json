@@ -1,0 +1,242 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "RegistrationTests",
+    "children" : [ {
+      "name" : "testNoEmailRegistration",
+      "uid" : "96994c486d11323a",
+      "parentUid" : "4658d694c2b874fc2635f6f2329dec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257715157,
+        "stop" : 1628257726971,
+        "duration" : 11814
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testNoPasswordRegistration",
+      "uid" : "40a5b7e54a46cb71",
+      "parentUid" : "4658d694c2b874fc2635f6f2329dec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257727035,
+        "stop" : 1628257729749,
+        "duration" : 2714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testNotValidPasswordRegistration",
+      "uid" : "c63ed6a8f8eca443",
+      "parentUid" : "4658d694c2b874fc2635f6f2329dec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257729757,
+        "stop" : 1628257732286,
+        "duration" : 2529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testNotMatchPasswordRegistration",
+      "uid" : "4e931518010a6daa",
+      "parentUid" : "4658d694c2b874fc2635f6f2329dec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257732290,
+        "stop" : 1628257734979,
+        "duration" : 2689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testNoClickTermsCondtsRegistration",
+      "uid" : "fa1ee9d877a1ad36",
+      "parentUid" : "4658d694c2b874fc2635f6f2329dec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257734982,
+        "stop" : 1628257737777,
+        "duration" : 2795
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testNoClickPrivacyPolicyRegistration",
+      "uid" : "75b4ef5c6856b72a",
+      "parentUid" : "4658d694c2b874fc2635f6f2329dec26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257737782,
+        "stop" : 1628257740583,
+        "duration" : 2801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4658d694c2b874fc2635f6f2329dec26"
+  }, {
+    "name" : "LogoutTest",
+    "children" : [ {
+      "name" : "TestUserLogout",
+      "uid" : "3afab87c565826a3",
+      "parentUid" : "05e8fc011914479cb195ed58b1dd4bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257740592,
+        "stop" : 1628257746492,
+        "duration" : 5900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05e8fc011914479cb195ed58b1dd4bad"
+  }, {
+    "name" : "LoginTest",
+    "children" : [ {
+      "name" : "TestUserLoginNoEmail",
+      "uid" : "c2655310ddaea6aa",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257746501,
+        "stop" : 1628257749202,
+        "duration" : 2701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserLoginNoPassword",
+      "uid" : "4afbc3d2207fe15",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257749204,
+        "stop" : 1628257751927,
+        "duration" : 2723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserLoginWrongPassword",
+      "uid" : "d092e72c8a4ef26f",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257751929,
+        "stop" : 1628257754802,
+        "duration" : 2873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserLogin",
+      "uid" : "8ea816798b7ef2a2",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257754805,
+        "stop" : 1628257760637,
+        "duration" : 5832
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7cbde4e1492086c9f8631b2d4e369dc0"
+  }, {
+    "name" : "PersonalDetailsTests",
+    "children" : [ {
+      "name" : "testUploadPersonaDetails",
+      "uid" : "2961bf6b53a92341",
+      "parentUid" : "404feb8d0e45482e040e6a27364a8575",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628257760641,
+        "stop" : 1628257766945,
+        "duration" : 6304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testAddWrongPasswordToChange",
+      "uid" : "56e600fb16101473",
+      "parentUid" : "404feb8d0e45482e040e6a27364a8575",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628257766951,
+        "stop" : 1628257774250,
+        "duration" : 7299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testAddWrongConfirmPassword",
+      "uid" : "14ff53e51da30ac2",
+      "parentUid" : "404feb8d0e45482e040e6a27364a8575",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628257774260,
+        "stop" : 1628257781545,
+        "duration" : 7285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testChangePassword",
+      "uid" : "e444664eac70f854",
+      "parentUid" : "404feb8d0e45482e040e6a27364a8575",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628257781549,
+        "stop" : 1628257788789,
+        "duration" : 7240
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testUploadUserBillingDetails",
+      "uid" : "5b5e028dccf04597",
+      "parentUid" : "404feb8d0e45482e040e6a27364a8575",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628257788792,
+        "stop" : 1628257814498,
+        "duration" : 25706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testChangeBackToOriginalPassword",
+      "uid" : "317a413d57a390a1",
+      "parentUid" : "404feb8d0e45482e040e6a27364a8575",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628257814502,
+        "stop" : 1628257840263,
+        "duration" : 25761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "404feb8d0e45482e040e6a27364a8575"
+  } ],
+  "name" : "packages"
+}

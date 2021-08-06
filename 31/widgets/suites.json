@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "239d7850328a45f9fc09fe58b4157663",
+    "name" : "PersonalDetailsTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "bfbf0814db7d6b4dabf9085572a9919b",
+    "name" : "RegistrationTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "b9a196f305ae86bf6bf452c18364a114",
+    "name" : "LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "24d5c0a04a42db2509491ac919581f3b",
+    "name" : "LogoutTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
