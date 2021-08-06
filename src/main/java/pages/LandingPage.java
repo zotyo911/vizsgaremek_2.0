@@ -2,6 +2,11 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
 
 public class LandingPage {
 
@@ -18,6 +23,8 @@ public class LandingPage {
     private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
     private final By GDPR_BUTTON = By.xpath("//*/section//a");
     private final By ACCEPT_COOKIES_BUTTON = By.xpath("//*/section/button");
+
+    private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
 
 
     public void navigateToURL(String url){
@@ -41,6 +48,21 @@ public class LandingPage {
     public void openGDPR(){
         webdriver.findElement(GDPR_BUTTON).click();
         new GdprPage(webdriver);
+    }
+
+    public void saveTrainingDatasToFile() {
+        List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+        if(trainings.size()>0){
+            String text = trainings.get(1).getText();
+            try {
+                FileWriter textFile = new FileWriter("trainingDetails.txt");
+                textFile.append(text);
+                textFile.close();
+            } catch (IOException e) {
+                System.out.println("An error occurred by reading trainingDetails.txt");
+                e.printStackTrace();
+            }
+        }
     }
 
     public void clickCookiesAcceptButton(){
