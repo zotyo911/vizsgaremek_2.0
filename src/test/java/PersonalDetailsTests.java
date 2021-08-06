@@ -144,6 +144,25 @@ public class PersonalDetailsTests {
         Assertions.assertEquals("true", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-atomic"));
     }
 
+    @Test
+    @Order(7)
+    @DisplayName("PD-0 Felhasználó számlázási adatainak (címének) módosítása")
+    public void testModifyUserBillingDetails(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.trainerLogin(Constants.EMAIL, Constants.PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.uploadBillingDetails(Constants.USER_FULLNAME, Constants.USER_COUNTRY, Constants.USER_MODIFIED_POSTAL_CODE, Constants.USER_MODIFIED_CITY, Constants.USER_MODIFIED_ADDRESS);
+
+        Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
+
+    }
+
 
     @AfterEach
     public void Close() {
