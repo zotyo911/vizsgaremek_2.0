@@ -3,6 +3,14 @@
   "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "Product defects" : 1,
+    "Test defects" : 6
+  }
+}, {
+  "buildOrder" : 31,
+  "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "Test defects" : 5
   }
 }, {
@@ -114,13 +122,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "Product defects" : 1
-  }
-}, {
-  "buildOrder" : 14,
-  "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/14/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "Product defects" : 1,
-    "Test defects" : 2
   }
 } ]

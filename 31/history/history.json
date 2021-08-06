@@ -108,11 +108,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "88aa555b6741d43b",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/88aa555b6741d43b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258324678,
+        "stop" : 1628258327619,
+        "duration" : 2941
+      }
+    }, {
       "uid" : "4afbc3d2207fe15",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/4afbc3d2207fe15",
       "status" : "passed",
@@ -249,11 +258,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "f9f28040503308a2",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/f9f28040503308a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258327623,
+        "stop" : 1628258330545,
+        "duration" : 2922
+      }
+    }, {
       "uid" : "d092e72c8a4ef26f",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/d092e72c8a4ef26f",
       "status" : "passed",
@@ -341,11 +359,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8b9d4ebd92a7f782",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/8b9d4ebd92a7f782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258441434,
+        "stop" : 1628258448632,
+        "duration" : 7198
+      }
+    }, {
       "uid" : "5b5e028dccf04597",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/5b5e028dccf04597",
       "status" : "broken",
@@ -562,13 +589,23 @@
   "28442c15efbb8bd0d534a47be6363aad" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "28889c6c2c95d9f6",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/28889c6c2c95d9f6",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button _ngcontent-sxa-c375=\"\" type=\"submit\" class=\"button-accent\">...</button> is not clickable at point (394, 570). Other element would receive the click: <div _ngcontent-sxa-c187=\"\">...</div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.X53e8s}, goog:chromeOptions: {debuggerAddress: localhost:38185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c4e6652476f034efb2d8e744ca2fb53",
+      "time" : {
+        "start" : 1628258448636,
+        "stop" : 1628258456265,
+        "duration" : 7629
+      }
+    }, {
       "uid" : "317a413d57a390a1",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/317a413d57a390a1",
       "status" : "broken",
@@ -613,11 +650,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "1e44e290a9fed2f4",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/1e44e290a9fed2f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258283007,
+        "stop" : 1628258286153,
+        "duration" : 3146
+      }
+    }, {
       "uid" : "c63ed6a8f8eca443",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/c63ed6a8f8eca443",
       "status" : "passed",
@@ -768,11 +814,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "747b24b21e18ed62",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/747b24b21e18ed62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258267314,
+        "stop" : 1628258279590,
+        "duration" : 12276
+      }
+    }, {
       "uid" : "96994c486d11323a",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/96994c486d11323a",
       "status" : "passed",
@@ -1013,13 +1068,23 @@
   "d1a0398e4d7a190d0f87e90dec897d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "733831661c638c68",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/733831661c638c68",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*/mat-icon[2]\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.9fgNhp}, goog:chromeOptions: {debuggerAddress: localhost:37063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9c137814ebb964888e65ae3ad62873cc\n*** Element info: {Using=xpath, value=//*/mat-icon[2]}",
+      "time" : {
+        "start" : 1628258295523,
+        "stop" : 1628258321871,
+        "duration" : 26348
+      }
+    }, {
       "uid" : "3afab87c565826a3",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/3afab87c565826a3",
       "status" : "passed",
@@ -1172,11 +1237,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "27cd7105aa83ad79",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/27cd7105aa83ad79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258321898,
+        "stop" : 1628258324676,
+        "duration" : 2778
+      }
+    }, {
       "uid" : "c2655310ddaea6aa",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/c2655310ddaea6aa",
       "status" : "passed",
@@ -1437,13 +1511,23 @@
   "6b482a602a15cd7e6d1fe19e679dec47" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c4556f2c41413cc3",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/c4556f2c41413cc3",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#oldPassword\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.tQaUaX}, goog:chromeOptions: {debuggerAddress: localhost:36185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 62743b109e038e2f95258cfd0fa43ddf\n*** Element info: {Using=id, value=oldPassword}",
+      "time" : {
+        "start" : 1628258362806,
+        "stop" : 1628258388898,
+        "duration" : 26092
+      }
+    }, {
       "uid" : "56e600fb16101473",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/56e600fb16101473",
       "status" : "broken",
@@ -1552,13 +1636,23 @@
   "26fbe45764b3da235eac95d4643943e7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5e3e5329f20464a9",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/5e3e5329f20464a9",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#oldPassword\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.clOm3Q}, goog:chromeOptions: {debuggerAddress: localhost:35539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9d006bf24c8c284e8e38e5cdf621211a\n*** Element info: {Using=id, value=oldPassword}",
+      "time" : {
+        "start" : 1628258388904,
+        "stop" : 1628258415161,
+        "duration" : 26257
+      }
+    }, {
       "uid" : "14ff53e51da30ac2",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/14ff53e51da30ac2",
       "status" : "broken",
@@ -1573,13 +1667,23 @@
   "1e55b5d97a6e8cc471079977add15d5b" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 5,
       "unknown" : 0,
-      "total" : 5
+      "total" : 6
     },
     "items" : [ {
+      "uid" : "30e6b428c4176f8a",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/30e6b428c4176f8a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#firstName\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.n24IWG}, goog:chromeOptions: {debuggerAddress: localhost:36739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6da422d417483e020e481da141fa8259\n*** Element info: {Using=id, value=firstName}",
+      "time" : {
+        "start" : 1628258336641,
+        "stop" : 1628258362803,
+        "duration" : 26162
+      }
+    }, {
       "uid" : "2961bf6b53a92341",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/2961bf6b53a92341",
       "status" : "passed",
@@ -1651,11 +1755,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "6bd4eecfb43fa462",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/6bd4eecfb43fa462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258292266,
+        "stop" : 1628258295506,
+        "duration" : 3240
+      }
+    }, {
       "uid" : "75b4ef5c6856b72a",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/75b4ef5c6856b72a",
       "status" : "passed",
@@ -1806,11 +1919,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "d0585f8003415c13",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/d0585f8003415c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258279688,
+        "stop" : 1628258283002,
+        "duration" : 3314
+      }
+    }, {
       "uid" : "40a5b7e54a46cb71",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/40a5b7e54a46cb71",
       "status" : "passed",
@@ -1961,11 +2083,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "4de7fe9e49610a93",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/4de7fe9e49610a93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258286157,
+        "stop" : 1628258289355,
+        "duration" : 3198
+      }
+    }, {
       "uid" : "4e931518010a6daa",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/4e931518010a6daa",
       "status" : "passed",
@@ -2163,14 +2294,24 @@
   },
   "d8739712553676699838cb26f21de6b6" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "e262eb8f74c28358",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/e262eb8f74c28358",
+      "status" : "failed",
+      "statusDetails" : "expected: <Hello, Zoli> but was: <BELÉPÉS>",
+      "time" : {
+        "start" : 1628258330551,
+        "stop" : 1628258336623,
+        "duration" : 6072
+      }
+    }, {
       "uid" : "8ea816798b7ef2a2",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/8ea816798b7ef2a2",
       "status" : "passed",
@@ -2258,11 +2399,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "43d16f3db6824ec8",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/43d16f3db6824ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628258289358,
+        "stop" : 1628258292263,
+        "duration" : 2905
+      }
+    }, {
       "uid" : "fa1ee9d877a1ad36",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/fa1ee9d877a1ad36",
       "status" : "passed",
@@ -2411,13 +2561,23 @@
   "81429a5e31bc3d982a70b67ad30291ba" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "537b26bf43e1fb85",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/537b26bf43e1fb85",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#oldPassword\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DGhrXk}, goog:chromeOptions: {debuggerAddress: localhost:33325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a30e6c1b3d44644e76482f0da81c4765\n*** Element info: {Using=id, value=oldPassword}",
+      "time" : {
+        "start" : 1628258415168,
+        "stop" : 1628258441431,
+        "duration" : 26263
+      }
+    }, {
       "uid" : "e444664eac70f854",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/e444664eac70f854",
       "status" : "broken",
