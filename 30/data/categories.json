@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "element click intercepted: Element <button _ngcontent-cyx-c375=\"\" type=\"submit\" class=\"button-accent\">...</button> is not clickable at point (394, 570). Other element would receive the click: <div _ngcontent-cyx-c187=\"\">...</div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-744', ip: '10.1.0.43', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.uudMwu}, goog:chromeOptions: {debuggerAddress: localhost:42137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 813c907d29f3cbcee0d2d9a5ff3d657e",
-      "children" : [ {
-        "name" : "PD-03 Felhasználó jelszavának visszaállítása az eredetire",
-        "uid" : "a860ea9de3419612",
-        "parentUid" : "86af0b4dd850426b4441b1bb3490c016",
-        "status" : "broken",
-        "time" : {
-          "start" : 1628182705234,
-          "stop" : 1628182712546,
-          "duration" : 7312
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "86af0b4dd850426b4441b1bb3490c016"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

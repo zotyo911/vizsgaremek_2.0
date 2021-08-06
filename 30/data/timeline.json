@@ -1,195 +1,195 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az74-744",
+    "name" : "fv-az77-838",
     "children" : [ {
-      "name" : "2925@fv-az74-744.ForkJoinPool-1-worker-1(12)",
+      "name" : "2897@fv-az77-838.ForkJoinPool-1-worker-1(12)",
       "children" : [ {
-        "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
-        "uid" : "b8d5ea4230b5d147",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182683191,
-          "stop" : 1628182688898,
-          "duration" : 5707
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
-        "uid" : "97097cda8ade9981",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182658396,
-          "stop" : 1628182661044,
-          "duration" : 2648
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
-        "uid" : "d9fa09aa1f9bbda0",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182680378,
-          "stop" : 1628182683189,
-          "duration" : 2811
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "PD-03 Felhasználó jelszavának visszaállítása az eredetire",
-        "uid" : "a860ea9de3419612",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1628182705234,
-          "stop" : 1628182712546,
-          "duration" : 7312
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
-        "uid" : "bf47f72a0b147a75",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
+        "uid" : "ce76b6c6945c07a3",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
         "status" : "passed",
         "time" : {
-          "start" : 1628182677866,
-          "stop" : 1628182680376,
-          "duration" : 2510
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
-        "uid" : "24e6bdfa731d7a4d",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182664042,
-          "stop" : 1628182666707,
-          "duration" : 2665
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
-        "uid" : "5e19364c95e1b5c2",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182666714,
-          "stop" : 1628182669301,
-          "duration" : 2587
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
-        "uid" : "39ffd95f7636b6ac",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182661046,
-          "stop" : 1628182664040,
-          "duration" : 2994
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "RI-02 Regisztráció jelszó megadása nélkül",
-        "uid" : "131f9e2e5332e880",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182655591,
-          "stop" : 1628182658393,
-          "duration" : 2802
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "RI-01 Regisztráció email cím megadása nélkül",
-        "uid" : "93fa8143a028ba3c",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182638183,
-          "stop" : 1628182655520,
-          "duration" : 17337
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
-        "uid" : "8673f7790164c066",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182675248,
-          "stop" : 1628182677863,
-          "duration" : 2615
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "LO-01 User kijlentkezés",
-        "uid" : "5e6ef2529c545242",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1628182669309,
-          "stop" : 1628182675238,
-          "duration" : 5929
+          "start" : 1628239925317,
+          "stop" : 1628239934890,
+          "duration" : 9573
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "PD-01 Regisztrált felhasználó (user) adatainak megadása",
-        "uid" : "d0b355db3c9cc2bb",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
+        "uid" : "ba350b2a6c665e5f",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
         "status" : "passed",
         "time" : {
-          "start" : 1628182688902,
-          "stop" : 1628182695559,
-          "duration" : 6657
+          "start" : 1628239908563,
+          "stop" : 1628239915624,
+          "duration" : 7061
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+        "uid" : "f3ca9f5b6e0b7583",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239902568,
+          "stop" : 1628239908559,
+          "duration" : 5991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+        "uid" : "28c07fd785d58161",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239884563,
+          "stop" : 1628239887655,
+          "duration" : 3092
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LO-01 User kijlentkezés",
+        "uid" : "a0915ebab17c355b",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239887673,
+          "stop" : 1628239893860,
+          "duration" : 6187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+        "uid" : "67e903c75b023dfc",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239893876,
+          "stop" : 1628239896843,
+          "duration" : 2967
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+        "uid" : "634fa516b6df12fe",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239896849,
+          "stop" : 1628239899778,
+          "duration" : 2929
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+        "uid" : "9f9b547c837bdd0f",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239878330,
+          "stop" : 1628239881477,
+          "duration" : 3147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+        "uid" : "a0d98f070f6ae538",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239871916,
+          "stop" : 1628239875059,
+          "duration" : 3143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+        "uid" : "ffd79f3a0fad8995",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239899781,
+          "stop" : 1628239902565,
+          "duration" : 2784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-01 Regisztráció email cím megadása nélkül",
+        "uid" : "ddfae681a6e0ece8",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239861052,
+          "stop" : 1628239871826,
+          "duration" : 10774
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "PD-02 Felhasználó jelszavának módosítása",
-        "uid" : "93d333f517f2fab8",
-        "parentUid" : "13e6d09ff4311f257d3836d1a75fbc5f",
+        "uid" : "fedbf88da3980312",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
         "status" : "passed",
         "time" : {
-          "start" : 1628182695561,
-          "stop" : 1628182705230,
-          "duration" : 9669
+          "start" : 1628239915626,
+          "stop" : 1628239925313,
+          "duration" : 9687
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+        "uid" : "4e9eaa71fb185ad3",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239875064,
+          "stop" : 1628239878326,
+          "duration" : 3262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+        "uid" : "4d7ec33f666d97de",
+        "parentUid" : "bd1d765a377e6d710e5e7007b462f8b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239881480,
+          "stop" : 1628239884554,
+          "duration" : 3074
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "13e6d09ff4311f257d3836d1a75fbc5f"
+      "uid" : "bd1d765a377e6d710e5e7007b462f8b9"
     } ],
-    "uid" : "5196cebeeec3e71415698252c7ad183c"
+    "uid" : "04bafdd388f20db6d289ec881146f157"
   } ],
   "name" : "timeline"
 }
