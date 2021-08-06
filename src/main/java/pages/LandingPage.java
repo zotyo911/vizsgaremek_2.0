@@ -16,6 +16,8 @@ public class LandingPage {
     private final By REGISTRATION_PAGE_BUTTON = By.xpath("//*/mat-nav-list/a[2]/div/span/div[1]");
     private final By CALENDAR_BUTTON = By.xpath("//*/mat-nav-list/a[3]/div/span/div[1]");
     private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
+    private final By GDPR_BUTTON = By.xpath("//*/section//a");
+    private final By ACCEPT_COOKIES_BUTTON = By.xpath("//*/section/button");
 
 
     public void navigateToURL(String url){
@@ -34,6 +36,15 @@ public class LandingPage {
     public void clickRegistrationButton(){
         webdriver.findElement(REGISTRATION_PAGE_BUTTON).click();
         new RegistrationPage(webdriver);
+    }
+
+    public void openGDPR(){
+        webdriver.findElement(GDPR_BUTTON).click();
+        new GdprPage(webdriver);
+    }
+
+    public void clickCookiesAcceptButton(){
+        webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
     }
 
     public void clickCalendarButton(){

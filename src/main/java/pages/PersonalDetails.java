@@ -74,5 +74,14 @@ public class PersonalDetails {
 
     }
 
+    public void deleteBillingDetails(String name) {
+        webdriver.findElement(USER_FULLNAME_INPUT).clear();
+        webdriver.findElement(USER_COUNTRY_INPUT).clear();
+        webdriver.findElement(USER_POSTAL_CODE_INPUT).clear();
+        webdriver.findElement(USER_CITY_INPUT).clear();
+        webdriver.findElement(USER_ADDRESS_INPUT).clear();
+        webdriver.findElement(USER_FULLNAME_INPUT).sendKeys(name, Keys.ENTER);
+    }
+
 
 }

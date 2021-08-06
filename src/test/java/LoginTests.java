@@ -4,17 +4,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import pages.CalendarPage;
+import pages.GdprPage;
 import pages.LandingPage;
 import pages.LoginPage;
 
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class LoginTest {
+public class LoginTests {
 
     WebDriver webdriver;
     LandingPage landingPage;
     LoginPage loginPage;
+    CalendarPage calendarPage;
+    GdprPage gdprPage;
 
     @BeforeEach
     public void Init() {
@@ -85,6 +89,17 @@ public class LoginTest {
         loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
 
         Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
+    }
+
+    @Test
+    @Order(5)
+    public void TestOpenGDPR(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.openGDPR();
+        gdprPage = new GdprPage(webdriver);
+        gdprPage.switchWindow();
+        landingPage.clickCookiesAcceptButton();
     }
 
     @AfterEach
