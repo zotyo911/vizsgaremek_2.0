@@ -22,11 +22,11 @@ public class PersonalDetails {
 
     //user address elements
     private final By USER_FULLNAME_INPUT = By.xpath("//*[@id=\"mat-input-9\"]");
-    private final By USER_COUNTY_INPUT = By.xpath("//*[@id=\"mat-input-10\"]");
+    private final By USER_COUNTRY_INPUT = By.xpath("//*[@id=\"mat-input-10\"]");
     private final By USER_POSTAL_CODE_INPUT = By.xpath("//*[@id=\"mat-input-11\"]");
     private final By USER_CITY_INPUT = By.xpath("//*[@id=\"mat-input-12\"]");
     private final By USER_ADDRESS_INPUT = By.xpath("//*[@id=\"mat-input-13\"]");
-    private final By SAVE_USER_ADDRESS_DETAILS_BUTTON = By.xpath("//*/app-spinner-button/button/span");
+    private final By SAVE_USER_BILLING_DETAILS_BUTTON = By.xpath("//*/app-spinner-button/button/span");
 
     //user change password elements
     private final By USER_PASSWORD_INPUT = By.id("oldPassword");
@@ -57,6 +57,20 @@ public class PersonalDetails {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void uploadBillingDetails(String name, String country, String postalcode, String city, String address) {
+        webdriver.findElement(USER_FULLNAME_INPUT).clear();
+        webdriver.findElement(USER_COUNTRY_INPUT).clear();
+        webdriver.findElement(USER_POSTAL_CODE_INPUT).clear();
+        webdriver.findElement(USER_CITY_INPUT).clear();
+        webdriver.findElement(USER_ADDRESS_INPUT).clear();
+        webdriver.findElement(USER_FULLNAME_INPUT).sendKeys(name);
+        webdriver.findElement(USER_COUNTRY_INPUT).sendKeys(country);
+        webdriver.findElement(USER_POSTAL_CODE_INPUT).sendKeys(postalcode);
+        webdriver.findElement(USER_CITY_INPUT).sendKeys(city);
+        webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address);
+
     }
 
 

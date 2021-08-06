@@ -55,7 +55,43 @@ public class PersonalDetailsTests {
 
     @Test
     @Order(2)
-    @DisplayName("PD-02 Felhasználó jelszavának módosítása")
+    @DisplayName("PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva")
+    public void testAddWrongPasswordToChange(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.changePassword(Constants.NOT_VALID_PASSWORD, Constants.USER_NEW_PASSWORD, Constants.USER_NEW_PASSWORD);
+
+        Assertions.assertEquals("assertive", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-live"));
+    }
+
+    @Test
+    @Order(3)
+    @DisplayName("PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül")
+    public void testAddWrongConfirmPassword(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.changePassword(Constants.PASSWORD, Constants.USER_NEW_PASSWORD, Constants.NOT_MATCH_PASSWORD);
+
+        Assertions.assertEquals("polite", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-live"));
+    }
+
+    @Test
+    @Order(4)
+    @DisplayName("PD-04 Felhasználó jelszavának módosítása, helyes adatokkal")
     public void testChangePassword(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -67,11 +103,32 @@ public class PersonalDetailsTests {
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
         personalDetails.changePassword(Constants.PASSWORD, Constants.USER_NEW_PASSWORD, Constants.USER_NEW_PASSWORD);
+
+        Assertions.assertEquals("true", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-atomic"));
     }
 
     @Test
-    @Order(3)
-    @DisplayName("PD-03 Felhasználó jelszavának visszaállítása az eredetire")
+    @Order(5)
+    @DisplayName("PD-05 Felhasználó számlázási adatainak megadása")
+    public void testUploadUserBillingDetails(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.clickHamburgerButton();
+        landingPage.clickLoginButton();
+        loginPage = new LoginPage(webdriver);
+        loginPage.trainerLogin(Constants.EMAIL, Constants.USER_NEW_PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.profileButtonClick();
+        personalDetails = new PersonalDetails(webdriver);
+        personalDetails.uploadBillingDetails(Constants.USER_FULLNAME, Constants.USER_COUNTRY, Constants.USER_POSTAL_CODE, Constants.USER_CITY, Constants.USER_ADDRESS);
+
+        Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
+
+    }
+
+    @Test
+    @Order(6)
+    @DisplayName("PD-06 Felhasználó jelszavának visszaállítása az eredetire")
     public void testChangeBackToOriginalPassword(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -83,6 +140,8 @@ public class PersonalDetailsTests {
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
         personalDetails.changePassword(Constants.USER_NEW_PASSWORD, Constants.USER_PASSWORD, Constants.USER_PASSWORD);
+
+        Assertions.assertEquals("true", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-atomic"));
     }
 
 
