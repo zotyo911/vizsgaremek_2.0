@@ -1,0 +1,181 @@
+{
+  "uid" : "22be2eb3e07132bd",
+  "name" : "PD-04 Felhasználó jelszavának módosítása, helyes adatokkal",
+  "fullName" : "PersonalDetailsTests.testChangePassword",
+  "historyId" : "81429a5e31bc3d982a70b67ad30291ba",
+  "time" : {
+    "start" : 1628371099300,
+    "stop" : 1628371108940,
+    "duration" : 9640
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628371099300,
+      "stop" : 1628371099568,
+      "duration" : 268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628371108870,
+      "stop" : 1628371108940,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "2906@fv-az74-744.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testChangePassword"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "dd2c93cdc8537766",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/35//#testresult/dd2c93cdc8537766",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628274285990,
+          "stop" : 1628274295623,
+          "duration" : 9633
+        }
+      }, {
+        "uid" : "957aead0f49f113",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/34//#testresult/957aead0f49f113",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628265778464,
+          "stop" : 1628265787570,
+          "duration" : 9106
+        }
+      }, {
+        "uid" : "ef74ca676f0f0cc",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/33//#testresult/ef74ca676f0f0cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628260103807,
+          "stop" : 1628260113517,
+          "duration" : 9710
+        }
+      }, {
+        "uid" : "7910abcf13644fc",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/7910abcf13644fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628259127326,
+          "stop" : 1628259136556,
+          "duration" : 9230
+        }
+      }, {
+        "uid" : "537b26bf43e1fb85",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/537b26bf43e1fb85",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#oldPassword\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DGhrXk}, goog:chromeOptions: {debuggerAddress: localhost:33325}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a30e6c1b3d44644e76482f0da81c4765\n*** Element info: {Using=id, value=oldPassword}",
+        "time" : {
+          "start" : 1628258415168,
+          "stop" : 1628258441431,
+          "duration" : 26263
+        }
+      }, {
+        "uid" : "e444664eac70f854",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/e444664eac70f854",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <button _ngcontent-kvg-c375=\"\" type=\"submit\" class=\"button-accent\">...</button> is not clickable at point (394, 570). Other element would receive the click: <div _ngcontent-kvg-c187=\"\">...</div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-504', ip: '10.1.0.194', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.KvLHyh}, goog:chromeOptions: {debuggerAddress: localhost:34301}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b6a03cb8e669b895684bb3f9e9b10850",
+        "time" : {
+          "start" : 1628257781549,
+          "stop" : 1628257788789,
+          "duration" : 7240
+        }
+      }, {
+        "uid" : "fedbf88da3980312",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/30//#testresult/fedbf88da3980312",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239915626,
+          "stop" : 1628239925313,
+          "duration" : 9687
+        }
+      }, {
+        "uid" : "93d333f517f2fab8",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/30//#testresult/93d333f517f2fab8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628182695561,
+          "stop" : 1628182705230,
+          "duration" : 9669
+        }
+      }, {
+        "uid" : "a74694e4d26b8355",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/29//#testresult/a74694e4d26b8355",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628181065638,
+          "stop" : 1628181075016,
+          "duration" : 9378
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "22be2eb3e07132bd.json",
+  "parameterValues" : [ ]
+}

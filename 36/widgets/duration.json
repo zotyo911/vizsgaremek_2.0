@@ -1,0 +1,271 @@
+[ {
+  "uid" : "7bdbb31a27b1078f",
+  "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1628371010842,
+    "stop" : 1628371014081,
+    "duration" : 3239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "670cebac0a5b196d",
+  "name" : "PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva",
+  "time" : {
+    "start" : 1628371080333,
+    "stop" : 1628371089916,
+    "duration" : 9583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b89eb4252bd5d73e",
+  "name" : "repetition 5 of 5",
+  "time" : {
+    "start" : 1628371052694,
+    "stop" : 1628371058746,
+    "duration" : 6052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "540d418c96e29dfb",
+  "name" : "repetition 2 of 5",
+  "time" : {
+    "start" : 1628371034455,
+    "stop" : 1628371040626,
+    "duration" : 6171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "395fc61866a82819",
+  "name" : "PD-08 Felhasználó számlázási adatainak (kivéve név) törlése",
+  "time" : {
+    "start" : 1628371133290,
+    "stop" : 1628371140190,
+    "duration" : 6900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ada3825fc6162e89",
+  "name" : "PD-05 Felhasználó számlázási adatainak megadása",
+  "time" : {
+    "start" : 1628371108942,
+    "stop" : 1628371116160,
+    "duration" : 7218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fb02898ca5746",
+  "name" : "TestOpenGDPR()",
+  "time" : {
+    "start" : 1628371019461,
+    "stop" : 1628371022156,
+    "duration" : 2695
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9a887308be651e0",
+  "name" : "repetition 3 of 5",
+  "time" : {
+    "start" : 1628371040629,
+    "stop" : 1628371046734,
+    "duration" : 6105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb5f44f599b6fb2b",
+  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "time" : {
+    "start" : 1628371001701,
+    "stop" : 1628371004835,
+    "duration" : 3134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22be2eb3e07132bd",
+  "name" : "PD-04 Felhasználó jelszavának módosítása, helyes adatokkal",
+  "time" : {
+    "start" : 1628371099300,
+    "stop" : 1628371108940,
+    "duration" : 9640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "358b216e85718158",
+  "name" : "PD-01 Regisztrált felhasználó (user) adatainak megadása",
+  "time" : {
+    "start" : 1628371073477,
+    "stop" : 1628371080331,
+    "duration" : 6854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f2fa4ce84d07254",
+  "name" : "repetition 1 of 5",
+  "time" : {
+    "start" : 1628371028339,
+    "stop" : 1628371034450,
+    "duration" : 6111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "919ac27482116b5c",
+  "name" : "testChooseTrainingType()",
+  "time" : {
+    "start" : 1628371016713,
+    "stop" : 1628371019455,
+    "duration" : 2742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6940dd295298561",
+  "name" : "repetition 4 of 5",
+  "time" : {
+    "start" : 1628371046738,
+    "stop" : 1628371052691,
+    "duration" : 5953
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c053f844f49ba566",
+  "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628371061470,
+    "stop" : 1628371064395,
+    "duration" : 2925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dd688c78bb7b278",
+  "name" : "PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül",
+  "time" : {
+    "start" : 1628371089920,
+    "stop" : 1628371099298,
+    "duration" : 9378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc58339a573ceb33",
+  "name" : "RI-01 Regisztráció email cím megadása nélkül",
+  "time" : {
+    "start" : 1628370983255,
+    "stop" : 1628370998420,
+    "duration" : 15165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e8546bc31293de4",
+  "name" : "PD-06 Felhasználó jelszavának visszaállítása az eredetire",
+  "time" : {
+    "start" : 1628371116162,
+    "stop" : 1628371125843,
+    "duration" : 9681
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccc9dde461e55494",
+  "name" : "TestSaveTrainingDetailsToFile()",
+  "time" : {
+    "start" : 1628371014095,
+    "stop" : 1628371016711,
+    "duration" : 2616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "599635c4874bd974",
+  "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1628371064398,
+    "stop" : 1628371067475,
+    "duration" : 3077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dad1984077bf6cb3",
+  "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+  "time" : {
+    "start" : 1628371058751,
+    "stop" : 1628371061466,
+    "duration" : 2715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0bdb07463ae20e0",
+  "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+  "time" : {
+    "start" : 1628371004838,
+    "stop" : 1628371007861,
+    "duration" : 3023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89c19dac1437ff8b",
+  "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+  "time" : {
+    "start" : 1628370998514,
+    "stop" : 1628371001697,
+    "duration" : 3183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dda5063b257190f",
+  "name" : "LO-01 User kijlentkezés",
+  "time" : {
+    "start" : 1628371022161,
+    "stop" : 1628371028327,
+    "duration" : 6166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fda921e79245d05b",
+  "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1628371007864,
+    "stop" : 1628371010839,
+    "duration" : 2975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6847dc05c7978ca",
+  "name" : "PD-07 Felhasználó számlázási adatainak (címének) módosítása",
+  "time" : {
+    "start" : 1628371125846,
+    "stop" : 1628371133288,
+    "duration" : 7442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4f9e942f983fe35",
+  "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+  "time" : {
+    "start" : 1628371067477,
+    "stop" : 1628371073470,
+    "duration" : 5993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
