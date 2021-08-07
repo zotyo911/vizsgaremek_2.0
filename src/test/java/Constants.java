@@ -17,7 +17,7 @@ public class Constants {
     public static final String USER_FIRSTNAME = "Zoli";
     public static final String USER_SURNAME = "Teszt";
     public static final String USER_NICKNAME = "zotya";
-    public static final String USER_FULLNAME = USER_FIRSTNAME + USER_SURNAME;
+    public static final String USER_FULLNAME = USER_FIRSTNAME + " " + USER_SURNAME;
     public static final String USER_COUNTRY = "Magyarország";
     public static final String USER_POSTAL_CODE = "7100";
     public static final String USER_CITY = "Szekszárd";

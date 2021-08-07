@@ -4,9 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.util.Scanner;
 
 public class LandingPage {
 
@@ -25,6 +28,7 @@ public class LandingPage {
     private final By ACCEPT_COOKIES_BUTTON = By.xpath("//*/section/button");
 
     private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
+    private final By TRAININGS = By.cssSelector(".mat-card");
 
 
     public void navigateToURL(String url){
@@ -54,15 +58,41 @@ public class LandingPage {
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         if(trainings.size()>0){
             String text = trainings.get(1).getText();
+            System.out.println(text);
             try {
-                FileWriter textFile = new FileWriter("trainingDetails.txt");
+                FileWriter textFile = new FileWriter("trainingResult.txt");
                 textFile.append(text);
                 textFile.close();
             } catch (IOException e) {
-                System.out.println("An error occurred by reading trainingDetails.txt");
-                e.printStackTrace();
             }
         }
+    }
+
+    public void readTrainingDetailsFile(){
+        //    String[] result = new String[];
+        try {
+            File myUser = new File("trainingResult.txt");
+            Scanner scanner = new Scanner(myUser);
+            while (scanner.hasNextLine()) {
+                String data = scanner.nextLine();
+                System.out.println(data);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public boolean chooseTrainingType(String type){
+        boolean isContains = false;
+        List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+        for(WebElement training : trainings){
+            WebElement currentTrainings = training.findElement(TRAININGS);
+            if(currentTrainings.getText().toUpperCase().contains(type.toUpperCase())){
+                isContains = true;
+                break;
+            }
+        }
+        return isContains;
     }
 
     public void clickCookiesAcceptButton(){

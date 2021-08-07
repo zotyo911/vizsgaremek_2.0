@@ -33,7 +33,18 @@ public class TrainingTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
         landingPage.saveTrainingDatasToFile();
+        landingPage.readTrainingDetailsFile();
 
+    }
+
+    @Test
+    @Order(2)
+    public void testChooseTrainingType(){
+        landingPage =new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        boolean isContains = landingPage.chooseTrainingType("jóga");
+
+        Assertions.assertTrue(isContains);
     }
 
     @AfterEach
