@@ -1,0 +1,78 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "TR-05 Felső menüsor tesztelése (NYÚJTÁS gomb)",
+        "uid" : "4fb2b422841af76c",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628442174715,
+          "stop" : 1628442197504,
+          "duration" : 22789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-07 Felső menüsor tesztelése (KARDIÓ gomb)",
+        "uid" : "1669fd5e7899497a",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628442201248,
+          "stop" : 1628442204114,
+          "duration" : 2866
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-09 Felső menüsor tesztelése (ALAKFORMÁLÓ gomb)",
+        "uid" : "1a864a098c8a0384",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628442207394,
+          "stop" : 1628442210675,
+          "duration" : 3281
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-10 Felső menüsor tesztelése (ERŐNLÉTI gomb)",
+        "uid" : "95fa9a6f32c61305",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628442210678,
+          "stop" : 1628442213421,
+          "duration" : 2743
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-11 Felső menüsor tesztelése (EGYÉB gomb)",
+        "uid" : "e10074e99b938fdc",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628442213428,
+          "stop" : 1628442216031,
+          "duration" : 2603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

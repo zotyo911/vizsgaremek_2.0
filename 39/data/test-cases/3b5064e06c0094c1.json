@@ -1,0 +1,107 @@
+{
+  "uid" : "3b5064e06c0094c1",
+  "name" : "TR-08 Felső menüsor tesztelése (PILATES gomb)",
+  "fullName" : "TrainingTests.testOfPilatesButton",
+  "historyId" : "9a46b2b8b25f172b731c1a5d2a928f92",
+  "time" : {
+    "start" : 1628442204116,
+    "stop" : 1628442207392,
+    "duration" : 3276
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628442204117,
+      "stop" : 1628442204375,
+      "duration" : 258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628442207323,
+      "stop" : 1628442207391,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az36-633"
+  }, {
+    "name" : "thread",
+    "value" : "2931@fv-az36-633.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfPilatesButton"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a3ba6aecd19f2ecb",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/38//#testresult/a3ba6aecd19f2ecb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628437789550,
+          "stop" : 1628437792300,
+          "duration" : 2750
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3b5064e06c0094c1.json",
+  "parameterValues" : [ ]
+}
