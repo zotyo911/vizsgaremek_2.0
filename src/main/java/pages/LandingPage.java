@@ -139,7 +139,7 @@ public class LandingPage {
         boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
-            if(trainings.size() == 1){
+            if(trainings.size() == 0){
                 System.out.println("No any active training here!");
                 break;
             }
