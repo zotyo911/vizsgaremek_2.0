@@ -47,6 +47,18 @@ public class TrainingTests {
         Assertions.assertTrue(isContains);
     }
 
+    @Test
+    @Order(3)
+    public void testChooseNotValidTrainingType(){
+        landingPage =new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        boolean isContains = landingPage.chooseTrainingType("bmxct345gh");
+
+        Assertions.assertFalse(isContains);
+    }
+
+
+
     @AfterEach
     public void Close() {
         webdriver.quit();
