@@ -1,0 +1,87 @@
+{
+  "uid" : "12ced93cad1a8d07",
+  "name" : "TR-07 Felső menüsor tesztelése (KARDIÓ gomb)",
+  "fullName" : "TrainingTests.testOfKardioButton",
+  "historyId" : "43a2c35638edbd47adcd7949929ff461",
+  "time" : {
+    "start" : 1628437786560,
+    "stop" : 1628437789548,
+    "duration" : 2988
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628437786560,
+      "stop" : 1628437786816,
+      "duration" : 256
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628437789479,
+      "stop" : 1628437789548,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-838"
+  }, {
+    "name" : "thread",
+    "value" : "2895@fv-az77-838.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfKardioButton"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12ced93cad1a8d07.json",
+  "parameterValues" : [ ]
+}

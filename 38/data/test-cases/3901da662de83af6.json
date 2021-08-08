@@ -1,0 +1,87 @@
+{
+  "uid" : "3901da662de83af6",
+  "name" : "TR-04 Felső menüsor tesztelése (JÓGA gomb)",
+  "fullName" : "TrainingTests.testOfJogaButton",
+  "historyId" : "a1c04888d2d9bcf4f54da8846d57910c",
+  "time" : {
+    "start" : 1628437757637,
+    "stop" : 1628437760653,
+    "duration" : 3016
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628437757637,
+      "stop" : 1628437757916,
+      "duration" : 279
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628437760584,
+      "stop" : 1628437760652,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-838"
+  }, {
+    "name" : "thread",
+    "value" : "2895@fv-az77-838.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfJogaButton"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3901da662de83af6.json",
+  "parameterValues" : [ ]
+}
