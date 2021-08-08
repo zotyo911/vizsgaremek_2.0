@@ -83,6 +83,4 @@ public class RegistrationPage {
             e.printStackTrace();
         }
     }
-
-
 }

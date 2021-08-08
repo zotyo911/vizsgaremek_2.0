@@ -79,10 +79,10 @@ public class LandingPage {
 
     public void readTrainingDetailsFile(){
         try {
-            File myUser = new File("trainingResult.txt");
-            Scanner scanner = new Scanner(myUser);
+            File file = new File("trainingResult.txt");
+            Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
-                String data = scanner.nextLine();
+                String data = scanner.nextLine() + "\n";
                 System.out.println(data);
             }
         } catch (FileNotFoundException e) {
@@ -139,8 +139,8 @@ public class LandingPage {
         boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
-            if(trainings.size() == 0){
-                System.out.println("This kind of training can't be find!");
+            if(trainings.size() == 1){
+                System.out.println("No any active training here!");
                 break;
             }
             WebElement currentTrainings = training.findElement(TRAININGS);
