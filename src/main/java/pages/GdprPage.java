@@ -12,7 +12,7 @@ public class GdprPage {
     }
 
     public void switchWindow(){
-        ArrayList<String> tabs2 = new ArrayList<String> (webdriver.getWindowHandles());
+        ArrayList<String> tabs2 = new ArrayList<>(webdriver.getWindowHandles());
         webdriver.switchTo().window(tabs2.get(1));
         webdriver.close();
         webdriver.switchTo().window(tabs2.get(0));

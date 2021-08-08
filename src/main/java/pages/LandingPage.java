@@ -29,7 +29,16 @@ public class LandingPage {
 
     private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
     private final By TRAININGS = By.cssSelector(".mat-card");
-
+    private final By CALENDAR_FORWARD_ARROW_BUTTON = By.xpath("//*/section/div/span[2]");
+    private final By CALENDAR_TRAINING_LIST = By.xpath("//*/app-training-calendar-list-view");
+    private final By UPPER_MENU_JOGA_BUTTON = By.cssSelector("div:nth-child(1) > button > mat-icon > svg");
+    private final By UPPER_MENU_STRECHING_BUTTON = By.cssSelector("div:nth-child(2) > button > mat-icon > svg");
+    private final By UPPER_MENU_MEDITATION_BUTTON = By.cssSelector("div:nth-child(3) > button > mat-icon > svg");
+    private final By UPPER_MENU_KARDIO_BUTTON = By.cssSelector("div:nth-child(4) > button > mat-icon > svg");
+    private final By UPPER_MENU_PILATES_BUTTON = By.cssSelector("div:nth-child(5) > button > mat-icon > svg");
+    private final By UPPER_MENU_BODYFIT_BUTTON = By.cssSelector("div:nth-child(6) > button > mat-icon > svg");
+    private final By UPPER_MENU_MUSCLE_BUTTON = By.cssSelector("div:nth-child(7) > button > mat-icon > svg");
+    private final By UPPER_MENU_OTHER_BUTTON = By.cssSelector("div:nth-child(8) > button > mat-icon > svg");
 
     public void navigateToURL(String url){
         webdriver.get(url);
@@ -69,7 +78,6 @@ public class LandingPage {
     }
 
     public void readTrainingDetailsFile(){
-        //    String[] result = new String[];
         try {
             File myUser = new File("trainingResult.txt");
             Scanner scanner = new Scanner(myUser);
@@ -90,6 +98,54 @@ public class LandingPage {
             if(currentTrainings.getText().toUpperCase().contains(type.toUpperCase())){
                 isContains = true;
                 break;
+            }
+        }
+        return isContains;
+    }
+
+    public void jogaButtonClick(){
+        webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
+    }
+
+    public void stechingButtonClick(){
+        webdriver.findElement(UPPER_MENU_STRECHING_BUTTON).click();
+    }
+
+    public void meditationButtonClick(){
+        webdriver.findElement(UPPER_MENU_MEDITATION_BUTTON).click();
+    }
+
+    public void kardioButtonClick(){
+        webdriver.findElement(UPPER_MENU_KARDIO_BUTTON).click();
+    }
+
+    public void pilatesButtonClick() {
+        webdriver.findElement(UPPER_MENU_PILATES_BUTTON).click();
+    }
+
+    public void bodyFitButtonClick(){
+        webdriver.findElement(UPPER_MENU_BODYFIT_BUTTON).click();
+    }
+
+    public void muscleButtonClick(){
+        webdriver.findElement(UPPER_MENU_MUSCLE_BUTTON).click();
+    }
+
+    public void otherButtonClick(){
+        webdriver.findElement(UPPER_MENU_OTHER_BUTTON).click();
+    }
+
+    public boolean upperMenuButtonChecker(String type) {
+        boolean isContains = false;
+        List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+        for (WebElement training : trainings) {
+            if(trainings.size() == 0){
+                System.out.println("This kind of training can't be find!");
+                break;
+            }
+            WebElement currentTrainings = training.findElement(TRAININGS);
+            if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
+                isContains = true;
             }
         }
         return isContains;

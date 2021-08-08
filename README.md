@@ -2,7 +2,7 @@
 A tesztelt oldal az alábbi linken https://igym-igym-dev.azurewebsites.net/ érhető el.
 Az automata tesztek elkészítéséhez használt manuális teszteseteket tartalmazó dokumentum megtalálható a repóban is vizsgaremek(igym).xls fájlban, de az adott linken is elérhető https://drive.google.com/file/d/1kmF9x_X54k_y8FjWzh6vaFjlVx4uyyJu/view?usp=sharing .
 
-Az oldalra elkészült automata tesztesetek az alábbi funkciókat teszteli le!
+Az oldalra elkészített automata tesztek az alábbi funkciókat teszteli le!
 
 **Az oldal funkcionális tesztelése:**
 - 
@@ -17,7 +17,7 @@ Az oldalra elkészült automata tesztesetek az alábbi funkciókat teszteli le!
 * **_Adatok lementése felületről:_** adott napon lévő edzések kilistázása és lementése a trainingResult.txt fájlba
 * **_Kijelentkezés:_**
 
-A tesztelés eredményéről automatikusan generált jelentés a https://zotyo911.github.io/vizsgaremek_2.0/ linken található.
+A tesztelés eredményéről automatikusan generált jelentés a https://zotyo911.github.io/vizsgaremek_2.0/ linken tekinthető meg.
 
 
 
