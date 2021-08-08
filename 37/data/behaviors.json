@@ -1,0 +1,369 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "RI-01 Regisztráció email cím megadása nélkül",
+    "uid" : "4c371d0fa83366e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412433340,
+      "stop" : 1628412445616,
+      "duration" : 12276
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+    "uid" : "6c48bbf283977b0e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412445674,
+      "stop" : 1628412448928,
+      "duration" : 3254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+    "uid" : "7deac83168163ba0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412448936,
+      "stop" : 1628412451818,
+      "duration" : 2882
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+    "uid" : "8c2ce867f79d3880",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412451821,
+      "stop" : 1628412454381,
+      "duration" : 2560
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+    "uid" : "8441fc00f2825749",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412454384,
+      "stop" : 1628412457366,
+      "duration" : 2982
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+    "uid" : "548ab280d8c0da5c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412457369,
+      "stop" : 1628412460192,
+      "duration" : 2823
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestSaveTrainingDetailsToFile()",
+    "uid" : "c2bb704453348df1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412460202,
+      "stop" : 1628412462498,
+      "duration" : 2296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testChooseTrainingType()",
+    "uid" : "3a75c97d1cbaa45d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412462500,
+      "stop" : 1628412464811,
+      "duration" : 2311
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testChooseNotValidTrainingType()",
+    "uid" : "3300152d155d8ecd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412464814,
+      "stop" : 1628412467833,
+      "duration" : 3019
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TestOpenGDPR()",
+    "uid" : "fcf817d9fd9fecd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412467840,
+      "stop" : 1628412470417,
+      "duration" : 2577
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LO-01 User kijlentkezés",
+    "uid" : "4c4729c9834063fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412470429,
+      "stop" : 1628412476559,
+      "duration" : 6130
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "repetition 1 of 5",
+    "uid" : "945a5f981df7a5de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412476570,
+      "stop" : 1628412482653,
+      "duration" : 6083
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "repetition 2 of 5",
+    "uid" : "b31d550220d6920f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412482656,
+      "stop" : 1628412488567,
+      "duration" : 5911
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "repetition 3 of 5",
+    "uid" : "6f07d0a050c57146",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412488571,
+      "stop" : 1628412494622,
+      "duration" : 6051
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "repetition 4 of 5",
+    "uid" : "1123941c48228498",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412494624,
+      "stop" : 1628412500650,
+      "duration" : 6026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "repetition 5 of 5",
+    "uid" : "abbcbf35a54da24c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412500652,
+      "stop" : 1628412506376,
+      "duration" : 5724
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+    "uid" : "522e7047dae31b4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412506382,
+      "stop" : 1628412508768,
+      "duration" : 2386
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+    "uid" : "bcc6c78f0f720c89",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412508770,
+      "stop" : 1628412511521,
+      "duration" : 2751
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+    "uid" : "cbbf5a1b8bb7c8ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412511523,
+      "stop" : 1628412514012,
+      "duration" : 2489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+    "uid" : "25ae74d68ebf30d7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412514014,
+      "stop" : 1628412519738,
+      "duration" : 5724
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-01 Regisztrált felhasználó (user) adatainak megadása",
+    "uid" : "da1547a1f197fb79",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412519747,
+      "stop" : 1628412525724,
+      "duration" : 5977
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva",
+    "uid" : "d0d8cb95fb7966d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412525726,
+      "stop" : 1628412534875,
+      "duration" : 9149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül",
+    "uid" : "57a66a701de97c0e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412534877,
+      "stop" : 1628412544026,
+      "duration" : 9149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-04 Felhasználó jelszavának módosítása, helyes adatokkal",
+    "uid" : "573eda246b92c3ba",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412544028,
+      "stop" : 1628412552954,
+      "duration" : 8926
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-05 Felhasználó számlázási adatainak megadása",
+    "uid" : "1552285c645fc3e5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412552956,
+      "stop" : 1628412559997,
+      "duration" : 7041
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-06 Felhasználó jelszavának visszaállítása az eredetire",
+    "uid" : "9983c0eee42bb7aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412559999,
+      "stop" : 1628412568986,
+      "duration" : 8987
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-07 Felhasználó számlázási adatainak (címének) módosítása",
+    "uid" : "8d1ac379e1bcb471",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412568988,
+      "stop" : 1628412575795,
+      "duration" : 6807
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PD-08 Felhasználó számlázási adatainak (kivéve név) törlése",
+    "uid" : "581c676471933cb1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1628412575797,
+      "stop" : 1628412581967,
+      "duration" : 6170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
