@@ -1,0 +1,117 @@
+{
+  "uid" : "57712cabd4bcac3a",
+  "name" : "TR-10 Felső menüsor tesztelése (ERŐNLÉTI gomb)",
+  "fullName" : "TrainingTests.testOfMuscleButton",
+  "historyId" : "70dad7c8c38ec10d00fa24d161e374e2",
+  "time" : {
+    "start" : 1628442815598,
+    "stop" : 1628442818433,
+    "duration" : 2835
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628442815598,
+      "stop" : 1628442815844,
+      "duration" : 246
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628442818365,
+      "stop" : 1628442818433,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az33-714"
+  }, {
+    "name" : "thread",
+    "value" : "2913@fv-az33-714.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfMuscleButton"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "95fa9a6f32c61305",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/39//#testresult/95fa9a6f32c61305",
+        "status" : "failed",
+        "statusDetails" : "expected: <true> but was: <false>",
+        "time" : {
+          "start" : 1628442210678,
+          "stop" : 1628442213421,
+          "duration" : 2743
+        }
+      }, {
+        "uid" : "1a71434303d62009",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/38//#testresult/1a71434303d62009",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628437795078,
+          "stop" : 1628437797954,
+          "duration" : 2876
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "57712cabd4bcac3a.json",
+  "parameterValues" : [ ]
+}
