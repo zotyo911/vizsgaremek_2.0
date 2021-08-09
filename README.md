@@ -9,7 +9,7 @@ Az oldalra elkészített automata tesztek az alábbi funkciókat teszteli le!
 * **_Regisztráció:_** pozitív és negatív tesztesetekkel (pl: érvénytelen jelszó, nem egyező jelszavak megadásával)
 * **_Bejelentkezés:_** pozitív és negatív tesztesetekkel (pl: bejelentkezés email cím nélkül, érvénytelen jelszó,... )
 * **_Adatkezelési nyilatkozat használata:_**
-* **_Adatok listázása:_** a honapon található edzések listázása edzéstípus alapján (pl.: "Jóga")
+* **_Adatok listázása:_** a honlapon található edzések listázása edzéstípus alapján (pl.: "Jóga")
 * **_Többoldalas lista bejárása:_** a naptárban végigjárni az összes edzést ami az oldalon található
 * **_Új adat bevitel:_** regisztrált felhasználó nevének bevitele
 * **_Ismételt és sorozatos adatbevitel:_** regisztrált felhasználó számlázási adatainak bevitele, majd módosítása

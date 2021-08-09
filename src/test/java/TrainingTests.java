@@ -149,7 +149,7 @@ public class TrainingTests {
     public void testOfOtherButton(){
         landingPage =new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
-        landingPage.muscleButtonClick();
+        landingPage.otherButtonClick();
         boolean isContains = landingPage.upperMenuButtonChecker(Constants.TRAINING_TYPE_OTHER);
 
         Assertions.assertTrue(isContains);
