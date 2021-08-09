@@ -1,0 +1,138 @@
+{
+  "uid" : "55277283ad309fb7",
+  "name" : "TR-05 Felső menüsor tesztelése (NYÚJTÁS gomb)",
+  "fullName" : "TrainingTests.testOfStrechingButton",
+  "historyId" : "1736efa45b255306ff96973787085ab",
+  "time" : {
+    "start" : 1628509867531,
+    "stop" : 1628509890257,
+    "duration" : 22726
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628509867532,
+      "stop" : 1628509867789,
+      "duration" : 257
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Close",
+    "time" : {
+      "start" : 1628509890188,
+      "stop" : 1628509890257,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az42-510"
+  }, {
+    "name" : "thread",
+    "value" : "2929@fv-az42-510.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfStrechingButton"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2ec22d075f5b9aff",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/41//#testresult/2ec22d075f5b9aff",
+        "status" : "failed",
+        "statusDetails" : "expected: <true> but was: <false>",
+        "time" : {
+          "start" : 1628495462091,
+          "stop" : 1628495485165,
+          "duration" : 23074
+        }
+      }, {
+        "uid" : "845b5b41552aeeb2",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/40//#testresult/845b5b41552aeeb2",
+        "status" : "failed",
+        "statusDetails" : "expected: <true> but was: <false>",
+        "time" : {
+          "start" : 1628442782351,
+          "stop" : 1628442804788,
+          "duration" : 22437
+        }
+      }, {
+        "uid" : "4fb2b422841af76c",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/39//#testresult/4fb2b422841af76c",
+        "status" : "failed",
+        "statusDetails" : "expected: <true> but was: <false>",
+        "time" : {
+          "start" : 1628442174715,
+          "stop" : 1628442197504,
+          "duration" : 22789
+        }
+      }, {
+        "uid" : "cd89c36b4905ea2c",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/38//#testresult/cd89c36b4905ea2c",
+        "status" : "failed",
+        "statusDetails" : "expected: <true> but was: <false>",
+        "time" : {
+          "start" : 1628437760655,
+          "stop" : 1628437783481,
+          "duration" : 22826
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "55277283ad309fb7.json",
+  "parameterValues" : [ ]
+}
