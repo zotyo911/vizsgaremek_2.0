@@ -92,6 +92,7 @@ public class LandingPage {
 
     public boolean chooseTrainingType(String type){
         boolean isContains = false;
+
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for(WebElement training : trainings){
             WebElement currentTrainings = training.findElement(TRAININGS);
@@ -136,15 +137,11 @@ public class LandingPage {
     }
 
     public boolean upperMenuButtonChecker(String type) {
-        boolean isContains = false;
+        boolean isContains = true;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
-            if(trainings.size() == 0){
-                System.out.println("No any active training here!");
-                break;
-            }
             WebElement currentTrainings = training.findElement(TRAININGS);
-            if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
+            if (trainings.size() == 0 ||currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
                 isContains = true;
             }
         }

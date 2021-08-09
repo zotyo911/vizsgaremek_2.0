@@ -43,7 +43,7 @@ public class TrainingTests {
     public void testChooseTrainingType(){
         landingPage =new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
-        boolean isContains = landingPage.chooseTrainingType(Constants.TRAINING_TYPE_JOGA);
+        boolean isContains = landingPage.chooseTrainingType(Constants.TRAINING_TYPE_MEDITATON);
 
         Assertions.assertTrue(isContains);
     }
