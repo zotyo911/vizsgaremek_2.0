@@ -3,6 +3,7 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import pages.CalendarPage;
 import pages.LandingPage;
 
 import java.util.concurrent.TimeUnit;
@@ -153,6 +154,41 @@ public class TrainingTests {
         boolean isContains = landingPage.upperMenuButtonChecker(Constants.TRAINING_TYPE_OTHER);
 
         Assertions.assertTrue(isContains);
+    }
+
+    @Test
+    @Order(11)
+    @DisplayName("TR-12 Összes aktív edzés összeszámolása többoldalas lista (naptár) alapján")
+    public void testFindAllActiveTrainings(){
+        landingPage =new LandingPage(webdriver);
+        landingPage.navigateToURL(Constants.URL);
+        int sumAll = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.jogaButtonClick();
+        int sumJoga = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.stechingButtonClick();
+        int sumStreching = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.meditationButtonClick();
+        int sumMeditation = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.kardioButtonClick();
+        int sumKardio = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.pilatesButtonClick();
+        int sumPilates = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.bodyFitButtonClick();
+        int sumBodyFit = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.muscleButtonClick();
+        int sumMuscle = landingPage.sumTraining();
+        landingPage.navigateToURL(Constants.URL);
+        landingPage.otherButtonClick();
+        int sumOther = landingPage.sumTraining();
+
+        Assertions.assertEquals(sumAll, sumJoga + sumStreching + sumMeditation + sumKardio + sumPilates + sumBodyFit + sumMuscle + sumOther);
     }
 
 

@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -15,7 +16,7 @@ public class LandingPage {
 
     WebDriver webdriver;
 
-    public LandingPage(WebDriver webdriver){
+    public LandingPage(WebDriver webdriver) {
         this.webdriver = webdriver;
     }
 
@@ -29,7 +30,7 @@ public class LandingPage {
 
     private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
     private final By TRAININGS = By.cssSelector(".mat-card");
-    private final By CALENDAR_FORWARD_ARROW_BUTTON = By.xpath("//*/section/div/span[2]");
+    private final By CALENDAR_RIGHT_ARROW_BUTTON = By.xpath("//*/section/div/span[2]");
     private final By CALENDAR_TRAINING_LIST = By.xpath("//*/app-training-calendar-list-view");
     private final By UPPER_MENU_JOGA_BUTTON = By.cssSelector("div:nth-child(1) > button > mat-icon > svg");
     private final By UPPER_MENU_STRECHING_BUTTON = By.cssSelector("div:nth-child(2) > button > mat-icon > svg");
@@ -40,32 +41,81 @@ public class LandingPage {
     private final By UPPER_MENU_MUSCLE_BUTTON = By.cssSelector("div:nth-child(7) > button > mat-icon > svg");
     private final By UPPER_MENU_OTHER_BUTTON = By.cssSelector("div:nth-child(8) > button > mat-icon > svg");
 
-    public void navigateToURL(String url){
+    public void navigateToURL(String url) {
         webdriver.get(url);
     }
 
-    public void clickHamburgerButton(){
+    public void clickHamburgerButton() {
         webdriver.findElement(HAMBURGER_BUTTON).click();
     }
 
-    public void clickLoginButton(){
+    public void clickLoginButton() {
         webdriver.findElement(LOGIN_PAGE_BUTTON).click();
         new LoginPage(webdriver);
     }
 
-    public void clickRegistrationButton(){
+    public void clickRegistrationButton() {
         webdriver.findElement(REGISTRATION_PAGE_BUTTON).click();
         new RegistrationPage(webdriver);
     }
 
-    public void openGDPR(){
+    public void clickCookiesAcceptButton() {
+        webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
+    }
+
+    public void clickCalendarButton() {
+        webdriver.findElement(CALENDAR_BUTTON).click();
+    }
+
+    public void clickTrainerButton() {
+        webdriver.findElement(TRAINER_BUTTON);
+    }
+
+    public void jogaButtonClick() {
+        webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
+    }
+
+    public void stechingButtonClick() {
+        webdriver.findElement(UPPER_MENU_STRECHING_BUTTON).click();
+    }
+
+    public void meditationButtonClick() {
+        webdriver.findElement(UPPER_MENU_MEDITATION_BUTTON).click();
+    }
+
+    public void kardioButtonClick() {
+        webdriver.findElement(UPPER_MENU_KARDIO_BUTTON).click();
+    }
+
+    public void pilatesButtonClick() {
+        webdriver.findElement(UPPER_MENU_PILATES_BUTTON).click();
+    }
+
+    public void bodyFitButtonClick() {
+        webdriver.findElement(UPPER_MENU_BODYFIT_BUTTON).click();
+    }
+
+    public void muscleButtonClick() {
+        webdriver.findElement(UPPER_MENU_MUSCLE_BUTTON).click();
+    }
+
+    public void otherButtonClick() {
+        webdriver.findElement(UPPER_MENU_OTHER_BUTTON).click();
+    }
+
+    public void calendarRightArrowButtonClick() {
+        webdriver.findElement(CALENDAR_RIGHT_ARROW_BUTTON).click();
+    }
+
+    public void openGDPR() {
         webdriver.findElement(GDPR_BUTTON).click();
         new GdprPage(webdriver);
     }
 
+    //elmenti egy adott edzés információit tartalmazó adatokat a (trainingResult.txt) fájlba
     public void saveTrainingDatasToFile() {
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
-        if(trainings.size()>0){
+        if (trainings.size() > 0) {
             String text = trainings.get(1).getText();
             System.out.println(text);
             try {
@@ -77,7 +127,8 @@ public class LandingPage {
         }
     }
 
-    public void readTrainingDetailsFile(){
+    //kiolvassa az elmentett fájlunk (trainingResult.txt) tartalmát
+    public void readTrainingDetailsFile() {
         try {
             File file = new File("trainingResult.txt");
             Scanner scanner = new Scanner(file);
@@ -90,74 +141,57 @@ public class LandingPage {
         }
     }
 
-    public boolean chooseTrainingType(String type){
-        boolean isContains = false;
 
+    //visszaadja, hogy az aktív héten van -e az edzéslistában olyan edzéstípus mint amelyikre rákeresünk
+    public boolean chooseTrainingType(String type) {
+        boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
-        for(WebElement training : trainings){
+        for (WebElement training : trainings) {
             WebElement currentTrainings = training.findElement(TRAININGS);
-            if(currentTrainings.getText().toUpperCase().contains(type.toUpperCase())){
+            if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
                 isContains = true;
-                break;
+            } else {
+                isContains = false;
             }
         }
         return isContains;
     }
 
-    public void jogaButtonClick(){
-        webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
-    }
-
-    public void stechingButtonClick(){
-        webdriver.findElement(UPPER_MENU_STRECHING_BUTTON).click();
-    }
-
-    public void meditationButtonClick(){
-        webdriver.findElement(UPPER_MENU_MEDITATION_BUTTON).click();
-    }
-
-    public void kardioButtonClick(){
-        webdriver.findElement(UPPER_MENU_KARDIO_BUTTON).click();
-    }
-
-    public void pilatesButtonClick() {
-        webdriver.findElement(UPPER_MENU_PILATES_BUTTON).click();
-    }
-
-    public void bodyFitButtonClick(){
-        webdriver.findElement(UPPER_MENU_BODYFIT_BUTTON).click();
-    }
-
-    public void muscleButtonClick(){
-        webdriver.findElement(UPPER_MENU_MUSCLE_BUTTON).click();
-    }
-
-    public void otherButtonClick(){
-        webdriver.findElement(UPPER_MENU_OTHER_BUTTON).click();
-    }
-
+    //felső menüsorban a gombokat ellenőrzi, hogy adott edzéstípusnhoz tartozó edzéseket listázza ki
     public boolean upperMenuButtonChecker(String type) {
         boolean isContains = true;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
             WebElement currentTrainings = training.findElement(TRAININGS);
-            if (trainings.size() == 0 ||currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
+            if (trainings.size() == 0 || currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
                 isContains = true;
+            } else {
+                isContains = false;
             }
         }
         return isContains;
     }
 
-    public void clickCookiesAcceptButton(){
-        webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
+    //összeszámolja és visszaadja az aktív edzéseket
+    public int sumTraining() {
+        List<String> allOfActiveTrainings = new ArrayList<>();
+        int sum = 0;
+        List<WebElement> trainingsList;
+        do {
+            trainingsList = webdriver.findElements(TRAINING_LIST);
+            for (WebElement weeklyTrainings : trainingsList) {
+                List<WebElement> weeklyTrainingsList = weeklyTrainings.findElements(TRAININGS);
+                for (WebElement training : weeklyTrainingsList) {
+                    String newTrainingToList = training.getText();
+                    allOfActiveTrainings.add(newTrainingToList);
+                    sum = allOfActiveTrainings.size();
+                }
+            }
+            calendarRightArrowButtonClick();
+        }
+        while (trainingsList.size() > 0);
+        return sum;
     }
-
-    public void clickCalendarButton(){
-        webdriver.findElement(CALENDAR_BUTTON).click();
-    }
-
-    public void clickTrainerButton(){
-        webdriver.findElement(TRAINER_BUTTON);
-    }
-
 }
+
+
