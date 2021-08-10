@@ -1,0 +1,176 @@
+{
+  "uid" : "fdbe81c403bbe197",
+  "name" : "TR-06 Felső menüsor tesztelése (MEDITÁCIÓ gomb)",
+  "fullName" : "TrainingTests.testOfMeditationButton",
+  "historyId" : "9243759a43ed4ee6e3b7032b287c5d02",
+  "time" : {
+    "start" : 1628601602527,
+    "stop" : 1628601605864,
+    "duration" : 3337
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1628601602528,
+      "stop" : 1628601602808,
+      "duration" : 280
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628601566151,
+      "stop" : 1628601566165,
+      "duration" : 14
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628601605795,
+      "stop" : 1628601605863,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az42-510"
+  }, {
+    "name" : "thread",
+    "value" : "2947@fv-az42-510.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testOfMeditationButton"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "2f982b2420a2848b",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/44//#testresult/2f982b2420a2848b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628601500615,
+          "stop" : 1628601503981,
+          "duration" : 3366
+        }
+      }, {
+        "uid" : "23b3b4b9947478bb",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/43//#testresult/23b3b4b9947478bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628532071776,
+          "stop" : 1628532074921,
+          "duration" : 3145
+        }
+      }, {
+        "uid" : "4dce24fba7ec4dd",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/42//#testresult/4dce24fba7ec4dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628509890259,
+          "stop" : 1628509893467,
+          "duration" : 3208
+        }
+      }, {
+        "uid" : "e63114a24511ff09",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/41//#testresult/e63114a24511ff09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628495485168,
+          "stop" : 1628495488188,
+          "duration" : 3020
+        }
+      }, {
+        "uid" : "7d6235f21a1ac721",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/40//#testresult/7d6235f21a1ac721",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628442804796,
+          "stop" : 1628442807764,
+          "duration" : 2968
+        }
+      }, {
+        "uid" : "574e4111b75dad7b",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/39//#testresult/574e4111b75dad7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628442197512,
+          "stop" : 1628442201246,
+          "duration" : 3734
+        }
+      }, {
+        "uid" : "32a93395d6262099",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/38//#testresult/32a93395d6262099",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628437783490,
+          "stop" : 1628437786557,
+          "duration" : 3067
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fdbe81c403bbe197.json",
+  "parameterValues" : [ ]
+}
