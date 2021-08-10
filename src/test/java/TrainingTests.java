@@ -13,9 +13,13 @@ public class TrainingTests {
     WebDriver webdriver;
     LandingPage landingPage;
 
-    @BeforeEach
-    public void Init() {
+    @BeforeAll
+    public static void Init() {
         WebDriverManager.chromedriver().setup();
+    }
+
+    @BeforeEach
+    public void SetDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
@@ -25,6 +29,11 @@ public class TrainingTests {
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 
     @Test
@@ -162,7 +171,7 @@ public class TrainingTests {
     public void testFindAllActiveTrainings(){
         landingPage =new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
-        int sumAll = landingPage.sumTraining();
+        int sumTrainings = landingPage.sumTraining();
         landingPage.navigateToURL(Constants.URL);
         landingPage.jogaButtonClick();
         int sumJoga = landingPage.sumTraining();
@@ -188,13 +197,6 @@ public class TrainingTests {
         landingPage.otherButtonClick();
         int sumOther = landingPage.sumTraining();
 
-        Assertions.assertEquals(sumAll, sumJoga + sumStreching + sumMeditation + sumKardio + sumPilates + sumBodyFit + sumMuscle + sumOther);
-    }
-
-
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
+        Assertions.assertEquals(sumTrainings, sumJoga + sumStreching + sumMeditation + sumKardio + sumPilates + sumBodyFit + sumMuscle + sumOther);
     }
 }

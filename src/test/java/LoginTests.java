@@ -16,11 +16,14 @@ public class LoginTests {
     WebDriver webdriver;
     LandingPage landingPage;
     LoginPage loginPage;
-    GdprPage gdprPage;
+
+    @BeforeAll
+    public static void Init() {
+        WebDriverManager.chromedriver().setup();
+    }
 
     @BeforeEach
-    public void Init() {
-        WebDriverManager.chromedriver().setup();
+    public void SetDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
@@ -31,6 +34,12 @@ public class LoginTests {
         webdriver.manage().window().maximize();
 
     }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
+    }
+
 
     @Test
     @Order(1)
@@ -87,10 +96,5 @@ public class LoginTests {
         loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
 
         Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
-    }
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
     }
 }

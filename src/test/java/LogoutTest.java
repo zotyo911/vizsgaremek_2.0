@@ -18,9 +18,13 @@ public class LogoutTest {
     LoginPage loginPage;
     CalendarPage calendarPage;
 
-    @BeforeEach
-    public void Init() {
+    @BeforeAll
+    public static void Init() {
         WebDriverManager.chromedriver().setup();
+    }
+
+    @BeforeEach
+    public void SetDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
@@ -30,6 +34,11 @@ public class LogoutTest {
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 
     @Test
@@ -47,10 +56,5 @@ public class LogoutTest {
         calendarPage.logout();
 
         Assertions.assertEquals("BELÉPÉS", webdriver.findElement(By.cssSelector("mat-toolbar-row > div > div > span")).getText());
-    }
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
     }
 }

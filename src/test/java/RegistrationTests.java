@@ -15,10 +15,13 @@ public class RegistrationTests {
     LandingPage landingPage;
     RegistrationPage registrationPage;
 
-    @BeforeEach
-    public void Init()
-    {
+    @BeforeAll
+    public static void Init() {
         WebDriverManager.chromedriver().setup();
+    }
+
+    @BeforeEach
+    public void SetDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
@@ -27,6 +30,12 @@ public class RegistrationTests {
 
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
+
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 
     @Test
@@ -126,9 +135,4 @@ public class RegistrationTests {
 
         Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("//*//*simple-snack-bar/span")).getText());
     }*/
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
-    }
 }

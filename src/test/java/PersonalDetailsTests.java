@@ -20,9 +20,13 @@ public class PersonalDetailsTests {
     CalendarPage calendarPage;
     PersonalDetails personalDetails;
 
-    @BeforeEach
-    public void Init() {
+    @BeforeAll
+    public static void Init() {
         WebDriverManager.chromedriver().setup();
+    }
+
+    @BeforeEach
+    public void SetDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
@@ -32,6 +36,11 @@ public class PersonalDetailsTests {
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 
     @Test
@@ -181,11 +190,4 @@ public class PersonalDetailsTests {
         Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
 
     }
-
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
-    }
-
 }

@@ -112,7 +112,7 @@ public class LandingPage {
         new GdprPage(webdriver);
     }
 
-    //elmenti egy adott edzés információit tartalmazó adatokat a (trainingResult.txt) fájlba
+    //save a training data's to trainingResult.txt file
     public void saveTrainingDatasToFile() {
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         if (trainings.size() > 0) {
@@ -127,7 +127,7 @@ public class LandingPage {
         }
     }
 
-    //kiolvassa az elmentett fájlunk (trainingResult.txt) tartalmát
+    //read the data's from trainingResult.txt
     public void readTrainingDetailsFile() {
         try {
             File file = new File("trainingResult.txt");
@@ -142,33 +142,38 @@ public class LandingPage {
     }
 
 
-    //visszaadja, hogy az aktív héten van -e az edzéslistában olyan edzéstípus mint amelyikre rákeresünk
+    //gives back that in that week there is training type that we are searching
     public boolean chooseTrainingType(String type) {
         boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
         for (WebElement training : trainings) {
-            WebElement currentTrainings = training.findElement(TRAININGS);
-            if (currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
-                isContains = true;
-            } else {
-                isContains = false;
+            List<WebElement> currentTrainings = training.findElements(TRAININGS);
+            for(WebElement current : currentTrainings){
+                if (current.getText().toUpperCase().contains(type.toUpperCase())) {
+                    isContains = true;
+                }
             }
         }
         return isContains;
     }
 
-    //felső menüsorban a gombokat ellenőrzi, hogy adott edzéstípusnhoz tartozó edzéseket listázza ki
+    //check that the
     public boolean upperMenuButtonChecker(String type) {
-        boolean isContains = true;
+        boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
-        for (WebElement training : trainings) {
-            WebElement currentTrainings = training.findElement(TRAININGS);
-            if (trainings.size() == 0 || currentTrainings.getText().toUpperCase().contains(type.toUpperCase())) {
+            if(trainings.size() == 0){
                 isContains = true;
-            } else {
-                isContains = false;
+                }
+                for (WebElement training : trainings) {
+                    List<WebElement> currentTrainings = training.findElements(TRAININGS);
+                    for (WebElement current : currentTrainings) {
+                        if (current.getText().toUpperCase().contains(type.toUpperCase())) {
+                            isContains = true;
+                    } else {
+                        isContains = false;
+                    }
+                }
             }
-        }
         return isContains;
     }
 

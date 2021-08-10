@@ -15,9 +15,13 @@ public class GdprTest {
     LandingPage landingPage;
     GdprPage gdprPage;
 
-    @BeforeEach
-    public void Init() {
+    @BeforeAll
+    public static void Init() {
         WebDriverManager.chromedriver().setup();
+    }
+
+    @BeforeEach
+    public void SetDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
@@ -29,6 +33,11 @@ public class GdprTest {
 
     }
 
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
+    }
+
     @Test
     @Order(1)
     public void TestOpenGDPR(){
@@ -38,10 +47,5 @@ public class GdprTest {
         gdprPage = new GdprPage(webdriver);
         gdprPage.switchWindow();
         landingPage.clickCookiesAcceptButton();
-    }
-
-    @AfterEach
-    public void Close() {
-        webdriver.quit();
     }
 }
