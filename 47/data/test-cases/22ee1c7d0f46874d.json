@@ -1,0 +1,295 @@
+{
+  "uid" : "22ee1c7d0f46874d",
+  "name" : "PD-01 Regisztrált felhasználó (user) adatainak megadása",
+  "fullName" : "PersonalDetailsTests.testUploadPersonaDetails",
+  "historyId" : "1e55b5d97a6e8cc471079977add15d5b",
+  "time" : {
+    "start" : 1629109326132,
+    "stop" : 1629109332812,
+    "duration" : 6680
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629109326121,
+      "stop" : 1629109326130,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629109326132,
+      "stop" : 1629109326395,
+      "duration" : 263
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629109332739,
+      "stop" : 1629109332812,
+      "duration" : 73
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az33-581"
+  }, {
+    "name" : "thread",
+    "value" : "2896@fv-az33-581.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testClass",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUploadPersonaDetails"
+  }, {
+    "name" : "suite",
+    "value" : "PersonalDetailsTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 20,
+        "unknown" : 0,
+        "total" : 22
+      },
+      "items" : [ {
+        "uid" : "b9722e177ab920bb",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/46//#testresult/b9722e177ab920bb",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-93', ip: '10.1.0.109', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55609311ba63 <unknown>\n#1 0x556092e90458 <unknown>\n#2 0x556092eb32e3 <unknown>\n#3 0x556092eaee9f <unknown>\n#4 0x556092ee8b72 <unknown>\n#5 0x556092ee2fd3 <unknown>\n#6 0x556092eb9514 <unknown>\n#7 0x556092eba505 <unknown>\n#8 0x556093147e2e <unknown>\n#9 0x55609315d886 <unknown>\n#10 0x556093148d75 <unknown>\n#11 0x55609315ed94 <unknown>\n#12 0x55609313f8eb <unknown>\n#13 0x556093179cd8 <unknown>\n#14 0x556093179e58 <unknown>\n#15 0x556093193dfd <unknown>\n#16 0x7f097a345609 start_thread\n",
+        "time" : {
+          "start" : 1629108634466,
+          "stop" : 1629108634596,
+          "duration" : 130
+        }
+      }, {
+        "uid" : "6aad8d46a638a98c",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/45//#testresult/6aad8d46a638a98c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628601901717,
+          "stop" : 1628601908450,
+          "duration" : 6733
+        }
+      }, {
+        "uid" : "a3da8017441f1dff",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/44//#testresult/a3da8017441f1dff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628601794744,
+          "stop" : 1628601801171,
+          "duration" : 6427
+        }
+      }, {
+        "uid" : "82aee59dfbffe490",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/43//#testresult/82aee59dfbffe490",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628532375087,
+          "stop" : 1628532381863,
+          "duration" : 6776
+        }
+      }, {
+        "uid" : "c6584e4c988daf91",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/42//#testresult/c6584e4c988daf91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628509980209,
+          "stop" : 1628509986792,
+          "duration" : 6583
+        }
+      }, {
+        "uid" : "282c9dc61514761d",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/41//#testresult/282c9dc61514761d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628495579370,
+          "stop" : 1628495586128,
+          "duration" : 6758
+        }
+      }, {
+        "uid" : "33dba8d430fbc66d",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/40//#testresult/33dba8d430fbc66d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628442874593,
+          "stop" : 1628442880830,
+          "duration" : 6237
+        }
+      }, {
+        "uid" : "bdcb07cebe6a9a92",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/39//#testresult/bdcb07cebe6a9a92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628442138090,
+          "stop" : 1628442149398,
+          "duration" : 11308
+        }
+      }, {
+        "uid" : "561452b4319215e4",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/38//#testresult/561452b4319215e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628437856166,
+          "stop" : 1628437862743,
+          "duration" : 6577
+        }
+      }, {
+        "uid" : "da1547a1f197fb79",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/37//#testresult/da1547a1f197fb79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628412519747,
+          "stop" : 1628412525724,
+          "duration" : 5977
+        }
+      }, {
+        "uid" : "358b216e85718158",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/36//#testresult/358b216e85718158",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628371073477,
+          "stop" : 1628371080331,
+          "duration" : 6854
+        }
+      }, {
+        "uid" : "51b6b125a3446387",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/35//#testresult/51b6b125a3446387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628274259258,
+          "stop" : 1628274266294,
+          "duration" : 7036
+        }
+      }, {
+        "uid" : "85d63e18014a2bc4",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/34//#testresult/85d63e18014a2bc4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628265754067,
+          "stop" : 1628265760118,
+          "duration" : 6051
+        }
+      }, {
+        "uid" : "76243643f11173de",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/33//#testresult/76243643f11173de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628260077981,
+          "stop" : 1628260084554,
+          "duration" : 6573
+        }
+      }, {
+        "uid" : "f8f040b4c79d3dcb",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/f8f040b4c79d3dcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628259102653,
+          "stop" : 1628259109157,
+          "duration" : 6504
+        }
+      }, {
+        "uid" : "30e6b428c4176f8a",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/30e6b428c4176f8a",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#firstName\"}\n  (Session info: headless chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-838', ip: '10.1.0.19', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.n24IWG}, goog:chromeOptions: {debuggerAddress: localhost:36739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6da422d417483e020e481da141fa8259\n*** Element info: {Using=id, value=firstName}",
+        "time" : {
+          "start" : 1628258336641,
+          "stop" : 1628258362803,
+          "duration" : 26162
+        }
+      }, {
+        "uid" : "2961bf6b53a92341",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/31//#testresult/2961bf6b53a92341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628257760641,
+          "stop" : 1628257766945,
+          "duration" : 6304
+        }
+      }, {
+        "uid" : "ba350b2a6c665e5f",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/30//#testresult/ba350b2a6c665e5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628239908563,
+          "stop" : 1628239915624,
+          "duration" : 7061
+        }
+      }, {
+        "uid" : "d0b355db3c9cc2bb",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/30//#testresult/d0b355db3c9cc2bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628182688902,
+          "stop" : 1628182695559,
+          "duration" : 6657
+        }
+      }, {
+        "uid" : "cb484b56625ed088",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/29//#testresult/cb484b56625ed088",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628181059112,
+          "stop" : 1628181065635,
+          "duration" : 6523
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "22ee1c7d0f46874d.json",
+  "parameterValues" : [ ]
+}
