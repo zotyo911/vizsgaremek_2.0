@@ -21,6 +21,7 @@ public class LandingPage {
     }
 
     private final By HAMBURGER_BUTTON = By.xpath("//*/mat-icon");
+    private final By LOGIN_BUTTON = By.xpath("//*/mat-toolbar-row/div/div/span");
     private final By LOGIN_PAGE_BUTTON = By.xpath("//*/mat-nav-list/a[1]/div/span/div[1]");
     private final By REGISTRATION_PAGE_BUTTON = By.xpath("//*/mat-nav-list/a[2]/div/span/div[1]");
     private final By CALENDAR_BUTTON = By.xpath("//*/mat-nav-list/a[3]/div/span/div[1]");
@@ -57,6 +58,11 @@ public class LandingPage {
     public void clickRegistrationButton() {
         webdriver.findElement(REGISTRATION_PAGE_BUTTON).click();
         new RegistrationPage(webdriver);
+    }
+
+    public void loginButtonClick(){
+        webdriver.findElement(LOGIN_BUTTON).click();
+        new LoginPage(webdriver);
     }
 
     public void clickCookiesAcceptButton() {
@@ -157,7 +163,7 @@ public class LandingPage {
         return isContains;
     }
 
-    //check that the
+    //checking that the upper menu buttons working correctly
     public boolean upperMenuButtonChecker(String type) {
         boolean isContains = false;
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
@@ -169,15 +175,15 @@ public class LandingPage {
                     for (WebElement current : currentTrainings) {
                         if (current.getText().toUpperCase().contains(type.toUpperCase())) {
                             isContains = true;
-                    } else {
-                        isContains = false;
+                        } else {
+                            isContains = false;
+                        }
                     }
                 }
-            }
-        return isContains;
-    }
+            return isContains;
+        }
 
-    //összeszámolja és visszaadja az aktív edzéseket
+    //sum all of the trainings from calendar
     public int sumTraining() {
         List<String> allOfActiveTrainings = new ArrayList<>();
         int sum = 0;

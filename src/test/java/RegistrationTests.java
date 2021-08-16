@@ -1,5 +1,6 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -122,7 +123,7 @@ public class RegistrationTests {
         Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/registration", webdriver.getCurrentUrl());
     }
 
-  /*  @Test
+/*    @Test
     @Order(7)
     @DisplayName("RI-07 Regisztráció minden érvényes adat megadásával")
     public void testRegistration(){
@@ -133,6 +134,6 @@ public class RegistrationTests {
         registrationPage = new RegistrationPage(webdriver);
         registrationPage.registration(Constants.EMAIL, Constants.PASSWORD);
 
-        Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("//*//*simple-snack-bar/span")).getText());
+        Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("/*//*simple-snack-bar/span")).getText());
     }*/
 }

@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 
 public class Constants {
 
@@ -5,7 +6,7 @@ public class Constants {
     public static final String URL = "https://igym-igym-dev.azurewebsites.net/";
 
     //user registration and login email data's
-    public static final String EMAIL = "sooszoltan80@freemail.hu";  //csak a vizsgaremek leadásakor teszem aktívvá a valid login metódust
+    public static final String EMAIL = "mephisto.teszt@gmail.com";  //csak a vizsgaremek leadásakor teszem aktívvá a valid login metódust
 
     //user login data's
     public static final String PASSWORD = "Ca123456789";
@@ -23,9 +24,7 @@ public class Constants {
     public static final String USER_POSTAL_CODE = "7100";
     public static final String USER_CITY = "Szekszárd";
     public static final String USER_ADDRESS = "Széchenyi u. 55.";
-    public static final String USER_OLD_PASSWORD = PASSWORD;
     public static final String USER_NEW_PASSWORD = "De123456789";
-    public static final String USER_CONFIRM_PASSWORD = USER_NEW_PASSWORD;
     public static final String USER_MODIFIED_POSTAL_CODE = "7150";
     public static final String USER_MODIFIED_CITY = "Bonyhád";
     public static final String USER_MODIFIED_ADDRESS = "Fáy u. 22.";
@@ -40,5 +39,7 @@ public class Constants {
     public static final String TRAINING_TYPE_BODYFIT = "alakformáló";
     public static final String TRAINING_TYPE_MUSCLE = "erőnléti";
     public static final String TRAINING_TYPE_OTHER = "egyéb";
+
+    //training tickets
 
 }

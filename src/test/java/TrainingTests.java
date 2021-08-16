@@ -3,7 +3,6 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import pages.CalendarPage;
 import pages.LandingPage;
 
 import java.util.concurrent.TimeUnit;
@@ -26,7 +25,7 @@ public class TrainingTests {
         options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
-        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
     }

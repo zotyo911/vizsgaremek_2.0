@@ -41,9 +41,8 @@ public class LogoutTest {
         webdriver.quit();
     }
 
-    @Test
-    @Order(1)
     @RepeatedTest(5)
+    @Order(1)
     @DisplayName("LO-01 User kijlentkezés")
     public void TestUserLogout() {
         landingPage = new LandingPage(webdriver);
