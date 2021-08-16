@@ -1,0 +1,140 @@
+{
+  "uid" : "cb26f5f1714c4da4",
+  "name" : "TR-12 Összes aktív edzés összeszámolása többoldalas lista (naptár) alapján",
+  "fullName" : "TrainingTests.testFindAllActiveTrainings",
+  "historyId" : "478eea2bbaec82530196a343e7115648",
+  "time" : {
+    "start" : 1629108500128,
+    "stop" : 1629108615321,
+    "duration" : 115193
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629108440756,
+      "stop" : 1629108440804,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629108500128,
+      "stop" : 1629108500401,
+      "duration" : 273
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629108615248,
+      "stop" : 1629108615320,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-93"
+  }, {
+    "name" : "thread",
+    "value" : "2893@fv-az83-93.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testFindAllActiveTrainings"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c03ff8c5893c2860",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/45//#testresult/c03ff8c5893c2860",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628601640667,
+          "stop" : 1628601847182,
+          "duration" : 206515
+        }
+      }, {
+        "uid" : "a761a85c0336a55a",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/44//#testresult/a761a85c0336a55a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628601537346,
+          "stop" : 1628601741665,
+          "duration" : 204319
+        }
+      }, {
+        "uid" : "b465f9d917d9343e",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/43//#testresult/b465f9d917d9343e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628532109958,
+          "stop" : 1628532317637,
+          "duration" : 207679
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb26f5f1714c4da4.json",
+  "parameterValues" : [ ]
+}
