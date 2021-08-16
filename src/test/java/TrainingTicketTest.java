@@ -28,7 +28,7 @@ public class TrainingTicketTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-    //    options.addArguments("--headless");
+        options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
         webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -43,7 +43,7 @@ public class TrainingTicketTest {
 
     @Test
     @Order(1)
-    @DisplayName("")
+    @DisplayName("TT-01 Lite bérlet árának validációja")
     public void TestLiteTicket(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -59,7 +59,7 @@ public class TrainingTicketTest {
 
     @Test
     @Order(2)
-    @DisplayName("")
+    @DisplayName("TT-02 Plus bérlet árának validációja")
     public void TestPlusTicket(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -75,7 +75,7 @@ public class TrainingTicketTest {
 
     @Test
     @Order(3)
-    @DisplayName("")
+    @DisplayName("TT-03 Pro bérlet egy edzésre eső árának validációja")
     public void TestProTicket(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
@@ -90,8 +90,8 @@ public class TrainingTicketTest {
     }
 
     @Test
-    @Order(3)
-    @DisplayName("")
+    @Order(4)
+    @DisplayName("TT-04 Ultra bérlek egy edzésre eső árának validációja")
     public void TestUltraTicket(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
