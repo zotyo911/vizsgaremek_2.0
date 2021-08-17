@@ -1,0 +1,102 @@
+{
+  "uid" : "135822ce29e7d612",
+  "name" : "TT-01 Lite bérlet árának validációja",
+  "fullName" : "TrainingTicketTests.TestLiteTicket",
+  "historyId" : "d6595f71e53831b6d6c45e220d4e94ba",
+  "time" : {
+    "start" : 1629192732735,
+    "stop" : 1629192738839,
+    "duration" : 6104
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629192732735,
+      "stop" : 1629192732977,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629192732727,
+      "stop" : 1629192732734,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629192738771,
+      "stop" : 1629192738839,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-944"
+  }, {
+    "name" : "thread",
+    "value" : "2955@fv-az74-944.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "TrainingTicketTests"
+  }, {
+    "name" : "testClass",
+    "value" : "TrainingTicketTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLiteTicket"
+  }, {
+    "name" : "suite",
+    "value" : "TrainingTicketTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "135822ce29e7d612.json",
+  "parameterValues" : [ ]
+}
