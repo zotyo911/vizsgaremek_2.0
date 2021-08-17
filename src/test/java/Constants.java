@@ -40,6 +40,7 @@ public class Constants {
     public static final String TRAINING_TYPE_MUSCLE = "erőnléti";
     public static final String TRAINING_TYPE_OTHER = "egyéb";
 
-    //training tickets
+    //trainer
+    public static final String TRAINER_NAME = "Edző TESZT";
 
 }

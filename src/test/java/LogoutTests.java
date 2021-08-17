@@ -11,7 +11,7 @@ import pages.LoginPage;
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class LogoutTest {
+public class LogoutTests {
 
     WebDriver webdriver;
     LandingPage landingPage;

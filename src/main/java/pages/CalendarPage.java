@@ -12,6 +12,7 @@ public class CalendarPage {
     }
 
     private final By PROFILE_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
+    private final By HAMBURGER_BUTTON = By.xpath("//*/span/mat-icon");
     private final By LOGIN_BUTTON = By.xpath("//*/mat-toolbar-row/div/div/span");
     private final By LOGOUT_ICON = By.xpath("//*/mat-icon[2]");
     private final By BUY_TICKET_BUTTON = By.xpath("//*/mat-toolbar-row[1]/div/div/button");
@@ -33,6 +34,7 @@ public class CalendarPage {
     private final By TRAINING_NAME = By.xpath("//*[contains(@class,'name')]");
     private final By TRAINING_DATE = By.xpath("//*[contains(@class,'time')]");
     private final By TRAINING_PRICE = By.xpath("//*[contains(@class,'price')]");
+    private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[2]/div/span/div[1]");
 
     public void logout() {
         webdriver.findElement(LOGOUT_ICON).click();
@@ -46,6 +48,14 @@ public class CalendarPage {
     public void loginButtonClick(){
         webdriver.findElement(LOGIN_BUTTON).click();
         new LoginPage(webdriver);
+    }
+
+    public void clickHamburgerButton() {
+        webdriver.findElement(HAMBURGER_BUTTON).click();
+    }
+
+    public void clickTrainerButton() {
+        webdriver.findElement(TRAINER_BUTTON).click();
     }
 
     public void buyTicketButtonClick(){

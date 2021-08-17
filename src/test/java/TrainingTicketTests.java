@@ -11,7 +11,7 @@ import pages.LoginPage;
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class TrainingTicketTest {
+public class TrainingTicketTests {
 
     WebDriver webdriver;
     LandingPage landingPage;
@@ -75,7 +75,7 @@ public class TrainingTicketTest {
 
     @Test
     @Order(3)
-    @DisplayName("TT-03 Pro bérlet egy edzésre eső árának validációja")
+    @DisplayName("TT-03 Pro bérlet egy edzés/ár validációja")
     public void TestProTicket(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constants.URL);
