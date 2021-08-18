@@ -1,0 +1,421 @@
+[ {
+  "uid" : "d4b9344e5e776c43",
+  "name" : "TT-02 Plus bérlet árának validációja",
+  "time" : {
+    "start" : 1629292847942,
+    "stop" : 1629292854048,
+    "duration" : 6106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dff7d0b71df7cfef",
+  "name" : "TR-06 Felső menüsor tesztelése (MEDITÁCIÓ gomb)",
+  "time" : {
+    "start" : 1629292671591,
+    "stop" : 1629292674983,
+    "duration" : 3392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb9463d39f41d3e2",
+  "name" : "PD-06 Felhasználó jelszavának visszaállítása az eredetire",
+  "time" : {
+    "start" : 1629292841386,
+    "stop" : 1629292841533,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b1ed808c7158c29a",
+  "name" : "RI-01 Regisztráció email cím megadása nélkül",
+  "time" : {
+    "start" : 1629292629508,
+    "stop" : 1629292632336,
+    "duration" : 2828
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cf932883d933f59",
+  "name" : "TT-01 Lite bérlet árának validációja",
+  "time" : {
+    "start" : 1629292841824,
+    "stop" : 1629292847940,
+    "duration" : 6116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d20bbede36115e81",
+  "name" : "TT-04 Ultra bérlet egy edzésre eső árának validációja",
+  "time" : {
+    "start" : 1629292860022,
+    "stop" : 1629292865886,
+    "duration" : 5864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b092c3e89c73e233",
+  "name" : "PD-04 Felhasználó jelszavának módosítása, helyes adatokkal",
+  "time" : {
+    "start" : 1629292841127,
+    "stop" : 1629292841253,
+    "duration" : 126
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "20e7dc806f5834b2",
+  "name" : "TestOpenGDPR()",
+  "time" : {
+    "start" : 1629292808715,
+    "stop" : 1629292810791,
+    "duration" : 2076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f924ce45b51",
+  "name" : "PD-08 Felhasználó számlázási adatainak (kivéve név) törlése",
+  "time" : {
+    "start" : 1629292841685,
+    "stop" : 1629292841812,
+    "duration" : 127
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3a737396bab6a21f",
+  "name" : "repetition 5 of 5",
+  "time" : {
+    "start" : 1629292623096,
+    "stop" : 1629292629467,
+    "duration" : 6371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fd7ccd291933c32",
+  "name" : "TS-02 Edzők adatlapjának megnyitása a MÉG TÖBB INFO gombbal",
+  "time" : {
+    "start" : 1629292810817,
+    "stop" : 1629292818331,
+    "duration" : 7514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28df85968f47313",
+  "name" : "TR-08 Felső menüsor tesztelése (PILATES gomb)",
+  "time" : {
+    "start" : 1629292677835,
+    "stop" : 1629292680983,
+    "duration" : 3148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20bc9f96c06b9da2",
+  "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+  "time" : {
+    "start" : 1629292834919,
+    "stop" : 1629292840682,
+    "duration" : 5763
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba1520fa3be51894",
+  "name" : "TR-11 Felső menüsor tesztelése (EGYÉB gomb)",
+  "time" : {
+    "start" : 1629292686313,
+    "stop" : 1629292698885,
+    "duration" : 12572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47b54ec169a44105",
+  "name" : "PD-07 Felhasználó számlázási adatainak (címének) módosítása",
+  "time" : {
+    "start" : 1629292841535,
+    "stop" : 1629292841682,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cc6322b2fd11370e",
+  "name" : "TR-05 Felső menüsor tesztelése (NYÚJTÁS gomb)",
+  "time" : {
+    "start" : 1629292659179,
+    "stop" : 1629292671588,
+    "duration" : 12409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab62faac8a445211",
+  "name" : "TR-09 Felső menüsor tesztelése (ALAKFORMÁLÓ gomb)",
+  "time" : {
+    "start" : 1629292680985,
+    "stop" : 1629292683722,
+    "duration" : 2737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c98f4ec3a0dbbb75",
+  "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+  "time" : {
+    "start" : 1629292638089,
+    "stop" : 1629292641229,
+    "duration" : 3140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df53f2f380020423",
+  "name" : "PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül",
+  "time" : {
+    "start" : 1629292840993,
+    "stop" : 1629292841119,
+    "duration" : 126
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "57a20db9031f9272",
+  "name" : "TR-12 Összes aktív edzés összeszámolása többoldalas lista (naptár) alapján",
+  "time" : {
+    "start" : 1629292698887,
+    "stop" : 1629292808696,
+    "duration" : 109809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a8c1c421e796e3",
+  "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+  "time" : {
+    "start" : 1629292831797,
+    "stop" : 1629292834917,
+    "duration" : 3120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4fb316ae4fd0f6a",
+  "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1629292641231,
+    "stop" : 1629292644421,
+    "duration" : 3190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a5631d03c059ec3",
+  "name" : "TR-07 Felső menüsor tesztelése (KARDIÓ gomb)",
+  "time" : {
+    "start" : 1629292674985,
+    "stop" : 1629292677832,
+    "duration" : 2847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abd16cbe153a7cfc",
+  "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+  "time" : {
+    "start" : 1629292828819,
+    "stop" : 1629292831795,
+    "duration" : 2976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "492a877057cb550",
+  "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+  "time" : {
+    "start" : 1629292644423,
+    "stop" : 1629292647429,
+    "duration" : 3006
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7d692e4f6523714",
+  "name" : "TT-03 Pro bérlet egy edzés/ár validációja",
+  "time" : {
+    "start" : 1629292854049,
+    "stop" : 1629292860020,
+    "duration" : 5971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80932ed60326c7d1",
+  "name" : "PD-01 Regisztrált felhasználó (user) adatainak megadása",
+  "time" : {
+    "start" : 1629292840696,
+    "stop" : 1629292840828,
+    "duration" : 132
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "220b5a586fca7a19",
+  "name" : "repetition 4 of 5",
+  "time" : {
+    "start" : 1629292617239,
+    "stop" : 1629292623093,
+    "duration" : 5854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aea4eeb4fe3b3c2",
+  "name" : "TR-03 Edzés típusra keresés (nem létező edzés)",
+  "time" : {
+    "start" : 1629292652990,
+    "stop" : 1629292656137,
+    "duration" : 3147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1f4b62d6241a564",
+  "name" : "TR-04 Felső menüsor tesztelése (JÓGA gomb)",
+  "time" : {
+    "start" : 1629292656139,
+    "stop" : 1629292659175,
+    "duration" : 3036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47be7100d64cee48",
+  "name" : "TR-10 Felső menüsor tesztelése (ERŐNLÉTI gomb)",
+  "time" : {
+    "start" : 1629292683724,
+    "stop" : 1629292686311,
+    "duration" : 2587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f6b9b8415454788",
+  "name" : "TS-01 Edzők listájában edző nevére történő szűrés",
+  "time" : {
+    "start" : 1629292818333,
+    "stop" : 1629292825592,
+    "duration" : 7259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f0c83da709891ae",
+  "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+  "time" : {
+    "start" : 1629292632340,
+    "stop" : 1629292635397,
+    "duration" : 3057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2179118c29fc24cc",
+  "name" : "TR-01 Edzés adatainak mentése txt fájlba",
+  "time" : {
+    "start" : 1629292647440,
+    "stop" : 1629292649833,
+    "duration" : 2393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5add82fb3b285d5d",
+  "name" : "PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva",
+  "time" : {
+    "start" : 1629292840842,
+    "stop" : 1629292840989,
+    "duration" : 147
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1202fb1334796b88",
+  "name" : "TR-02 Edzés típusra keresés",
+  "time" : {
+    "start" : 1629292649835,
+    "stop" : 1629292652987,
+    "duration" : 3152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e777bbccd99da0ff",
+  "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+  "time" : {
+    "start" : 1629292635399,
+    "stop" : 1629292638086,
+    "duration" : 2687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46889e47975d2b1e",
+  "name" : "repetition 2 of 5",
+  "time" : {
+    "start" : 1629292604862,
+    "stop" : 1629292611088,
+    "duration" : 6226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc31132b0ffd4043",
+  "name" : "PD-05 Felhasználó számlázási adatainak megadása",
+  "time" : {
+    "start" : 1629292841256,
+    "stop" : 1629292841384,
+    "duration" : 128
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b77f1d27ef9827f",
+  "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+  "time" : {
+    "start" : 1629292825605,
+    "stop" : 1629292828817,
+    "duration" : 3212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cacd869a15a736bf",
+  "name" : "repetition 3 of 5",
+  "time" : {
+    "start" : 1629292611092,
+    "stop" : 1629292617235,
+    "duration" : 6143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd2dda8446642104",
+  "name" : "repetition 1 of 5",
+  "time" : {
+    "start" : 1629292597944,
+    "stop" : 1629292604778,
+    "duration" : 6834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
