@@ -1,12 +1,12 @@
 import org.openqa.selenium.By;
 
-public class Constants {
+public class Constraints {
 
     //homepage url address
     public static final String URL = "https://igym-igym-dev.azurewebsites.net/";
 
     //user registration and login email data's
-    public static final String EMAIL = "mephisto.teszt@gmail.com";  //csak a vizsgaremek leadásakor teszem aktívvá a valid login metódust
+    public static final String EMAIL = "mephisto.teszt@gmail.com";
 
     //user login data's
     public static final String PASSWORD = "Ca123456789";
@@ -32,6 +32,7 @@ public class Constants {
     //types of trainings
     public static final String TRAINING_TYPE_INVALID = "bmzxydze";
     public static final String TRAINING_TYPE_JOGA = "jóga";
+    public static final String TRAINING_TYPE_PRICE = "ingyenes";
     public static final String TRAINING_TYPE_STRECHING = "nyújtás";
     public static final String TRAINING_TYPE_MEDITATON = "meditáció";
     public static final String TRAINING_TYPE_KARDIO = "kardió";
@@ -41,6 +42,6 @@ public class Constants {
     public static final String TRAINING_TYPE_OTHER = "egyéb";
 
     //trainer
-    public static final String TRAINER_NAME = "Edző TESZT";
+    public static final String TRAINER_NAME = "Primafitt Csapat";
 
 }

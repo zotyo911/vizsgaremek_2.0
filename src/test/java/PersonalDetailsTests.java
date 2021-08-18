@@ -30,7 +30,7 @@ public class PersonalDetailsTests {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+    //    options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -38,27 +38,27 @@ public class PersonalDetailsTests {
 
     }
 
-    @AfterEach
+ /*   @AfterEach
     public void tearDown(){
         webdriver.quit();
-    }
+    }*/
 
     @Test
     @Order(1)
     @DisplayName("PD-01 Regisztrált felhasználó (user) adatainak megadása")
     public void testUploadPersonaDetails(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.uploadPersonalDetails(Constants.USER_FIRSTNAME, Constants.USER_SURNAME, Constants.USER_NICKNAME);
+        personalDetails.uploadPersonalDetails(Constraints.USER_FIRSTNAME, Constraints.USER_SURNAME, Constraints.USER_NICKNAME);
 
-        Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.xpath("//*/mat-toolbar-row[1]/div/div/span")).getText());
+        Assertions.assertEquals("Hello, " + Constraints.USER_FIRSTNAME, webdriver.findElement(By.xpath("//*/mat-toolbar-row[1]/div/div/span")).getText());
 
     }
 
@@ -67,15 +67,15 @@ public class PersonalDetailsTests {
     @DisplayName("PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva")
     public void testAddWrongPasswordToChange(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.changePassword(Constants.NOT_VALID_PASSWORD, Constants.USER_NEW_PASSWORD, Constants.USER_NEW_PASSWORD);
+        personalDetails.changePassword(Constraints.NOT_VALID_PASSWORD, Constraints.USER_NEW_PASSWORD, Constraints.USER_NEW_PASSWORD);
 
         Assertions.assertEquals("assertive", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-live"));
     }
@@ -85,15 +85,15 @@ public class PersonalDetailsTests {
     @DisplayName("PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül")
     public void testAddWrongConfirmPassword(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.changePassword(Constants.PASSWORD, Constants.USER_NEW_PASSWORD, Constants.NOT_MATCH_PASSWORD);
+        personalDetails.changePassword(Constraints.PASSWORD, Constraints.USER_NEW_PASSWORD, Constraints.NOT_MATCH_PASSWORD);
 
         Assertions.assertEquals("polite", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-live"));
     }
@@ -103,15 +103,15 @@ public class PersonalDetailsTests {
     @DisplayName("PD-04 Felhasználó jelszavának módosítása, helyes adatokkal")
     public void testChangePassword(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.changePassword(Constants.PASSWORD, Constants.USER_NEW_PASSWORD, Constants.USER_NEW_PASSWORD);
+        personalDetails.changePassword(Constraints.PASSWORD, Constraints.USER_NEW_PASSWORD, Constraints.USER_NEW_PASSWORD);
 
         Assertions.assertEquals("true", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-atomic"));
     }
@@ -121,17 +121,17 @@ public class PersonalDetailsTests {
     @DisplayName("PD-05 Felhasználó számlázási adatainak megadása")
     public void testUploadUserBillingDetails(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin(Constants.EMAIL, Constants.USER_NEW_PASSWORD);
+        loginPage.trainerLogin(Constraints.EMAIL, Constraints.USER_NEW_PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.uploadBillingDetails(Constants.USER_FULLNAME, Constants.USER_COUNTRY, Constants.USER_POSTAL_CODE, Constants.USER_CITY, Constants.USER_ADDRESS);
+        personalDetails.uploadBillingDetails(Constraints.USER_FULLNAME, Constraints.USER_COUNTRY, Constraints.USER_POSTAL_CODE, Constraints.USER_CITY, Constraints.USER_ADDRESS);
 
-        Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
+        Assertions.assertTrue(webdriver.findElement(By.xpath("//*[contains(@class,'mat-simple-snackbar ng-star-inserted')]")).isDisplayed());
 
     }
 
@@ -140,15 +140,15 @@ public class PersonalDetailsTests {
     @DisplayName("PD-06 Felhasználó jelszavának visszaállítása az eredetire")
     public void testChangeBackToOriginalPassword(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin(Constants.EMAIL, Constants.USER_NEW_PASSWORD);
+        loginPage.trainerLogin(Constraints.EMAIL, Constraints.USER_NEW_PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.changePassword(Constants.USER_NEW_PASSWORD, Constants.USER_PASSWORD, Constants.USER_PASSWORD);
+        personalDetails.changePassword(Constraints.USER_NEW_PASSWORD, Constraints.USER_PASSWORD, Constraints.USER_PASSWORD);
 
         Assertions.assertEquals("true", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-live-announcer-element cdk-visually-hidden')]")).getAttribute("aria-atomic"));
     }
@@ -158,17 +158,17 @@ public class PersonalDetailsTests {
     @DisplayName("PD-07 Felhasználó számlázási adatainak (címének) módosítása")
     public void testModifyUserBillingDetails(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.trainerLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.uploadBillingDetails(Constants.USER_FULLNAME, Constants.USER_COUNTRY, Constants.USER_MODIFIED_POSTAL_CODE, Constants.USER_MODIFIED_CITY, Constants.USER_MODIFIED_ADDRESS);
+        personalDetails.uploadBillingDetails(Constraints.USER_FULLNAME, Constraints.USER_COUNTRY, Constraints.USER_MODIFIED_POSTAL_CODE, Constraints.USER_MODIFIED_CITY, Constraints.USER_MODIFIED_ADDRESS);
 
-        Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
+        Assertions.assertTrue(webdriver.findElement(By.xpath("//*[contains(@class,'mat-simple-snackbar ng-star-inserted')]")).isDisplayed());
 
     }
 
@@ -177,17 +177,17 @@ public class PersonalDetailsTests {
     @DisplayName("PD-08 Felhasználó számlázási adatainak (kivéve név) törlése")
     public void testDeleteUserBillingDetails(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.trainerLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.trainerLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.profileButtonClick();
         personalDetails = new PersonalDetails(webdriver);
-        personalDetails.deleteBillingDetails(Constants.USER_FULLNAME);
+        personalDetails.deleteBillingDetails(Constraints.USER_FULLNAME);
 
-        Assertions.assertEquals("cdk-overlay-container", webdriver.findElement(By.xpath("//*[contains(@class,'cdk-overlay-container')]")).getAttribute("class"));
+        Assertions.assertTrue(webdriver.findElement(By.xpath("//*[contains(@class,'mat-simple-snackbar ng-star-inserted')]")).isDisplayed());
 
     }
 }

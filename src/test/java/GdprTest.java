@@ -30,7 +30,6 @@ public class GdprTest {
 
         webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
-
     }
 
     @AfterEach
@@ -42,10 +41,12 @@ public class GdprTest {
     @Order(1)
     public void TestOpenGDPR(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.openGDPR();
         gdprPage = new GdprPage(webdriver);
         gdprPage.switchWindow();
         landingPage.clickCookiesAcceptButton();
+
+
     }
 }

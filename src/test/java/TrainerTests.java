@@ -46,17 +46,17 @@ public class TrainerTests {
     @DisplayName("TS-01 Edzők listájában edző nevére történő szűrés")
     public void TestSearchTrainer() {
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.loginButtonClick();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.clickHamburgerButton();
         calendarPage.clickTrainerButton();
         trainerPage = new TrainerPage(webdriver);
-        trainerPage.searchForTrainer(Constants.TRAINER_NAME);
+        trainerPage.searchForTrainer(Constraints.TRAINER_NAME);
 
-        Assertions.assertEquals(Constants.TRAINER_NAME, webdriver.findElement(By.xpath("//*/mat-card-content/div[1]")).getText());
+        Assertions.assertEquals(Constraints.TRAINER_NAME, webdriver.findElement(By.xpath("//*/mat-card-content/div[1]")).getText());
 
     }
 
@@ -65,15 +65,15 @@ public class TrainerTests {
     @DisplayName("TS-02 Edzők adatlapjának megnyitása a MÉG TÖBB INFO gombbal")
     public void TestMoreTrainerInfo() {
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.loginButtonClick();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.clickHamburgerButton();
         calendarPage.clickTrainerButton();
         trainerPage = new TrainerPage(webdriver);
-        trainerPage.getTrainerAllDetails(Constants.TRAINER_NAME);
+        trainerPage.getTrainerAllDetails(Constraints.TRAINER_NAME);
 
         Assertions.assertTrue(webdriver.findElement(By.xpath("//*/app-rating-container/div/div[2]")).isDisplayed());
     }

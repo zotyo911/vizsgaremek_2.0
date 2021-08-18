@@ -46,11 +46,11 @@ public class LogoutTests {
     @DisplayName("LO-01 User kijlentkezés")
     public void TestUserLogout() {
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.logout();
 

@@ -46,10 +46,10 @@ public class TrainingTicketTests {
     @DisplayName("TT-01 Lite bérlet árának validációja")
     public void TestLiteTicket(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.loginButtonClick();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.checkTrainingLiteTicketPrice();
 
@@ -62,10 +62,10 @@ public class TrainingTicketTests {
     @DisplayName("TT-02 Plus bérlet árának validációja")
     public void TestPlusTicket(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.loginButtonClick();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.checkTrainingPlusTicketPrice();
 
@@ -78,10 +78,10 @@ public class TrainingTicketTests {
     @DisplayName("TT-03 Pro bérlet egy edzés/ár validációja")
     public void TestProTicket(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.loginButtonClick();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.checkTrainingProTicketPricePerTraining();
 
@@ -91,13 +91,13 @@ public class TrainingTicketTests {
 
     @Test
     @Order(4)
-    @DisplayName("TT-04 Ultra bérlek egy edzésre eső árának validációja")
+    @DisplayName("TT-04 Ultra bérlet egy edzésre eső árának validációja")
     public void TestUltraTicket(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.loginButtonClick();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
         calendarPage.checkTrainingUltraTicketPricePerTraining();
 

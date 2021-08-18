@@ -29,9 +29,8 @@ public class LoginTests {
         options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
-        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
-
     }
 
     @AfterEach
@@ -45,13 +44,13 @@ public class LoginTests {
     @DisplayName("LI-01 Bejelentkezés felhasználóként email cím megadása nélkül")
     public void TestUserLoginNoEmail(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLoginNoEmail(Constants.PASSWORD);
+        loginPage.userLoginNoEmail(Constraints.PASSWORD);
 
-        Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
+        Assertions.assertTrue(webdriver.findElement(By.id("mat-error-2")).isDisplayed());
     }
 
     @Test
@@ -59,13 +58,13 @@ public class LoginTests {
     @DisplayName("LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül")
     public void TestUserLoginNoPassword(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLoginNoPassword(Constants.EMAIL);
+        loginPage.userLoginNoPassword(Constraints.EMAIL);
 
-        Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
+        Assertions.assertFalse(webdriver.findElement(By.xpath("//*/div/button[1]")).isEnabled());
     }
 
     @Test
@@ -73,14 +72,13 @@ public class LoginTests {
     @DisplayName("LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával")
     public void TestUserLoginWrongPassword(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLoginWrongPassword(Constants.EMAIL, Constants.USER_WRONG_PASSWORD);
+        loginPage.userLoginWrongPassword(Constraints.EMAIL, Constraints.USER_WRONG_PASSWORD);
 
-
-        Assertions.assertEquals("https://igym-igym-dev.azurewebsites.net/authentication/login", webdriver.getCurrentUrl());
+        Assertions.assertTrue(webdriver.findElement(By.xpath("//*/notifier-container/ul/li/notifier-notification/p")).isDisplayed());
     }
 
     @Test
@@ -88,12 +86,12 @@ public class LoginTests {
     @DisplayName("LI-04 Bejelentkezés felhasználóként érvényes adatokkal")
     public void TestUserLogin(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickLoginButton();
         loginPage = new LoginPage(webdriver);
-        loginPage.userLogin(Constants.EMAIL, Constants.PASSWORD);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
 
-        Assertions.assertEquals("Hello, " + Constants.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
+        Assertions.assertEquals("Hello, " + Constraints.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
     }
 }

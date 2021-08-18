@@ -2,7 +2,10 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
 
 public class CalendarPage {
     WebDriver webdriver;
@@ -35,6 +38,8 @@ public class CalendarPage {
     private final By TRAINING_DATE = By.xpath("//*[contains(@class,'time')]");
     private final By TRAINING_PRICE = By.xpath("//*[contains(@class,'price')]");
     private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[2]/div/span/div[1]");
+    private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
+    private final By TRAININGS = By.cssSelector(".mat-card");
 
     public void logout() {
         webdriver.findElement(LOGOUT_ICON).click();
