@@ -1,0 +1,559 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az77-225",
+    "children" : [ {
+      "name" : "2827@fv-az77-225.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "TR-01 Edzés adatainak mentése txt fájlba",
+        "uid" : "dc8f46d2a37f3fd1",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361499577,
+          "stop" : 1629361502255,
+          "duration" : 2678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 4 of 5",
+        "uid" : "38954aa7284aa288",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361470814,
+          "stop" : 1629361476510,
+          "duration" : 5696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TS-02 Edzők adatlapjának megnyitása a MÉG TÖBB INFO gombbal",
+        "uid" : "ca25ba8bdab5550d",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361665416,
+          "stop" : 1629361673177,
+          "duration" : 7761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-05 Regisztráció a felhasználási feltételek elfogadása nélkül",
+        "uid" : "600d76acbde79e01",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361493515,
+          "stop" : 1629361496255,
+          "duration" : 2740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-07 Felhasználó számlázási adatainak (címének) módosítása",
+        "uid" : "12ed30ee136d4d3a",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361745549,
+          "stop" : 1629361753595,
+          "duration" : 8046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TT-04 Ultra bérlet egy edzésre eső árának validációja",
+        "uid" : "3a8b6f8639d30c1b",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361779354,
+          "stop" : 1629361785421,
+          "duration" : 6067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-12 Összes aktív edzés összeszámolása többoldalas lista (naptár) alapján",
+        "uid" : "3f55c8939390c304",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361552337,
+          "stop" : 1629361662444,
+          "duration" : 110107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 5 of 5",
+        "uid" : "9bf426447aed7191",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361476515,
+          "stop" : 1629361482544,
+          "duration" : 6029
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TT-02 Plus bérlet árának validációja",
+        "uid" : "56aba8e14ea383ff",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361767423,
+          "stop" : 1629361773429,
+          "duration" : 6006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-06 Felső menüsor tesztelése (MEDITÁCIÓ gomb)",
+        "uid" : "22915a6e6bf5c6d8",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361524717,
+          "stop" : 1629361527894,
+          "duration" : 3177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TS-01 Edzők listájában edző nevére történő szűrés",
+        "uid" : "f4e851db9da2417",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361673179,
+          "stop" : 1629361680641,
+          "duration" : 7462
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-01 Regisztráció email cím megadása nélkül",
+        "uid" : "1ab2e130dc001c7d",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361482566,
+          "stop" : 1629361485400,
+          "duration" : 2834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-05 Felhasználó számlázási adatainak megadása",
+        "uid" : "6f157c09f89d9a80",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361728302,
+          "stop" : 1629361736146,
+          "duration" : 7844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestOpenGDPR()",
+        "uid" : "719dbfa3151ddc78",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361662452,
+          "stop" : 1629361665401,
+          "duration" : 2949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-03 Regisztráció érvénytelen jelszó megadásával",
+        "uid" : "d731f4e13bbbea8e",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361488103,
+          "stop" : 1629361490772,
+          "duration" : 2669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-03 Felhasználó jelszavának módosítása, az új jelszó megerősítése helytelenül",
+        "uid" : "cd0288808a840a5",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361709901,
+          "stop" : 1629361719238,
+          "duration" : 9337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 1 of 5",
+        "uid" : "bb69b146e81f4efd",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361447129,
+          "stop" : 1629361458998,
+          "duration" : 11869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-04 Bejelentkezés felhasználóként érvényes adatokkal",
+        "uid" : "c20c50c8ca85e312",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361688660,
+          "stop" : 1629361694311,
+          "duration" : 5651
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-11 Felső menüsor tesztelése (EGYÉB gomb)",
+        "uid" : "15ebf45a6412b68d",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361539817,
+          "stop" : 1629361552335,
+          "duration" : 12518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TT-03 Pro bérlet egy edzés/ár validációja",
+        "uid" : "60e3437e6699a71c",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361773431,
+          "stop" : 1629361779352,
+          "duration" : 5921
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva",
+        "uid" : "bf99acd9594e047",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361700726,
+          "stop" : 1629361709898,
+          "duration" : 9172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TT-01 Lite bérlet árának validációja",
+        "uid" : "741634c3118a78d0",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361761361,
+          "stop" : 1629361767421,
+          "duration" : 6060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-04 Regisztráció nem egyező jelszavak megadásával",
+        "uid" : "bf7e1aba6e10283c",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361490774,
+          "stop" : 1629361493513,
+          "duration" : 2739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 2 of 5",
+        "uid" : "685a5cb766bb09c9",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361459065,
+          "stop" : 1629361464936,
+          "duration" : 5871
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-05 Felső menüsor tesztelése (NYÚJTÁS gomb)",
+        "uid" : "19730d8a529cf962",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361511821,
+          "stop" : 1629361524714,
+          "duration" : 12893
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-08 Felhasználó számlázási adatainak (kivéve név) törlése",
+        "uid" : "c54d93b9600fd52f",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361753597,
+          "stop" : 1629361761344,
+          "duration" : 7747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-03 Bejelentkezés felhasználóként rossz jelszó megadásával",
+        "uid" : "558f9794893ca0de",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361685726,
+          "stop" : 1629361688658,
+          "duration" : 2932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-06 Regisztráció az adatvédelmi feltételek elfogadása nélkül",
+        "uid" : "2a2b9e73d757258d",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361496258,
+          "stop" : 1629361499558,
+          "duration" : 3300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-06 Felhasználó jelszavának visszaállítása az eredetire",
+        "uid" : "e091f5845d63be4e",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361736148,
+          "stop" : 1629361745548,
+          "duration" : 9400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "repetition 3 of 5",
+        "uid" : "bfed92f8916122cc",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361464942,
+          "stop" : 1629361470811,
+          "duration" : 5869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-08 Felső menüsor tesztelése (PILATES gomb)",
+        "uid" : "be66c37353346a0c",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361531118,
+          "stop" : 1629361534035,
+          "duration" : 2917
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-01 Bejelentkezés felhasználóként email cím megadása nélkül",
+        "uid" : "769fe0209681e5ef",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361680653,
+          "stop" : 1629361683173,
+          "duration" : 2520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-10 Felső menüsor tesztelése (ERŐNLÉTI gomb)",
+        "uid" : "3be5e5635f166d35",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361536824,
+          "stop" : 1629361539814,
+          "duration" : 2990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "RI-02 Regisztráció jelszó megadása nélkül",
+        "uid" : "a27b80c463948af3",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361485403,
+          "stop" : 1629361488101,
+          "duration" : 2698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-02 Edzés típusra keresés",
+        "uid" : "39661fd978c04e4",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361502257,
+          "stop" : 1629361505395,
+          "duration" : 3138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-01 Regisztrált felhasználó (user) adatainak megadása",
+        "uid" : "5a4da31c1ad30344",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361694334,
+          "stop" : 1629361700724,
+          "duration" : 6390
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LI-02 Bejelentkezés felhasználóként jelszó megadása nélkül",
+        "uid" : "8cdf2924b4d74f3b",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361683175,
+          "stop" : 1629361685724,
+          "duration" : 2549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-04 Felső menüsor tesztelése (JÓGA gomb)",
+        "uid" : "11f60c5fcaebbad3",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361508563,
+          "stop" : 1629361511818,
+          "duration" : 3255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-07 Felső menüsor tesztelése (KARDIÓ gomb)",
+        "uid" : "d35137307c6daebe",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361527896,
+          "stop" : 1629361531116,
+          "duration" : 3220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-03 Edzés típusra keresés (nem létező edzés)",
+        "uid" : "6a61a27af3c33965",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361505398,
+          "stop" : 1629361508561,
+          "duration" : 3163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TR-09 Felső menüsor tesztelése (ALAKFORMÁLÓ gomb)",
+        "uid" : "5d8be4a958769aed",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361534037,
+          "stop" : 1629361536822,
+          "duration" : 2785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "PD-04 Felhasználó jelszavának módosítása, helyes adatokkal",
+        "uid" : "170cf85e1775d456",
+        "parentUid" : "225e2c17ea9990332142f5807886a1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629361719241,
+          "stop" : 1629361728300,
+          "duration" : 9059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "225e2c17ea9990332142f5807886a1b3"
+    } ],
+    "uid" : "8c530981601aa2200026bbf363bf3b65"
+  } ],
+  "name" : "timeline"
+}

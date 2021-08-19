@@ -1,0 +1,158 @@
+{
+  "uid" : "bfed92f8916122cc",
+  "name" : "repetition 3 of 5",
+  "fullName" : "LogoutTests.TestUserLogout",
+  "historyId" : "778e9099c0ee9780b3f28817047eb1a1",
+  "time" : {
+    "start" : 1629361464942,
+    "stop" : 1629361470811,
+    "duration" : 5869
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629361464943,
+      "stop" : 1629361465190,
+      "duration" : 247
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629361444093,
+      "stop" : 1629361447100,
+      "duration" : 3007
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629361470742,
+      "stop" : 1629361470811,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-225"
+  }, {
+    "name" : "thread",
+    "value" : "2827@fv-az77-225.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUserLogout"
+  }, {
+    "name" : "suite",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d2165b561eb27195",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d2165b561eb27195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629359694793,
+          "stop" : 1629359700889,
+          "duration" : 6096
+        }
+      }, {
+        "uid" : "ba05102ed4ad68ba",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/ba05102ed4ad68ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629358831443,
+          "stop" : 1629358837587,
+          "duration" : 6144
+        }
+      }, {
+        "uid" : "cef037ed271cbfdf",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/50//#testresult/cef037ed271cbfdf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629295273898,
+          "stop" : 1629295280091,
+          "duration" : 6193
+        }
+      }, {
+        "uid" : "cacd869a15a736bf",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/49//#testresult/cacd869a15a736bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629292611092,
+          "stop" : 1629292617235,
+          "duration" : 6143
+        }
+      }, {
+        "uid" : "126b6fdc6288e7e5",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/48//#testresult/126b6fdc6288e7e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629192427235,
+          "stop" : 1629192433712,
+          "duration" : 6477
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bfed92f8916122cc.json",
+  "parameterValues" : [ ]
+}
