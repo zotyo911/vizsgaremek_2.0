@@ -71,6 +71,11 @@ public class PersonalDetails {
         webdriver.findElement(USER_POSTAL_CODE_INPUT).sendKeys(postalcode);
         webdriver.findElement(USER_CITY_INPUT).sendKeys(city);
         webdriver.findElement(USER_ADDRESS_INPUT).sendKeys(address, Keys.ENTER);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
@@ -81,6 +86,11 @@ public class PersonalDetails {
         webdriver.findElement(USER_CITY_INPUT).clear();
         webdriver.findElement(USER_ADDRESS_INPUT).clear();
         webdriver.findElement(USER_FULLNAME_INPUT).sendKeys(name, Keys.ENTER);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 
