@@ -29,7 +29,7 @@ public class RegistrationTests {
         options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
-        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
 
     }

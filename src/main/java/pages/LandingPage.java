@@ -4,10 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -114,32 +111,38 @@ public class LandingPage {
     }
 
     //save a training data's to trainingResult.txt file
-    public void saveTrainingDatasToFile() {
+    public String saveTrainingDatasToFile() {
         List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+        String text = "";
         if (trainings.size() > 0) {
-            String text = trainings.get(1).getText();
-            System.out.println(text);
+            text = trainings.get(1).getText();
             try {
                 FileWriter textFile = new FileWriter("trainingResult.txt");
                 textFile.append(text);
                 textFile.close();
             } catch (IOException e) {
+                System.out.println(e.getMessage());
             }
         }
+        return text;
     }
 
     //read the data's from trainingResult.txt
-    public void readTrainingDetailsFile() {
+    public String readTrainingDetailsFile() {
+        String result = "";
         try {
             File file = new File("trainingResult.txt");
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
-                String data = scanner.nextLine() + "\n";
-                System.out.println(data);
+                result += scanner.nextLine() + "\n";
             }
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
         }
+        if ((result != null) && (result.length() > 0)) {
+            result = result.substring(0, result.length() - 1);
+        }
+        return result;
     }
 
 

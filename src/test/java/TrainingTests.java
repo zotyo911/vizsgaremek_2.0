@@ -41,9 +41,10 @@ public class TrainingTests {
     public void TestSaveTrainingDetailsToFile() {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
-        landingPage.saveTrainingDatasToFile();
-        landingPage.readTrainingDetailsFile();
+        String text = landingPage.saveTrainingDatasToFile();
+        String result = landingPage.readTrainingDetailsFile();
 
+        Assertions.assertEquals(text, result);
     }
 
     @Test

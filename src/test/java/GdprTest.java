@@ -47,6 +47,5 @@ public class GdprTest {
         gdprPage.switchWindow();
         landingPage.clickCookiesAcceptButton();
 
-
     }
 }
