@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 51,
+  "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 42,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 50,
   "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/50/",
   "reportName" : "Allure Report with history",
@@ -148,14 +156,6 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 18,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 32,
-  "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 17,
     "retry" : 0
   }
 } ]

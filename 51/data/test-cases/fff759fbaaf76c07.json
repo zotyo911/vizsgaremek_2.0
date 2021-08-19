@@ -1,0 +1,149 @@
+{
+  "uid" : "fff759fbaaf76c07",
+  "name" : "repetition 4 of 5",
+  "fullName" : "LogoutTests.TestUserLogout",
+  "historyId" : "f848dd8743800bc425d386659e9b4d2b",
+  "time" : {
+    "start" : 1629359700892,
+    "stop" : 1629359707045,
+    "duration" : 6153
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1629359640808,
+      "stop" : 1629359652457,
+      "duration" : 11649
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629359700893,
+      "stop" : 1629359701135,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629359706977,
+      "stop" : 1629359707045,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-107"
+  }, {
+    "name" : "thread",
+    "value" : "2943@fv-az39-107.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUserLogout"
+  }, {
+    "name" : "suite",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2e053a5b6e2ec11e",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/2e053a5b6e2ec11e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629358837590,
+          "stop" : 1629358843842,
+          "duration" : 6252
+        }
+      }, {
+        "uid" : "bf228304130c0275",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/50//#testresult/bf228304130c0275",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629295280094,
+          "stop" : 1629295286694,
+          "duration" : 6600
+        }
+      }, {
+        "uid" : "220b5a586fca7a19",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/49//#testresult/220b5a586fca7a19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629292617239,
+          "stop" : 1629292623093,
+          "duration" : 5854
+        }
+      }, {
+        "uid" : "8ea1e5705afca0b1",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/48//#testresult/8ea1e5705afca0b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629192433719,
+          "stop" : 1629192440199,
+          "duration" : 6480
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fff759fbaaf76c07.json",
+  "parameterValues" : [ ]
+}

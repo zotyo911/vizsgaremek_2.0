@@ -108,11 +108,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "3deac4d1528216d7",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/3deac4d1528216d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629360009183,
+        "stop" : 1629360015040,
+        "duration" : 5857
+      }
+    }, {
       "uid" : "d3111065e8656f36",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d3111065e8656f36",
       "status" : "passed",
@@ -155,11 +164,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "2e533e39d499679",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/2e533e39d499679",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359765657,
+        "stop" : 1629359768652,
+        "duration" : 2995
+      }
+    }, {
       "uid" : "ce11232acf926d58",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/ce11232acf926d58",
       "status" : "passed",
@@ -310,14 +328,24 @@
   },
   "21ef30d37dfc01089e0d193d5bc72339" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 3,
       "skipped" : 0,
       "passed" : 18,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "387b11da447becd1",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/387b11da447becd1",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1629359960863,
+        "stop" : 1629359967759,
+        "duration" : 6896
+      }
+    }, {
       "uid" : "8f3b9082da07cd56",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/8f3b9082da07cd56",
       "status" : "failed",
@@ -491,15 +519,6 @@
         "stop" : 1628260120813,
         "duration" : 7294
       }
-    }, {
-      "uid" : "bde55bf16ead74ad",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/bde55bf16ead74ad",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259136559,
-        "stop" : 1628259143289,
-        "duration" : 6730
-      }
     } ]
   },
   "adef93d3e04275149ca97c124d928d65" : {
@@ -577,11 +596,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "5b65d9b76cbda1f0",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/5b65d9b76cbda1f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359707048,
+        "stop" : 1629359713491,
+        "duration" : 6443
+      }
+    }, {
       "uid" : "8a8532ddb434723b",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/8a8532ddb434723b",
       "status" : "passed",
@@ -682,11 +710,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "e855df4cb1b8e834",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/e855df4cb1b8e834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359733763,
+        "stop" : 1629359737288,
+        "duration" : 3525
+      }
+    }, {
       "uid" : "1b7ad4e92d3dee03",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/1b7ad4e92d3dee03",
       "status" : "passed",
@@ -838,11 +875,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "aab45ffa020b5cf",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/aab45ffa020b5cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629360003267,
+        "stop" : 1629360009181,
+        "duration" : 5914
+      }
+    }, {
       "uid" : "49d2f78501fb6fa7",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/49d2f78501fb6fa7",
       "status" : "passed",
@@ -885,11 +931,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "2cb8fea809d12fb2",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/2cb8fea809d12fb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359910940,
+        "stop" : 1629359913862,
+        "duration" : 2922
+      }
+    }, {
       "uid" : "cbd1dd6c338fa03e",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/cbd1dd6c338fa03e",
       "status" : "passed",
@@ -1058,11 +1113,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 37
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "2afca1b8ce2002f9",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/2afca1b8ce2002f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359713531,
+        "stop" : 1629359716180,
+        "duration" : 2649
+      }
+    }, {
       "uid" : "a2d2f2f76679cc4a",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/a2d2f2f76679cc4a",
       "status" : "passed",
@@ -1232,15 +1296,6 @@
         "start" : 1628260034903,
         "stop" : 1628260040859,
         "duration" : 5956
-      }
-    }, {
-      "uid" : "634bfea5da21a044",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/634bfea5da21a044",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259063407,
-        "stop" : 1628259069343,
-        "duration" : 5936
       }
     } ]
   },
@@ -1460,11 +1515,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "65dc64e4339c342c",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/65dc64e4339c342c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359759926,
+        "stop" : 1629359762610,
+        "duration" : 2684
+      }
+    }, {
       "uid" : "32d86cee86c84400",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/32d86cee86c84400",
       "status" : "passed",
@@ -1702,11 +1766,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "7b85df2789472688",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/7b85df2789472688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359932811,
+        "stop" : 1629359941922,
+        "duration" : 9111
+      }
+    }, {
       "uid" : "b37b00ce11337f3e",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/b37b00ce11337f3e",
       "status" : "passed",
@@ -1879,15 +1952,6 @@
         "stop" : 1628260094172,
         "duration" : 9616
       }
-    }, {
-      "uid" : "349a4afa9af3468",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/349a4afa9af3468",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259109160,
-        "stop" : 1628259118241,
-        "duration" : 9081
-      }
     } ]
   },
   "884c2c4ffb69362427f9d23c9505c6ed" : {
@@ -1895,11 +1959,20 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "fa8588c6c229e53d",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/fa8588c6c229e53d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359771264,
+        "stop" : 1629359783935,
+        "duration" : 12671
+      }
+    }, {
       "uid" : "d4aae7b6528a0b6",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d4aae7b6528a0b6",
       "status" : "passed",
@@ -2130,11 +2203,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "6bf4b91a1b9bc968",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/6bf4b91a1b9bc968",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359896321,
+        "stop" : 1629359903824,
+        "duration" : 7503
+      }
+    }, {
       "uid" : "d3433e3f36231396",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d3433e3f36231396",
       "status" : "passed",
@@ -2207,11 +2289,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "8456dbf6dd79002e",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/8456dbf6dd79002e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359941924,
+        "stop" : 1629359951281,
+        "duration" : 9357
+      }
+    }, {
       "uid" : "e9dcb1e0eaeaf5d3",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/e9dcb1e0eaeaf5d3",
       "status" : "passed",
@@ -2384,15 +2475,6 @@
         "stop" : 1628260103804,
         "duration" : 9628
       }
-    }, {
-      "uid" : "5918d07a62a22f40",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/5918d07a62a22f40",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259118244,
-        "stop" : 1628259127324,
-        "duration" : 9080
-      }
     } ]
   },
   "7230398e931bc6a2a064b3ada4ad0260" : {
@@ -2400,11 +2482,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 37
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "1e70d93c434c9a45",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/1e70d93c434c9a45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359728111,
+        "stop" : 1629359731332,
+        "duration" : 3221
+      }
+    }, {
       "uid" : "67b6be5666a72831",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/67b6be5666a72831",
       "status" : "passed",
@@ -2575,15 +2666,6 @@
         "stop" : 1628260056749,
         "duration" : 3192
       }
-    }, {
-      "uid" : "8678119cbeb6fef9",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/8678119cbeb6fef9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259080689,
-        "stop" : 1628259083334,
-        "duration" : 2645
-      }
     } ]
   },
   "c84c55a7237b311bfa01158d31178b9" : {
@@ -2591,11 +2673,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 37
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "5b5bd8a39bdff1db",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/5b5bd8a39bdff1db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359722364,
+        "stop" : 1629359725107,
+        "duration" : 2743
+      }
+    }, {
       "uid" : "99a39711f21e24da",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/99a39711f21e24da",
       "status" : "passed",
@@ -2766,15 +2857,6 @@
         "stop" : 1628260050471,
         "duration" : 3232
       }
-    }, {
-      "uid" : "f344ce0b1b9cd472",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/f344ce0b1b9cd472",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259075061,
-        "stop" : 1628259077970,
-        "duration" : 2909
-      }
     } ]
   },
   "24bb38980763208e8637bae7812647b7" : {
@@ -2811,11 +2893,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "45a379e392320715",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/45a379e392320715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359688783,
+        "stop" : 1629359694788,
+        "duration" : 6005
+      }
+    }, {
       "uid" : "d93b32edc545a3ae",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d93b32edc545a3ae",
       "status" : "passed",
@@ -2879,11 +2970,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "8ff3d46bc526a602",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/8ff3d46bc526a602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359903827,
+        "stop" : 1629359910924,
+        "duration" : 7097
+      }
+    }, {
       "uid" : "4bd9ebfccaea9621",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/4bd9ebfccaea9621",
       "status" : "passed",
@@ -2926,11 +3026,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "68c13701c02e34c2",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/68c13701c02e34c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359783938,
+        "stop" : 1629359893714,
+        "duration" : 109776
+      }
+    }, {
       "uid" : "d54eb96042932948",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d54eb96042932948",
       "status" : "broken",
@@ -3019,11 +3128,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "a367426f3ab3a5c6",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/a367426f3ab3a5c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359737292,
+        "stop" : 1629359740501,
+        "duration" : 3209
+      }
+    }, {
       "uid" : "fa6ac58b2a3f45a2",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/fa6ac58b2a3f45a2",
       "status" : "passed",
@@ -3400,14 +3518,24 @@
   },
   "b5bcabc91d67c7679a6ece629f16575c" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 2,
       "skipped" : 0,
       "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "7233fbc53cb4f94b",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/7233fbc53cb4f94b",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1629359984545,
+        "stop" : 1629359991584,
+        "duration" : 7039
+      }
+    }, {
       "uid" : "c71d10ea713b0aaa",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/c71d10ea713b0aaa",
       "status" : "passed",
@@ -3578,11 +3706,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 37
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "b4d5208259869db",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/b4d5208259869db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359725109,
+        "stop" : 1629359728109,
+        "duration" : 3000
+      }
+    }, {
       "uid" : "87bd004c687176b8",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/87bd004c687176b8",
       "status" : "passed",
@@ -3753,15 +3890,6 @@
         "stop" : 1628260053554,
         "duration" : 3080
       }
-    }, {
-      "uid" : "7e020b284dedc4e1",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/7e020b284dedc4e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259077973,
-        "stop" : 1628259080687,
-        "duration" : 2714
-      }
     } ]
   },
   "38f9511fd185edf50e26c2f09f631dd7" : {
@@ -3769,11 +3897,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "600da39276eb2876",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/600da39276eb2876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359997400,
+        "stop" : 1629360003265,
+        "duration" : 5865
+      }
+    }, {
       "uid" : "9c6d14dcb7a13069",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/9c6d14dcb7a13069",
       "status" : "passed",
@@ -3816,11 +3953,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "ed1bfeb81b296efe",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/ed1bfeb81b296efe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359652492,
+        "stop" : 1629359688704,
+        "duration" : 36212
+      }
+    }, {
       "uid" : "1232323a4d3bf1aa",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/1232323a4d3bf1aa",
       "status" : "passed",
@@ -3863,11 +4009,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "fdf6eab7019e871a",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/fdf6eab7019e871a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359913864,
+        "stop" : 1629359916830,
+        "duration" : 2966
+      }
+    }, {
       "uid" : "12cc655cefeba8fe",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/12cc655cefeba8fe",
       "status" : "passed",
@@ -4033,14 +4188,24 @@
   },
   "fa45c6927b317aae204ff56317dd194f" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 2,
       "skipped" : 0,
       "passed" : 16,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "e1481592cf95a3bf",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/e1481592cf95a3bf",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1629359977157,
+        "stop" : 1629359984543,
+        "duration" : 7386
+      }
+    }, {
       "uid" : "f1a1018e3ef1648c",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/f1a1018e3ef1648c",
       "status" : "passed",
@@ -4340,11 +4505,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "fff759fbaaf76c07",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/fff759fbaaf76c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359700892,
+        "stop" : 1629359707045,
+        "duration" : 6153
+      }
+    }, {
       "uid" : "2e053a5b6e2ec11e",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/2e053a5b6e2ec11e",
       "status" : "passed",
@@ -4436,11 +4610,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "d2165b561eb27195",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d2165b561eb27195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359694793,
+        "stop" : 1629359700889,
+        "duration" : 6096
+      }
+    }, {
       "uid" : "ba05102ed4ad68ba",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/ba05102ed4ad68ba",
       "status" : "passed",
@@ -4676,11 +4859,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 25
+      "total" : 26
     },
     "items" : [ {
+      "uid" : "d0320f0478b0d493",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d0320f0478b0d493",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359967767,
+        "stop" : 1629359977155,
+        "duration" : 9388
+      }
+    }, {
       "uid" : "cefab866d922cb60",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/cefab866d922cb60",
       "status" : "passed",
@@ -4853,15 +5045,6 @@
         "stop" : 1628260130611,
         "duration" : 9794
       }
-    }, {
-      "uid" : "a9e33ee8410c68be",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/a9e33ee8410c68be",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259143292,
-        "stop" : 1628259152608,
-        "duration" : 9316
-      }
     } ]
   },
   "d6595f71e53831b6d6c45e220d4e94ba" : {
@@ -4869,11 +5052,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 4
+      "total" : 5
     },
     "items" : [ {
+      "uid" : "218cc7df46aec438",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/218cc7df46aec438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359991601,
+        "stop" : 1629359997398,
+        "duration" : 5797
+      }
+    }, {
       "uid" : "5aec5eee6eb5728c",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/5aec5eee6eb5728c",
       "status" : "passed",
@@ -4916,11 +5108,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 37
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "bb78c4f611a5106a",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/bb78c4f611a5106a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359719303,
+        "stop" : 1629359722362,
+        "duration" : 3059
+      }
+    }, {
       "uid" : "c987818e5ca0094d",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/c987818e5ca0094d",
       "status" : "passed",
@@ -5091,15 +5292,6 @@
         "stop" : 1628260047235,
         "duration" : 3029
       }
-    }, {
-      "uid" : "2f96d83bf1161f11",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/2f96d83bf1161f11",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259072210,
-        "stop" : 1628259075058,
-        "duration" : 2848
-      }
     } ]
   },
   "9a46b2b8b25f172b731c1a5d2a928f92" : {
@@ -5107,11 +5299,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "a94efff896ac5d00",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/a94efff896ac5d00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359762612,
+        "stop" : 1629359765655,
+        "duration" : 3043
+      }
+    }, {
       "uid" : "9c92595a1ac7d3ba",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/9c92595a1ac7d3ba",
       "status" : "passed",
@@ -5650,11 +5851,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "d1e921aca6a7b186",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/d1e921aca6a7b186",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359920003,
+        "stop" : 1629359926048,
+        "duration" : 6045
+      }
+    }, {
       "uid" : "6ebdc7b74ccc666c",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/6ebdc7b74ccc666c",
       "status" : "passed",
@@ -5942,11 +6152,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "19a979f3ff323401",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/19a979f3ff323401",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359893727,
+        "stop" : 1629359896303,
+        "duration" : 2576
+      }
+    }, {
       "uid" : "dc23924e6bc89c5a",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/dc23924e6bc89c5a",
       "status" : "passed",
@@ -6207,11 +6426,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "f3843ad0c091077c",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/f3843ad0c091077c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359740503,
+        "stop" : 1629359743726,
+        "duration" : 3223
+      }
+    }, {
       "uid" : "cf725a6b24be78ce",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/cf725a6b24be78ce",
       "status" : "passed",
@@ -6344,11 +6572,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "5cdc20783c68834d",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/5cdc20783c68834d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359756619,
+        "stop" : 1629359759924,
+        "duration" : 3305
+      }
+    }, {
       "uid" : "63fe4ace2587450e",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/63fe4ace2587450e",
       "status" : "passed",
@@ -6481,11 +6718,20 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 13,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "386c4b3165ebb894",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/386c4b3165ebb894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359768656,
+        "stop" : 1629359771262,
+        "duration" : 2606
+      }
+    }, {
       "uid" : "3195ec6b9a0546d3",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/3195ec6b9a0546d3",
       "status" : "passed",
@@ -6619,11 +6865,20 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 24,
       "unknown" : 0,
-      "total" : 26
+      "total" : 27
     },
     "items" : [ {
+      "uid" : "4068c0ef90427221",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/4068c0ef90427221",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359926063,
+        "stop" : 1629359932809,
+        "duration" : 6746
+      }
+    }, {
       "uid" : "e5332afaa8994f41",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/e5332afaa8994f41",
       "status" : "passed",
@@ -6796,15 +7051,6 @@
         "stop" : 1628260084554,
         "duration" : 6573
       }
-    }, {
-      "uid" : "f8f040b4c79d3dcb",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/f8f040b4c79d3dcb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259102653,
-        "stop" : 1628259109157,
-        "duration" : 6504
-      }
     } ]
   },
   "544b6d340918074ca39c47354472998d" : {
@@ -6832,11 +7078,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 37,
+      "passed" : 38,
       "unknown" : 0,
-      "total" : 37
+      "total" : 38
     },
     "items" : [ {
+      "uid" : "a65cf6de98251153",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/a65cf6de98251153",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359716184,
+        "stop" : 1629359719300,
+        "duration" : 3116
+      }
+    }, {
       "uid" : "faba2e71d4e18168",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/faba2e71d4e18168",
       "status" : "passed",
@@ -7007,15 +7262,6 @@
         "stop" : 1628260044201,
         "duration" : 3253
       }
-    }, {
-      "uid" : "38f4e6e973f41426",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/38f4e6e973f41426",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259069415,
-        "stop" : 1628259072206,
-        "duration" : 2791
-      }
     } ]
   },
   "ff7f47895f06a94f194453214d7831bc" : {
@@ -7053,11 +7299,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "2ac439f8f280ce3e",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/2ac439f8f280ce3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359916831,
+        "stop" : 1629359920001,
+        "duration" : 3170
+      }
+    }, {
       "uid" : "21a6ce784a8cd672",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/21a6ce784a8cd672",
       "status" : "passed",
@@ -7346,11 +7601,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "953d2f504058b7a5",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/953d2f504058b7a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359731351,
+        "stop" : 1629359733761,
+        "duration" : 2410
+      }
+    }, {
       "uid" : "b1fc5b996dc0ae09",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/b1fc5b996dc0ae09",
       "status" : "passed",
@@ -7510,11 +7774,20 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "c29b888bd4ceeee6",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/c29b888bd4ceeee6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359743729,
+        "stop" : 1629359756615,
+        "duration" : 12886
+      }
+    }, {
       "uid" : "ea8319deab88b947",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/ea8319deab88b947",
       "status" : "passed",
@@ -7651,11 +7924,20 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 21,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 25
+      "total" : 26
     },
     "items" : [ {
+      "uid" : "253e80a90cd80165",
+      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/253e80a90cd80165",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629359951283,
+        "stop" : 1629359960861,
+        "duration" : 9578
+      }
+    }, {
       "uid" : "5a9e3967605bfb3d",
       "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/51//#testresult/5a9e3967605bfb3d",
       "status" : "passed",
@@ -7827,15 +8109,6 @@
         "start" : 1628260103807,
         "stop" : 1628260113517,
         "duration" : 9710
-      }
-    }, {
-      "uid" : "7910abcf13644fc",
-      "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/32//#testresult/7910abcf13644fc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628259127326,
-        "stop" : 1628259136556,
-        "duration" : 9230
       }
     } ]
   },

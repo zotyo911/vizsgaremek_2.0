@@ -4,10 +4,10 @@
     "uid" : "239d7850328a45f9fc09fe58b4157663",
     "name" : "PersonalDetailsTests",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 8
     }
@@ -16,9 +16,9 @@
     "name" : "TrainingTests",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
       "total" : 12
     }
