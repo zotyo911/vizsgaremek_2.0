@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable: element has zero size\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-602', ip: '10.1.0.62', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.v7dQhN}, goog:chromeOptions: {debuggerAddress: localhost:44667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dd025810f48f2d90664c1b2f0ffe406f",
+      "children" : [ {
+        "name" : "TR-12 Összes aktív edzés összeszámolása többoldalas lista (naptár) alapján",
+        "uid" : "d54eb96042932948",
+        "parentUid" : "4f348c1d5525742b16551584557f6af5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629358920570,
+          "stop" : 1629358950653,
+          "duration" : 30083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4f348c1d5525742b16551584557f6af5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "PD-05 Felhasználó számlázási adatainak megadása",
+        "uid" : "8f3b9082da07cd56",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629359018862,
+          "stop" : 1629359026511,
+          "duration" : 7649
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
