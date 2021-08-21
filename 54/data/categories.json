@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-955', ip: '10.1.0.24', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x56074e792a63 <unknown>\n#1 0x56074e507458 <unknown>\n#2 0x56074e52a2e3 <unknown>\n#3 0x56074e525e9f <unknown>\n#4 0x56074e55fb72 <unknown>\n#5 0x56074e559fd3 <unknown>\n#6 0x56074e530514 <unknown>\n#7 0x56074e531505 <unknown>\n#8 0x56074e7bee2e <unknown>\n#9 0x56074e7d4886 <unknown>\n#10 0x56074e7bfd75 <unknown>\n#11 0x56074e7d5d94 <unknown>\n#12 0x56074e7b68eb <unknown>\n#13 0x56074e7f0cd8 <unknown>\n#14 0x56074e7f0e58 <unknown>\n#15 0x56074e80adfd <unknown>\n#16 0x7f7350b0c609 start_thread\n",
+      "children" : [ {
+        "name" : "TestOpenGDPR()",
+        "uid" : "d70ad6ddd634eb9d",
+        "parentUid" : "93a868ae1df45be44226399894588b8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629533875127,
+          "stop" : 1629533875782,
+          "duration" : 655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93a868ae1df45be44226399894588b8b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
