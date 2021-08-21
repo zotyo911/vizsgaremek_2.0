@@ -28,17 +28,17 @@ public class GdprTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-    //    options.addArguments("--headless");
+        options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
         webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
     }
 
-/*    @AfterEach
+    @AfterEach
     public void tearDown() {
         webdriver.quit();
-    }*/
+    }
 
     @Test
     @Order(1)
@@ -53,7 +53,6 @@ public class GdprTest {
         try {
             Assertions.assertFalse(webdriver.findElement(By.xpath("//app-accept-cookie/section")).isDisplayed());
         } catch (Exception e) {
-
         }
     }
 }
