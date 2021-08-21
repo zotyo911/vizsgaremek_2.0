@@ -11,7 +11,8 @@ import pages.MyTicketsPage;
 import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class EndToEnd {
+public class EndToEndTests {
+    
     WebDriver webdriver;
 
     LandingPage landingPage;
