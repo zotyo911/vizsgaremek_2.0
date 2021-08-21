@@ -18,13 +18,9 @@ public class LogoutTests {
     LoginPage loginPage;
     CalendarPage calendarPage;
 
-    @BeforeAll
-    public static void Init() {
-        WebDriverManager.chromedriver().setup();
-    }
-
     @BeforeEach
     public void SetDriver() {
+        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
