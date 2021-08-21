@@ -46,7 +46,7 @@ public class LoginTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLoginNoEmail(Constraints.PASSWORD);
 
@@ -60,7 +60,7 @@ public class LoginTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLoginNoPassword(Constraints.EMAIL);
 
@@ -74,7 +74,7 @@ public class LoginTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLoginWrongPassword(Constraints.EMAIL, Constraints.USER_WRONG_PASSWORD);
 
@@ -88,7 +88,7 @@ public class LoginTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
 

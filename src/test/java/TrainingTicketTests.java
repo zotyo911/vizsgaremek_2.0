@@ -101,7 +101,7 @@ public class TrainingTicketTests {
         calendarPage = new CalendarPage(webdriver);
         calendarPage.checkTrainingUltraTicketPricePerTraining();
 
-        Assertions.assertEquals("3000 FT / EDZÉS", webdriver.findElement(By.xpath("//*/div[4]/app-package-card/div//*[contains(@class,'price-divided')]")).getText());
+        Assertions.assertEquals("3000 FT / EDZÉS", webdriver.findElement(By.xpath("//div[4]/app-package-card/div//*[contains(@class,'price-divided')]")).getText());
 
     }
 }

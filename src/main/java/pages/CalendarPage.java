@@ -5,7 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class CalendarPage {
     WebDriver webdriver;
@@ -14,43 +18,44 @@ public class CalendarPage {
         this.webdriver = webDriver;
     }
 
-    private final By PROFILE_BUTTON = By.xpath("//*/mat-nav-list/a[4]/div/span/div[1]");
-    private final By HAMBURGER_BUTTON = By.xpath("//*/span/mat-icon");
-    private final By LOGIN_BUTTON = By.xpath("//*/mat-toolbar-row/div/div/span");
-    private final By LOGOUT_ICON = By.xpath("//*/mat-icon[2]");
-    private final By BUY_TICKET_BUTTON = By.xpath("//*/mat-toolbar-row[1]/div/div/button");
+    private final By PROFILE_BUTTON = By.xpath("//mat-nav-list/a[4]/div/span/div[1]");
+    private final By HAMBURGER_BUTTON = By.xpath("//span/mat-icon");
+    private final By LOGIN_BUTTON = By.xpath("//mat-toolbar-row/div/div/span");
+    private final By LOGOUT_ICON = By.xpath("//mat-icon[2]");
+    private final By MY_TICKETS_MENU = By.xpath("//mat-nav-list/a[3]/div/span/div[1]");
+    private final By BUY_TICKET_BUTTON = By.xpath("//mat-toolbar-row[1]/div/div/button");
     private final By SIX_TIME_TRAINING = By.xpath("//*[@id=\"mat-option-0\"]/span");
     private final By TEN_TIME_TRAINING = By.xpath("//*[@id=\"mat-option-1\"]/span");
     private final By FOURTEEN_TIME_TRAINING = By.xpath("//*[@id=\"mat-option-2\"]/span");
-    private final By LITE_TRAINING_CARD = By.xpath("//*/div[1]/app-package-card/div");
-    private final By PLUS_TRAINING_CARD = By.xpath("//*/div[2]/app-package-card/div");
-    private final By PRO_TRAINING_CARD = By.xpath("//*/div[3]/app-package-card/div");
-    private final By ULTRA_TRAINING_CARD = By.xpath("//*/div[4]/app-package-card/div");
-    private final By TRAINING_TICKET_PRICE = By.xpath("//*[contains(@class,'package-price')]");
-    private final By TRAINING_TICKET_NAME = By.xpath("//*[contains(@class,'package-title')]");
-    private final By TRAINING_TICKET_NUMBER_OF_WORKOUTS = By.xpath("//*[contains(@class,'ticket-count')]");
-    private final By TRAINING_TICKET_PRICE_PER_TRAINING = By.xpath("//*[contains(@class,'price-divided')]");
+    private final By UPPER_MENU_JOGA_BUTTON = By.cssSelector("div:nth-child(1) > button > mat-icon > svg");
+    private final By UPPER_MENU_BODYFIT_BUTTON = By.cssSelector("div:nth-child(6) > button > mat-icon > svg");
+    private final By UPPER_MENU_PILATES_BUTTON = By.cssSelector("div:nth-child(5) > button > mat-icon > svg");
+    private final By UPPER_MENU_STRECHING_BUTTON = By.cssSelector("div:nth-child(2) > button > mat-icon > svg");
     private final By NUMBER_OF_TICKETS_DROPDOWN = By.xpath("//*[contains(@role,'listbox')]");
-    private final By NEXT_BUTTON = By.xpath("//*/app-package-type-select-step/div/div[3]/button");
+    private final By APPLY_BUTTON = By.xpath("//mat-card/button[2]");
 
-    private final By TRAINING_TYPE = By.xpath("//*[contains(@class,'details')]");
-    private final By TRAINING_NAME = By.xpath("//*[contains(@class,'name')]");
-    private final By TRAINING_DATE = By.xpath("//*[contains(@class,'time')]");
-    private final By TRAINING_PRICE = By.xpath("//*[contains(@class,'price')]");
-    private final By TRAINER_BUTTON = By.xpath("//*/mat-nav-list/a[2]/div/span/div[1]");
-    private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
-    private final By TRAININGS = By.cssSelector(".mat-card");
+    private final By TRAINER_BUTTON = By.xpath("//mat-nav-list/a[2]/div/span/div[1]");
+    private final By TRAINING_LIST = By.xpath("//app-training-calendar-list-view");
+
+
 
     public void logout() {
         webdriver.findElement(LOGOUT_ICON).click();
     }
 
-    public void profileButtonClick(){
+    public void profileButtonClick() {
         webdriver.findElement(PROFILE_BUTTON).click();
         new PersonalDetails(webdriver);
     }
 
-    public void loginButtonClick(){
+
+
+    public void clickMyTickets(){
+        webdriver.findElement(MY_TICKETS_MENU).click();
+        new MyTicketsPage(webdriver);
+    }
+
+    public void loginButtonClick() {
         webdriver.findElement(LOGIN_BUTTON).click();
         new LoginPage(webdriver);
     }
@@ -63,38 +68,80 @@ public class CalendarPage {
         webdriver.findElement(TRAINER_BUTTON).click();
     }
 
-    public void buyTicketButtonClick(){
+    public void buyTicketButtonClick() {
         webdriver.findElement(BUY_TICKET_BUTTON).click();
     }
 
-    public void checkTrainingLiteTicketPrice(){
+    public void stechingButtonClick() {
+        webdriver.findElement(UPPER_MENU_STRECHING_BUTTON).click();
+    }
+
+    public void jogaButtonClick() {
+        webdriver.findElement(UPPER_MENU_JOGA_BUTTON).click();
+    }
+
+    public void pilatesButtonClick() {
+        webdriver.findElement(UPPER_MENU_PILATES_BUTTON).click();
+    }
+
+
+
+    public void checkTrainingLiteTicketPrice() {
         buyTicketButtonClick();
         webdriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
         webdriver.findElement(SIX_TIME_TRAINING).click();
 
     }
 
-    public void checkTrainingPlusTicketPrice(){
+    public void checkTrainingPlusTicketPrice() {
         buyTicketButtonClick();
         webdriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
         webdriver.findElement(FOURTEEN_TIME_TRAINING).click();
 
     }
 
-    public void checkTrainingProTicketPricePerTraining(){
+    public void checkTrainingProTicketPricePerTraining() {
         buyTicketButtonClick();
         webdriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
         webdriver.findElement(SIX_TIME_TRAINING).click();
 
     }
 
-    public void checkTrainingUltraTicketPricePerTraining(){
+    public void checkTrainingUltraTicketPricePerTraining() {
         buyTicketButtonClick();
         webdriver.findElement(NUMBER_OF_TICKETS_DROPDOWN).click();
         webdriver.findElement(TEN_TIME_TRAINING).click();
 
     }
 
+    public void applyOnTraining() {
+        List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+
+        for (WebElement training : trainings) {
+            List<WebElement> trainingDetails = training.findElements(APPLY_BUTTON);
+            for (WebElement apply : trainingDetails) {
+                if (apply.getText().toUpperCase().contains("JELENTKEZEM!")) {
+                    apply.click();
+                    break;
+                }
+            }
+        }
+    }
+
+    public void deleteTraining() {
+        List<WebElement> trainings = webdriver.findElements(TRAINING_LIST);
+
+        for (WebElement training : trainings) {
+            List<WebElement> trainingDetails = training.findElements(APPLY_BUTTON);
+            for (WebElement apply : trainingDetails) {
+                if (apply.getText().toUpperCase().contains("LEMONDÁS")) {
+                    apply.click();
+                    break;
+                }
+            }
+        }
+    }
 }
+
 
 

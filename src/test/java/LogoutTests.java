@@ -48,7 +48,7 @@ public class LogoutTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);

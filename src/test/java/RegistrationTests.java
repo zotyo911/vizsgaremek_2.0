@@ -123,17 +123,18 @@ public class RegistrationTests {
         Assertions.assertFalse(webdriver.findElement(By.xpath("//*/div/button[1]")).isEnabled());
     }
 
-/*    @Test
+    @Test
     @Order(7)
+    @Disabled
     @DisplayName("RI-07 Regisztráció minden érvényes adat megadásával")
     public void testRegistration(){
         landingPage = new LandingPage(webdriver);
-        landingPage.navigateToURL(Constants.URL);
+        landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
         landingPage.clickRegistrationButton();
         registrationPage = new RegistrationPage(webdriver);
-        registrationPage.registration(Constants.EMAIL, Constants.PASSWORD);
+        registrationPage.registration(Constraints.EMAIL, Constraints.PASSWORD);
 
-        Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("/*//*simple-snack-bar/span")).getText());
-    }*/
+        Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("//simple-snack-bar/span")).getText());
+    }
 }

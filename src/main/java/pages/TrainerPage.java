@@ -12,7 +12,7 @@ public class TrainerPage {
     }
 
     private final By TRAINER_SEARCH_INPUT_FIELD = By.id("mat-input-2");
-    private final By TRAINER_INFO_BUTTON = By.xpath("//*/mat-card-actions/button");
+    private final By TRAINER_INFO_BUTTON = By.xpath("//mat-card-actions/button");
 
     public void searchForTrainer(String name){
         webdriver.findElement(TRAINER_SEARCH_INPUT_FIELD).sendKeys(name, Keys.ENTER);

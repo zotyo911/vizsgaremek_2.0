@@ -13,7 +13,7 @@ public class LoginPage {
 
     private final By EMAIL_INPUT = By.id("emailOrUserName");
     private final By PASSWORD_INPUT = By.id("password");
-    private final By LOGIN_BUTTON = By.xpath("//*/div/button[1]");
+    private final By LOGIN_BUTTON = By.xpath("//div/button[1]");
 
     public void trainerLoginNoEmail(String password){
         webdriver.findElement(EMAIL_INPUT).sendKeys("");

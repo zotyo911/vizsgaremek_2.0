@@ -1,5 +1,6 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -7,6 +8,8 @@ import pages.GdprPage;
 import pages.LandingPage;
 
 import java.util.concurrent.TimeUnit;
+
+import static org.junit.jupiter.api.Assertions.fail;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class GdprTest {
@@ -25,21 +28,21 @@ public class GdprTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+    //    options.addArguments("--headless");
         webdriver = new ChromeDriver(options);
 
-        webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.manage().window().maximize();
     }
 
-    @AfterEach
-    public void tearDown(){
+/*    @AfterEach
+    public void tearDown() {
         webdriver.quit();
-    }
+    }*/
 
     @Test
     @Order(1)
-    public void TestOpenGDPR(){
+    public void TestOpenGDPR() {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.openGDPR();
@@ -47,5 +50,10 @@ public class GdprTest {
         gdprPage.switchWindow();
         landingPage.clickCookiesAcceptButton();
 
+        try {
+            Assertions.assertFalse(webdriver.findElement(By.xpath("//app-accept-cookie/section")).isDisplayed());
+        } catch (Exception e) {
+
+        }
     }
 }

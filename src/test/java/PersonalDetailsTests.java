@@ -49,7 +49,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -68,7 +68,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -86,7 +86,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -104,7 +104,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -122,7 +122,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.trainerLogin(Constraints.EMAIL, Constraints.USER_NEW_PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -141,7 +141,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.trainerLogin(Constraints.EMAIL, Constraints.USER_NEW_PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -159,7 +159,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.trainerLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
@@ -178,7 +178,7 @@ public class PersonalDetailsTests {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
         landingPage.clickHamburgerButton();
-        landingPage.clickLoginButton();
+        landingPage.clickLoginPageButton();
         loginPage = new LoginPage(webdriver);
         loginPage.trainerLogin(Constraints.EMAIL, Constraints.PASSWORD);
         calendarPage = new CalendarPage(webdriver);
