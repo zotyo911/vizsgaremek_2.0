@@ -21,14 +21,12 @@ public class LandingPage {
     private final By LOGIN_BUTTON = By.xpath("//mat-toolbar-row/div/div/span");
     private final By LOGIN_PAGE_BUTTON = By.xpath("//mat-nav-list/a[1]/div/span/div[1]");
     private final By REGISTRATION_PAGE_BUTTON = By.xpath("//mat-nav-list/a[2]/div/span/div[1]");
-    private final By CALENDAR_BUTTON = By.xpath("//mat-nav-list/a[3]/div/span/div[1]");
     private final By GDPR_BUTTON = By.xpath("//section//a");
     private final By ACCEPT_COOKIES_BUTTON = By.xpath("//section/button");
 
     private final By TRAINING_LIST = By.xpath("//*[contains(@class,'container ng-star-inserted')]");
     private final By TRAININGS = By.cssSelector(".mat-card");
     private final By CALENDAR_RIGHT_ARROW_BUTTON = By.xpath("//section/div/span[2]");
-    private final By CALENDAR_TRAINING_LIST = By.xpath("//app-training-calendar-list-view");
     private final By UPPER_MENU_JOGA_BUTTON = By.cssSelector("div:nth-child(1) > button > mat-icon > svg");
     private final By UPPER_MENU_STRECHING_BUTTON = By.cssSelector("div:nth-child(2) > button > mat-icon > svg");
     private final By UPPER_MENU_MEDITATION_BUTTON = By.cssSelector("div:nth-child(3) > button > mat-icon > svg");
@@ -63,10 +61,6 @@ public class LandingPage {
 
     public void clickCookiesAcceptButton() {
         webdriver.findElement(ACCEPT_COOKIES_BUTTON).click();
-    }
-
-    public void clickCalendarButton() {
-        webdriver.findElement(CALENDAR_BUTTON).click();
     }
 
     public void jogaButtonClick() {

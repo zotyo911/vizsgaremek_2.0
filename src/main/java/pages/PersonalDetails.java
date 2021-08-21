@@ -13,8 +13,6 @@ public class PersonalDetails {
     }
 
     //user personal elements
-    private final By USER_UPLOAD_PICTURE_ICON = By.xpath("//app-profile-pic-upload/div/div/img");
-    private final By USER_PICTURE_DELETE_BUTTON = By.xpath("//div/span/mat-icon");
     private final By USER_FIRSTNAME_INPUT = By.id("firstName");
     private final By USER_SURNAME_INPUT = By.id("surName");
     private final By USER_NICKNAME_INPUT = By.id("nickName");
@@ -52,9 +50,8 @@ public class PersonalDetails {
         webdriver.findElement(USER_PASSWORD_INPUT).sendKeys(password);
         webdriver.findElement(USER_NEW_PASSWORD_INPUT).sendKeys(newpassword);
         webdriver.findElement(USER_CONFIRM_PASSWORD_INPUT).sendKeys(confirmpassword, Keys.ENTER);
-
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

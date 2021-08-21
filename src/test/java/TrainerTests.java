@@ -11,6 +11,7 @@ import pages.TrainerPage;
 
 import java.util.concurrent.TimeUnit;
 
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class TrainerTests {
     WebDriver webdriver;
     LandingPage landingPage;

@@ -64,7 +64,7 @@ public class LoginTests {
         loginPage = new LoginPage(webdriver);
         loginPage.userLoginNoPassword(Constraints.EMAIL);
 
-        Assertions.assertFalse(webdriver.findElement(By.xpath("//*/div/button[1]")).isEnabled());
+        Assertions.assertFalse(webdriver.findElement(By.xpath("//div/button[1]")).isEnabled());
     }
 
     @Test
@@ -78,7 +78,7 @@ public class LoginTests {
         loginPage = new LoginPage(webdriver);
         loginPage.userLoginWrongPassword(Constraints.EMAIL, Constraints.USER_WRONG_PASSWORD);
 
-        Assertions.assertTrue(webdriver.findElement(By.xpath("//*/notifier-container/ul/li/notifier-notification/p")).isDisplayed());
+        Assertions.assertTrue(webdriver.findElement(By.xpath("//notifier-container/ul/li/notifier-notification/p")).isDisplayed());
     }
 
     @Test
@@ -92,6 +92,6 @@ public class LoginTests {
         loginPage = new LoginPage(webdriver);
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
 
-        Assertions.assertEquals("Hello, " + Constraints.USER_FIRSTNAME, webdriver.findElement(By.cssSelector("mat-toolbar-row:nth-child(1) > div > div > span")).getText());
+        Assertions.assertEquals("Hello, " + Constraints.USER_FIRSTNAME, webdriver.findElement(By.xpath("//mat-toolbar-row[1]/div/div/span")).getText());
     }
 }

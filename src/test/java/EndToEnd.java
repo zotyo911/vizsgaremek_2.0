@@ -97,4 +97,57 @@ public class EndToEnd {
 
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    @Order(3)
+    @RepeatedTest(5)
+    @DisplayName("EE-03 Feliratkozás és leiratkozás")
+    public void TestEndToEndFull(){
+        landingPage = new LandingPage(webdriver);
+        landingPage.navigateToURL(Constraints.URL);
+        landingPage.clickCookiesAcceptButton();
+        landingPage.loginButtonClick();
+        loginPage = new LoginPage(webdriver);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.clickHamburgerButton();
+        calendarPage.clickMyTickets();
+        myTicketsPage = new MyTicketsPage(webdriver);
+        int myTicketsNumber = myTicketsPage.sumMyTickets();
+        myTicketsPage.clickCalendarMenu();
+        calendarPage= new CalendarPage(webdriver);
+        calendarPage.otherButtonClick();
+
+        calendarPage.applyOnTraining();
+        calendarPage.clickMyTickets();
+        myTicketsPage = new MyTicketsPage(webdriver);
+        int actual = myTicketsPage.sumMyTickets();
+        int expected = myTicketsNumber + 1;
+
+        Assertions.assertEquals(expected, actual);
+
+        myTicketsPage.logout();
+
+        landingPage.loginButtonClick();
+        loginPage = new LoginPage(webdriver);
+        loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
+        calendarPage = new CalendarPage(webdriver);
+        calendarPage.clickMyTickets();
+        myTicketsPage = new MyTicketsPage(webdriver);
+        int myTicketsDownNumber = myTicketsPage.sumMyTickets();
+
+        myTicketsPage.clickCalendarMenu();
+        calendarPage= new CalendarPage(webdriver);
+        calendarPage.otherButtonClick();
+
+        calendarPage.deleteTraining();
+        calendarPage.clickMyTickets();
+        myTicketsPage = new MyTicketsPage(webdriver);
+        int actualNew = myTicketsPage.sumMyTickets();
+        int expectedNew = myTicketsDownNumber - 1;
+
+        Assertions.assertEquals(expectedNew,actualNew);
+
+        myTicketsPage.logout();
+    }
 }

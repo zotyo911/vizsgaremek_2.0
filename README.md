@@ -1,6 +1,6 @@
 # _igym.hu_ fejlesztői weboldalának automata tesztelése
 A tesztelt oldal az alábbi linken https://igym-igym-dev.azurewebsites.net/ érhető el.
-Az automata tesztek elkészítéséhez használt manuális teszteseteket tartalmazó dokumentum megtalálható a repóban is vizsgaremek(igym).xls fájlban, de az adott linken is elérhető https://drive.google.com/file/d/1kmF9x_X54k_y8FjWzh6vaFjlVx4uyyJu/view?usp=sharing .
+Az automata tesztek elkészítéséhez használt manuális teszteseteket tartalmazó dokumentum megtalálható a repóban is vizsgaremek(igym).xlsx fájlban, de az adott linken is elérhető https://drive.google.com/file/d/1kmF9x_X54k_y8FjWzh6vaFjlVx4uyyJu/view?usp=sharing .
 
 Az oldalra elkészített automata tesztek az alábbi funkciókat teszteli le!
 
