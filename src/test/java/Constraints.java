@@ -31,7 +31,6 @@ public class Constraints {
     //types of trainings
     public static final String TRAINING_TYPE_INVALID = "bmzxydze";
     public static final String TRAINING_TYPE_JOGA = "jóga";
-    public static final String TRAINING_TYPE_PRICE = "ingyenes";
     public static final String TRAINING_TYPE_STRECHING = "nyújtás";
     public static final String TRAINING_TYPE_MEDITATON = "meditáció";
     public static final String TRAINING_TYPE_KARDIO = "kardió";

@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class EndToEndTests {
-    
+
     WebDriver webdriver;
 
     LandingPage landingPage;

@@ -9,8 +9,6 @@ import pages.LandingPage;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.fail;
-
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class GdprTest {
 
@@ -38,6 +36,7 @@ public class GdprTest {
 
     @Test
     @Order(1)
+    @DisplayName("GD-01 Adatkezelési nyilatkozat megnyitása, bezárása, sütikezelés elfogadása")
     public void TestOpenGDPR() {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);

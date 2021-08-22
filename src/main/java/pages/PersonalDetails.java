@@ -33,8 +33,6 @@ public class PersonalDetails {
     private final By USER_CONFIRM_PASSWORD_INPUT = By.id("confirmPassword");
     private final By SAVE_NEW_PASSWORD_BUTTON = By.xpath("//div[3]/change-password/form/div/div/button");
 
-    //user delete account elements
-    private final By USER_DELETE_ACCOUNT = By.xpath("//div[5]/button/span");
 
     public void uploadPersonalDetails(String firstname, String surname, String nickname){
         webdriver.findElement(USER_FIRSTNAME_INPUT).clear();
