@@ -1,0 +1,107 @@
+{
+  "uid" : "11b3e66e92e13e0c",
+  "name" : "repetition 2 of 5",
+  "fullName" : "EndToEndTests.TestEndToEndFull",
+  "historyId" : "8775d64f7c61c9e948f834474a468eee",
+  "time" : {
+    "start" : 1629647836209,
+    "stop" : 1629647858439,
+    "duration" : 22230
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629647836211,
+      "stop" : 1629647836531,
+      "duration" : 320
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629647858369,
+      "stop" : 1629647858439,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-650"
+  }, {
+    "name" : "thread",
+    "value" : "2944@fv-az74-650.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "EndToEndTests"
+  }, {
+    "name" : "testClass",
+    "value" : "EndToEndTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestEndToEndFull"
+  }, {
+    "name" : "suite",
+    "value" : "EndToEndTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fb15cc0091343a7a",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/58//#testresult/fb15cc0091343a7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629562102917,
+          "stop" : 1629562123798,
+          "duration" : 20881
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "11b3e66e92e13e0c.json",
+  "parameterValues" : [ ]
+}
