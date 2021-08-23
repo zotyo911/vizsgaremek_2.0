@@ -1,0 +1,87 @@
+{
+  "uid" : "cc963a4be5407198",
+  "name" : "LO-01 Felhasználó (user) kijlentkezés",
+  "fullName" : "LogoutTests.TestUserLogout",
+  "historyId" : "14238f39b67d1012135bac689bac0476",
+  "time" : {
+    "start" : 1629707647484,
+    "stop" : 1629707659036,
+    "duration" : 11552
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629707647541,
+      "stop" : 1629707651585,
+      "duration" : 4044
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629707658951,
+      "stop" : 1629707659019,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-803"
+  }, {
+    "name" : "thread",
+    "value" : "2858@fv-az77-803.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "testClass",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUserLogout"
+  }, {
+    "name" : "suite",
+    "value" : "LogoutTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc963a4be5407198.json",
+  "parameterValues" : [ ]
+}

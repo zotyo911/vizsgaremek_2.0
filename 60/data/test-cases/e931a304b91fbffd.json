@@ -1,0 +1,117 @@
+{
+  "uid" : "e931a304b91fbffd",
+  "name" : "repetition 4 of 5",
+  "fullName" : "EndToEndTests.TestEndToEndFull",
+  "historyId" : "dcf360053e013c51f782890e4030bdfb",
+  "time" : {
+    "start" : 1629707811367,
+    "stop" : 1629707833608,
+    "duration" : 22241
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1629707811368,
+      "stop" : 1629707811645,
+      "duration" : 277
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629707833539,
+      "stop" : 1629707833607,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-803"
+  }, {
+    "name" : "thread",
+    "value" : "2865@fv-az77-803.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "EndToEndTests"
+  }, {
+    "name" : "testClass",
+    "value" : "EndToEndTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestEndToEndFull"
+  }, {
+    "name" : "suite",
+    "value" : "EndToEndTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "355702bdcdf05df9",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/59//#testresult/355702bdcdf05df9",
+        "status" : "failed",
+        "statusDetails" : "expected: <4> but was: <3>",
+        "time" : {
+          "start" : 1629647880756,
+          "stop" : 1629647893147,
+          "duration" : 12391
+        }
+      }, {
+        "uid" : "fc568b7cfa02ff4a",
+        "reportUrl" : "https://zotyo911.github.io/vizsgaremek_2.0/58//#testresult/fc568b7cfa02ff4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629562144925,
+          "stop" : 1629562166010,
+          "duration" : 21085
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e931a304b91fbffd.json",
+  "parameterValues" : [ ]
+}
