@@ -33,11 +33,6 @@ public class EndToEndTests {
         webdriver.manage().window().maximize();
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
     @Test
     @Order(1)
     @DisplayName("EE-01 Feliratkozás edzésre")
@@ -146,5 +141,10 @@ public class EndToEndTests {
         Assertions.assertEquals(expectedNew,actualNew);
 
         myTicketsPage.logout();
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }

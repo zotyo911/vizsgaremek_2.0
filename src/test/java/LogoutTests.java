@@ -32,14 +32,10 @@ public class LogoutTests {
 
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
-    @RepeatedTest(5)
+    @Test
     @Order(1)
-    @DisplayName("LO-01 User kijlentkezés")
+    @RepeatedTest(4)
+    @DisplayName("LO-01 Felhasználó (user) kijlentkezés")
     public void TestUserLogout() {
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
@@ -51,5 +47,10 @@ public class LogoutTests {
         calendarPage.logout();
 
         Assertions.assertEquals("BELÉPÉS", webdriver.findElement(By.cssSelector("mat-toolbar-row > div > div > span")).getText());
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }

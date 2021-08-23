@@ -29,12 +29,6 @@ public class LoginTests {
         webdriver.manage().window().maximize();
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
-
     @Test
     @Order(1)
     @DisplayName("LI-01 Bejelentkezés felhasználóként email cím megadása nélkül")
@@ -89,5 +83,10 @@ public class LoginTests {
         loginPage.userLogin(Constraints.EMAIL, Constraints.PASSWORD);
 
         Assertions.assertEquals("Hello, " + Constraints.USER_FIRSTNAME, webdriver.findElement(By.xpath("//mat-toolbar-row[1]/div/div/span")).getText());
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }

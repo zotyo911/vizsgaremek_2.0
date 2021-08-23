@@ -30,11 +30,6 @@ public class RegistrationTests {
 
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
     @Test
     @Order(1)
     @DisplayName("RI-01 Regisztráció email cím megadása nélkül")
@@ -132,5 +127,10 @@ public class RegistrationTests {
         registrationPage.registration(Constraints.EMAIL, Constraints.PASSWORD);
 
         Assertions.assertEquals("Sikeres regisztráció, kérjük erősítse meg email címét", webdriver.findElement(By.xpath("//simple-snack-bar/span")).getText());
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }

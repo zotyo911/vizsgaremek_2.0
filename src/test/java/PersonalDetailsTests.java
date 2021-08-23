@@ -33,14 +33,9 @@ public class PersonalDetailsTests {
         webdriver.manage().window().maximize();
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
     @Test
     @Order(1)
-    @DisplayName("PD-01 Regisztrált felhasználó (user) adatainak megadása")
+    @DisplayName("PD-01 Regisztrált felhasználó adatainak megadása")
     public void testUploadPersonaDetails(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
@@ -59,7 +54,7 @@ public class PersonalDetailsTests {
 
     @Test
     @Order(2)
-    @DisplayName("PD-02 Felhasználó jelszavának a módosítása rossz jelszót megadva")
+    @DisplayName("PD-02 Felhasználó jelszavának módosítása, helytelen jelszót megadva")
     public void testAddWrongPasswordToChange(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
@@ -132,7 +127,7 @@ public class PersonalDetailsTests {
 
     @Test
     @Order(6)
-    @DisplayName("PD-06 Felhasználó jelszavának visszaállítása az eredetire")
+    @DisplayName("PD-06 Felhasználó jelszavának visszaállítása az eredeti jelszóra")
     public void testChangeBackToOriginalPassword(){
         landingPage = new LandingPage(webdriver);
         landingPage.navigateToURL(Constraints.URL);
@@ -184,5 +179,10 @@ public class PersonalDetailsTests {
 
         Assertions.assertTrue(webdriver.findElement(By.xpath("//*[contains(@class,'mat-simple-snackbar ng-star-inserted')]")).isDisplayed());
 
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }

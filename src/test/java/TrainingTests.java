@@ -26,11 +26,6 @@ public class TrainingTests {
 
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
     @Test
     @Order(1)
     @DisplayName("TR-01 Edzés adatainak mentése txt fájlba")
@@ -194,5 +189,10 @@ public class TrainingTests {
         int sumOther = landingPage.sumTraining();
 
         Assertions.assertEquals(sumTrainings, sumJoga + sumStreching + sumMeditation + sumKardio + sumPilates + sumBodyFit + sumMuscle + sumOther);
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }

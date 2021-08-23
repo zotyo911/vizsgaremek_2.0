@@ -32,11 +32,6 @@ public class TrainingTicketTests {
 
     }
 
-    @AfterEach
-    public void tearDown(){
-            webdriver.quit();
-        }
-
     @Test
     @Order(1)
     @DisplayName("TT-01 Lite bérlet árának validációja")
@@ -99,6 +94,11 @@ public class TrainingTicketTests {
 
         Assertions.assertEquals("3000 FT / EDZÉS", webdriver.findElement(By.xpath("//div[4]/app-package-card/div//*[contains(@class,'price-divided')]")).getText());
 
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }
 

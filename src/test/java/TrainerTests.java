@@ -33,11 +33,6 @@ public class TrainerTests {
 
     }
 
-    @AfterEach
-    public void tearDown(){
-        webdriver.quit();
-    }
-
     @Test
     @Order(1)
     @DisplayName("TS-01 Edzők listájában edző nevére történő szűrés")
@@ -73,5 +68,10 @@ public class TrainerTests {
         trainerPage.getTrainerAllDetails(Constraints.TRAINER_NAME);
 
         Assertions.assertTrue(webdriver.findElement(By.xpath("//*/app-rating-container/div/div[2]")).isDisplayed());
+    }
+
+    @AfterEach
+    public void tearDown(){
+        webdriver.quit();
     }
 }
